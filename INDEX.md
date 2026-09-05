@@ -8,15 +8,15 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 ## QA / Software Testing
 
-- [Fundamentals](qa/fundamentals/) — testing concepts, test design, and risk-based testing.
-- [Manual testing](qa/manual-testing/) — exploratory, smoke, and regression testing.
+- [Fundamentals](qa/fundamentals/README.md) — testing concepts, test design, and risk-based testing.
+- [Manual testing](qa/manual-testing/README.md) — exploratory, smoke, and regression testing.
 - [Automation](qa/automation/) — Playwright, TypeScript, fixtures, test isolation, test data, and flaky tests.
 - [API testing](qa/api-testing/README.md) — contracts, requests, responses, and integration behavior.
-- [Web testing](qa/web-testing/) — browser behavior, accessibility, and end-to-end scenarios.
+- [Web testing](qa/web-testing/README.md) — browser behavior, accessibility, and end-to-end scenarios.
 - [Mobile testing](qa/mobile-testing/) — device coverage and mobile application behavior.
 - [Performance](qa/performance/) — load, latency, throughput, and bottlenecks.
 - [Security](qa/security/) — security testing concepts and practical checks.
-- [QA process and management](qa/qa-process/) — strategy, release confidence, metrics, ownership, and collaboration.
+- [QA process and management](qa/qa-process/README.md) — strategy, release confidence, metrics, ownership, and collaboration.
 
 ## AI for QA and Testing AI Systems
 
@@ -36,7 +36,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 ## Playbooks
 
-- [Checklists](playbooks/checklists/) — reusable testing and review checks.
+- [Checklists](playbooks/checklists/README.md) — reusable testing and review checks.
 - [Workflows](playbooks/workflows/) — repeatable procedures for practical QA tasks.
 - [Templates](playbooks/templates/) — reusable structures for notes and QA documentation.
 
@@ -53,7 +53,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 5. Link important topics here while keeping this index focused on major areas.
 6. Remove processed material from the inbox once its useful knowledge has been captured.
 
-The first processed topic is [REST API Request Basics](qa/api-testing/rest-api-request-basics.md), with a companion API review checklist.
+Processed materials now cover testing concepts, exploratory heuristics, API requests, forms, Web UI, and test planning. Navigate through the topic indexes above.
 
 ## Project Development
 
