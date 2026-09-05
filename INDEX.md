@@ -20,7 +20,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 ## AI for QA and Testing AI Systems
 
-- [AI for testing](ai/ai-for-testing/) — AI-assisted test design, debugging, analysis, and documentation.
+- [AI for testing](ai/ai-for-testing/README.md) — AI-assisted test design, debugging, analysis, and documentation.
 - [LLM testing](ai/llm-testing/) — evaluation datasets, hallucinations, robustness, consistency, and model changes.
 - [Agents](ai/agents/) — agent workflows and their practical QA applications.
 - [Prompts](ai/prompts/) — reusable prompts with context, constraints, and evaluation criteria.
