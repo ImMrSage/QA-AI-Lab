@@ -1,0 +1,9 @@
+{
+  "app.name": "QA AI Lab",
+  "navigation.library": "Library",
+  "navigation.tools": "Tools",
+  "navigation.favorites": "Favorites",
+  "search.placeholder": "Search the library",
+  "content.sources": "Sources",
+  "content.relatedTopics": "Related topics"
+}
