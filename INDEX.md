@@ -11,7 +11,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 - [Fundamentals](qa/fundamentals/) — testing concepts, test design, and risk-based testing.
 - [Manual testing](qa/manual-testing/) — exploratory, smoke, and regression testing.
 - [Automation](qa/automation/) — Playwright, TypeScript, fixtures, test isolation, test data, and flaky tests.
-- [API testing](qa/api-testing/) — contracts, requests, responses, and integration behavior.
+- [API testing](qa/api-testing/README.md) — contracts, requests, responses, and integration behavior.
 - [Web testing](qa/web-testing/) — browser behavior, accessibility, and end-to-end scenarios.
 - [Mobile testing](qa/mobile-testing/) — device coverage and mobile application behavior.
 - [Performance](qa/performance/) — load, latency, throughput, and bottlenecks.
@@ -53,7 +53,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 5. Link important topics here while keeping this index focused on major areas.
 6. Remove processed material from the inbox once its useful knowledge has been captured.
 
-Topic folders are ready for content; no knowledge articles have been added yet.
+The first processed topic is [REST API Request Basics](qa/api-testing/rest-api-request-basics.md), with a companion API review checklist.
 
 ## Project Development
 
