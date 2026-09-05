@@ -6,6 +6,8 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 [Unprocessed articles, links, and notes](inbox/) — temporary intake. Extract useful knowledge into the relevant topic area after review.
 
+- [QA and AI digest reading queue](inbox/qa-ai-digest-2026-07-24.md) - 20 links triaged; original-article processing pending.
+
 ## QA / Software Testing
 
 - [Fundamentals](qa/fundamentals/README.md) — testing concepts, test design, and risk-based testing.
