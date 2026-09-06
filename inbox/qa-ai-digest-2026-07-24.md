@@ -6,7 +6,7 @@ tags: [reading-queue, automation, ai, api-testing]
 format: reading-queue
 source_published: 2026-07-24
 reviewed: 2026-09-05
-status: triaged
+status: partially-processed
 ---
 
 # QA and AI Digest - Reading Queue
@@ -45,6 +45,18 @@ First = highest relevance to current learning goals; Next = useful follow-up; La
 | 19 | [monday.com production agents](https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/) | `ai/agents/` | Next | Explore production quality practices; avoid equating throughput with quality |
 
 ## Verification state
+
+### Completed article reviews: 3 of 20
+
+- #1: [Repeatable load testing](../qa/performance/repeatable-load-testing.md).
+- #3: [Reading QA hiring indicators critically](../qa/qa-process/qa-hiring-index-july-2026.md).
+- #4: [AI-assisted acceptance criteria](../ai/ai-for-testing/ai-assisted-acceptance-criteria.md).
+
+Their complete cached article bodies were read and analyzed; source claims, proposed QA applications, and limitations are separated. Embedded charts/screenshots were not independently audited. Seventeen article reviews remain pending. This status supersedes the historical intake snapshot below.
+
+The full bodies of all 20 targets were downloaded during the earlier session; a downloaded text is not a completed review.
+
+### Historical intake snapshot (September 5)
 
 - The complete digest was retrieved and read, including its methodology and limitations.
 - Targets #4, #11 and #15 were opened successfully for an initial check. #4 redirects to the Banki company article. Full technical synthesis and verification of their claims remain pending.

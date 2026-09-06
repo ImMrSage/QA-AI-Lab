@@ -6,7 +6,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 [Unprocessed articles, links, and notes](inbox/) — temporary intake. Extract useful knowledge into the relevant topic area after review.
 
-- [QA and AI digest reading queue](inbox/qa-ai-digest-2026-07-24.md) - 20 links triaged; original-article processing pending.
+- [QA and AI digest](inbox/qa-ai-digest-2026-07-24.md) - 3 of 20 article reviews completed; 17 pending.
 
 ## QA / Software Testing
 
@@ -16,7 +16,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 - [API testing](qa/api-testing/README.md) — contracts, requests, responses, and integration behavior.
 - [Web testing](qa/web-testing/README.md) — browser behavior, accessibility, and end-to-end scenarios.
 - [Mobile testing](qa/mobile-testing/) — device coverage and mobile application behavior.
-- [Performance](qa/performance/) — load, latency, throughput, and bottlenecks.
+- [Performance](qa/performance/README.md) — load, latency, throughput, and bottlenecks.
 - [Security](qa/security/) — security testing concepts and practical checks.
 - [QA process and management](qa/qa-process/README.md) — strategy, release confidence, metrics, ownership, and collaboration.
 
