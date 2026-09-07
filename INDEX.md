@@ -9,6 +9,8 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 ## Reviewed Collections
 
+- [ML Glossary resource review](docs/sources/ml-cheatsheet-review.md) — four chapters analyzed; remaining chapters explicitly unreviewed.
+
 - [QA and AI digest](docs/sources/qa-ai-digest-2026-07-24.md) - all 20 article bodies reviewed and linked to English knowledge notes.
 
 ## QA / Software Testing
