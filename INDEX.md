@@ -27,6 +27,8 @@ A personal knowledge base and practical laboratory built on three independent pi
 
 ## AI
 
+- [MCP and the host tool loop](ai/agents/mcp-host-tool-loop.md) — independent AI integration concepts and protocol corrections.
+
 AI foundations, neural networks, personal projects, learning, everyday automation, and future business applications belong here independently of QA. The following are the currently populated topic areas; AI for testing is one intersection.
 
 - [AI for testing](ai/ai-for-testing/README.md) — AI-assisted test design, debugging, analysis, and documentation.
@@ -36,6 +38,8 @@ AI foundations, neural networks, personal projects, learning, everyday automatio
 - [AI tools](ai/tools/README.md) — evaluations of AI tools relevant to QA work.
 
 ## Tools and Utilities
+
+Cross-domain reading: [release coordination automation](qa/qa-process/release-orchestration.md) and [UI test component composition](qa/automation/atomic-test-composition.md).
 
 - [Developer tools](tools/developer-tools/) — Git, Docker, IDEs, command-line utilities, and database tools.
 - [Debugging](tools/debugging/) — browser DevTools, proxies, logs, and network investigation.
