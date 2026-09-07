@@ -7,16 +7,16 @@ Start with the [knowledge index](INDEX.md). Add unprocessed articles, links, and
 This project is my personal knowledge base and practical laboratory for:
 
 1. Software Quality Assurance and Software Testing.
-2. Artificial Intelligence applied to QA and software development.
-3. IT, engineering, debugging, automation, and productivity tools useful for QA work.
+2. Artificial Intelligence: foundations, neural networks, learning, personal projects, and practical applications.
+3. Tools and utilities for testing, AI, software development, and everyday productivity.
 
-QA is the primary domain.
+QA, AI, and Tools are three independent pillars.
 
-AI and general IT topics should be included when they have practical relevance to QA, testing, software quality, debugging, automation, engineering workflows, or my professional development as a QA Manager.
+QA supports my professional development. AI also supports personal growth, game and app development, everyday automation, learning, and possible future business projects. Tools serves all three areas. AI for testing is an intersection, not a requirement for including AI knowledge.
 
 The goal is not simply to collect information.
 
-The goal is to gradually build a structured, searchable, practical QA knowledge system that helps me:
+The goal is to gradually build a structured, searchable knowledge system across QA, AI, and Tools that helps me:
 
 * understand testing concepts;
 * learn new technologies;
@@ -64,7 +64,7 @@ Examples:
 * release quality;
 * QA management.
 
-## 2. AI for QA
+## 2. AI
 
 Examples:
 
@@ -82,11 +82,14 @@ Examples:
 * deterministic vs non-deterministic systems;
 * AI observability;
 * AI automation workflows;
-* tools such as ChatGPT, Codex, Claude, Gemini and similar systems when relevant to QA.
+* machine learning foundations and neural networks;
+* AI for learning, personal productivity, and everyday automation;
+* game development, personal applications, and future business experiments;
+* tools such as ChatGPT, Codex, Claude, Gemini and similar systems.
 
-Do not collect generic AI news unless it has potential relevance to QA, software engineering, automation, debugging, productivity, or testing AI systems.
+Prioritize useful concepts, techniques, and experiments over generic news. AI material does not need a QA application to belong here.
 
-## 3. IT Tools for QA
+## 3. Tools and Utilities
 
 Examples:
 
@@ -110,7 +113,7 @@ Examples:
 
 The focus should always be:
 
-**How can this knowledge or tool help a QA engineer?**
+**What problem does this tool solve, for whom, and with what limitations?**
 
 ---
 
@@ -130,15 +133,15 @@ Provide a concise explanation of what the material is about.
 
 Identify the most important concepts, techniques, technologies, commands, patterns, or ideas.
 
-## QA Relevance
+## Domain Relevance
 
-Explain why this information matters for QA.
+Identify the relevant pillar: QA, AI, or Tools. Cross-link intersections when useful.
 
-If its QA relevance is weak, explicitly say so.
+Explain its value within that domain. Do not force a QA connection or downgrade AI or development material because it lacks one.
 
 ## Practical Use
 
-Explain when I might actually use this knowledge during testing or QA work.
+Explain when I might use this knowledge professionally, in personal projects, for learning, or in everyday life.
 
 ## Examples
 
@@ -400,8 +403,9 @@ When showing code, explain the testing idea first and implementation details sec
 
 For AI-related material distinguish between:
 
-1. AI used to help QA.
-2. QA used to test AI systems.
+1. AI foundations and independent applications: learning, building games and apps, personal automation, productivity, and business experiments.
+2. AI used to help QA.
+3. QA used to test AI systems.
 
 These are different subjects.
 
@@ -542,11 +546,11 @@ Do not translate technical terminology awkwardly when the English term is more u
 
 The project should evolve from:
 
-**a collection of QA articles**
+**a collection of articles and tools**
 
 into:
 
-**a structured personal QA knowledge system.**
+**a structured personal knowledge system for QA, AI, and Tools.**
 
 Every new piece of information should make the system more useful, connected, practical, and easier to search.
 

@@ -1,6 +1,6 @@
 # QA AI Lab — Knowledge Index
 
-A personal knowledge base and practical laboratory with QA as its primary domain. See [README.md](README.md) for the mission, source standards, note format, and maintenance rules.
+A personal knowledge base and practical laboratory built on three independent pillars: QA, AI, and Tools. See [README.md](README.md) for the mission, source standards, note format, and maintenance rules.
 
 ## Inbox
 
@@ -25,7 +25,9 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 - [Security](qa/security/README.md) — security testing concepts and practical checks.
 - [QA process and management](qa/qa-process/README.md) — strategy, release confidence, metrics, ownership, and collaboration.
 
-## AI for QA and Testing AI Systems
+## AI
+
+AI foundations, neural networks, personal projects, learning, everyday automation, and future business applications belong here independently of QA. The following are the currently populated topic areas; AI for testing is one intersection.
 
 - [AI for testing](ai/ai-for-testing/README.md) — AI-assisted test design, debugging, analysis, and documentation.
 - [LLM testing](ai/llm-testing/README.md) — evaluation datasets, hallucinations, robustness, consistency, and model changes.
@@ -33,7 +35,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 - [Prompts](ai/prompts/) — reusable prompts with context, constraints, and evaluation criteria.
 - [AI tools](ai/tools/README.md) — evaluations of AI tools relevant to QA work.
 
-## IT Tools for QA
+## Tools and Utilities
 
 - [Developer tools](tools/developer-tools/) — Git, Docker, IDEs, command-line utilities, and database tools.
 - [Debugging](tools/debugging/) — browser DevTools, proxies, logs, and network investigation.
@@ -53,7 +55,7 @@ A personal knowledge base and practical laboratory with QA as its primary domain
 
 ## Adding Knowledge
 
-1. Review the source and identify its practical QA relevance.
+1. Review the source and identify its relevance to QA, AI, or Tools, including personal applications.
 2. Search existing notes and merge overlapping knowledge where appropriate.
 3. Create or update a note using the format in [README.md](README.md), including useful tags, related topics, and sources.
 4. Record relevant versions and dates; distinguish facts, opinions, and unresolved contradictions.

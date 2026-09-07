@@ -2,7 +2,7 @@
 
 ## Product priorities
 
-1. Build a practical QA knowledge library with articles, diagrams, comparison tables, and cheat sheets, designed primarily for reading on a phone.
+1. Build a knowledge library across three independent pillars — QA, AI, and Tools — with articles, diagrams, comparison tables, and cheat sheets, designed primarily for reading on a phone. AI includes personal learning, games and apps, everyday automation, and future business projects; its scope is not limited to testing.
 2. Maintain a searchable catalog of useful QA, AI, and engineering tools.
 3. Add knowledge checks, exercises, and gamification later.
 
