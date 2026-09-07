@@ -178,6 +178,10 @@ When I give you a new article or resource:
 8. Update the project index if the topic is important.
 9. Detect duplication with existing notes.
 10. Merge overlapping information instead of unnecessarily creating multiple files.
+11. Make saved material accessible through the application's formatted reader and relevant navigation or collection; verify affected links and report incomplete integration.
+12. After every analysis session, including duplicate-only submissions, report freshly retrieved cumulative account usage: **5-hour window: X% used; weekly window: Y% used**. These percentages describe account windows, not the cost of this session. If usage is unavailable, state that explicitly without guessing.
+
+See [AGENTS.md](AGENTS.md) for the persistent agent workflow, including incomplete-source handling and user-defined usage ceilings.
 
 If information contradicts an existing note, do not silently overwrite it.
 
