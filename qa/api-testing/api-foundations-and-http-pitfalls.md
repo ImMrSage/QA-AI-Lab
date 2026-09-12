@@ -78,6 +78,8 @@ Do not infer the responsible component solely from a status code. Capture the fa
 
 ## Sources and related knowledge
 
+- [Continue with parts 3–5: tools, security and automation](../../tools/developer-tools/api-testing-toolkit.md)
+
 - [QA4Life / Евгений Гусинец — Part 1: Foundations](https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-1-Osnovy-07-07)
 - [QA4Life / Евгений Гусинец — Part 2: HTTP and Data](https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-2-HTTP-i-dannye-07-07)
 - [REST API Request Basics](rest-api-request-basics.md)

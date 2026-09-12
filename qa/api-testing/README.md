@@ -2,6 +2,8 @@
 
 ## Start here
 
+- [API toolkit, security and test strategy](../../tools/developer-tools/api-testing-toolkit.md) — SHOULD KNOW. QA4Life parts 3–5 reviewed.
+
 - [API Foundations and HTTP Pitfalls](api-foundations-and-http-pitfalls.md) — MUST KNOW. Two QA4Life articles reviewed with architecture, corrections and a practice matrix.
 
 - [Consumer-driven contracts with Pact](consumer-driven-contracts.md) — SHOULD KNOW. Compatibility checks and release evidence.
