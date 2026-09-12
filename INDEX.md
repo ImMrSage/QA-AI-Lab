@@ -9,6 +9,8 @@ A personal knowledge base and practical laboratory built on three independent pi
 
 ## Reviewed Collections
 
+- [Testing concepts and selection](qa/fundamentals/testing-concepts.md) — updated with the QA4Life classification review and a change-based planning matrix.
+
 - [API guide parts 3–5](tools/developer-tools/api-testing-toolkit.md) — tools, security, architecture, automation and practical diagnosis; completes the five-part text review.
 
 - [API foundations: two-part review](qa/api-testing/api-foundations-and-http-pitfalls.md) — QA4Life architecture and HTTP guide, with corrections and a practice matrix.
