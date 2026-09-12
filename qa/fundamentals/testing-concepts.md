@@ -79,6 +79,8 @@ Coverage: all seven text sections read on 2026-09-12. No application scenarios e
 
 ## Related topics and earlier sources
 
+- [Software quality and measurable criteria](software-quality-criteria.md)
+
 - [Risk-based test planning](../qa-process/test-planning.md)
 - [Exploratory heuristics](../manual-testing/exploratory-heuristics.md)
 - Source: `cheatlistbase.pdf`, pp. 1-2; [batch provenance and corrections](../../docs/sources/2026-09-05-testing-cheat-sheets.md).

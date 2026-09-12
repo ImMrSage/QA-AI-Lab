@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Software Quality and Measurable Criteria',topic:'qa',label:'QUALITY',depth:'MUST KNOW',summary:'Turn quality concerns into measurable criteria. Separate ISO model versions, targets, evidence and misleading pass percentages.',file:'../../qa/fundamentals/software-quality-criteria.md'},
   {title:'API Toolkit, Security and Test Strategy',topic:'tools',label:'API TOOLS',depth:'SHOULD KNOW',summary:'Parts 3–5 reviewed: Postman, curl, OpenAPI, JMeter, sessions, test doubles, automation and evidence-based diagnosis.',file:'../../tools/developer-tools/api-testing-toolkit.md'},
   {title:'API Foundations and HTTP Pitfalls',topic:'qa',label:'API TESTING',depth:'MUST KNOW',summary:'Client/server architecture and a two-part guide review: HTTP misconceptions, data formats and a practical contract checklist.',file:'../../qa/api-testing/api-foundations-and-http-pitfalls.md'},
   {title:'MCP and the Host Tool Loop',topic:'ai',label:'AI AGENTS',depth:'SHOULD KNOW',summary:'Understand model proposals, host execution and MCP integration, with protocol corrections and a personal-assistant exercise.',file:'../../ai/agents/mcp-host-tool-loop.md'},
