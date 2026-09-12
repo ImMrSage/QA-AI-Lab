@@ -2,6 +2,8 @@
 
 ## Start here
 
+- [API Foundations and HTTP Pitfalls](api-foundations-and-http-pitfalls.md) — MUST KNOW. Two QA4Life articles reviewed with architecture, corrections and a practice matrix.
+
 - [Consumer-driven contracts with Pact](consumer-driven-contracts.md) — SHOULD KNOW. Compatibility checks and release evidence.
 
 - [REST API Request Basics](rest-api-request-basics.md) — MUST KNOW. HTTP request anatomy, methods, headers, status codes, JSON, and a request-flow diagram.

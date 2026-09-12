@@ -9,6 +9,8 @@ A personal knowledge base and practical laboratory built on three independent pi
 
 ## Reviewed Collections
 
+- [API foundations: two-part review](qa/api-testing/api-foundations-and-http-pitfalls.md) — QA4Life architecture and HTTP guide, with corrections and a practice matrix.
+
 - [ML Glossary resource review](docs/sources/ml-cheatsheet-review.md) — four chapters analyzed; remaining chapters explicitly unreviewed.
 
 - [QA and AI digest](docs/sources/qa-ai-digest-2026-07-24.md) - all 20 article bodies reviewed and linked to English knowledge notes.

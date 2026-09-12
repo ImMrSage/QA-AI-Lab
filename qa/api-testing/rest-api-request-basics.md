@@ -139,6 +139,8 @@ Corrections: database-centric method definitions were replaced; query examples a
 
 ## Related topics
 
+- [API foundations and HTTP pitfalls](api-foundations-and-http-pitfalls.md) — architecture and corrections from the QA4Life two-part guide.
+
 - [API request review checklist](../../playbooks/checklists/api-request-review.md)
 - [API testing index](README.md)
 

@@ -1,6 +1,6 @@
 # Web Application
 
-Static library and responsive article reader. Serve the repository root with `python -m http.server 8000 --bind 127.0.0.1`, then open `http://127.0.0.1:8000/apps/web/`.
+Static library and responsive article reader. From the repository root run `python scripts/preview.py`, then open `http://127.0.0.1:8001/apps/web/`. The local-only server sends `Cache-Control: no-store` so returning from a note does not restore an outdated library from the HTTP cache. Use the new port rather than an old cached preview tab.
 
 Development should support local preview before committing or publishing. The published application should serve both phone and desktop browsers.
 

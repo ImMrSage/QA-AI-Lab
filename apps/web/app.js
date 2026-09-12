@@ -1,4 +1,5 @@
 const notes = [
+  {title:'API Foundations and HTTP Pitfalls',topic:'qa',label:'API TESTING',depth:'MUST KNOW',summary:'Client/server architecture and a two-part guide review: HTTP misconceptions, data formats and a practical contract checklist.',file:'../../qa/api-testing/api-foundations-and-http-pitfalls.md'},
   {title:'MCP and the Host Tool Loop',topic:'ai',label:'AI AGENTS',depth:'SHOULD KNOW',summary:'Understand model proposals, host execution and MCP integration, with protocol corrections and a personal-assistant exercise.',file:'../../ai/agents/mcp-host-tool-loop.md'},
   {title:'Automating Release Coordination',topic:'qa',label:'QA PROCESS',depth:'SHOULD KNOW',summary:'An Ozon mobile-release case study: automate preparation, ownership and telemetry while preserving release decisions.',file:'../../qa/qa-process/release-orchestration.md'},
   {title:'Composing UI Test Components',topic:'qa',label:'AUTOMATION',depth:'SHOULD KNOW',summary:'Apply component composition to repeated UI elements. Review the tradeoffs of Atomic Design and Page Objects.',file:'../../qa/automation/atomic-test-composition.md'},
