@@ -77,3 +77,8 @@
 - [Будущее Android-приложение](apps/mobile/README.md)
 - [Общий контракт контента](packages/content/README.md)
 - [Правила локализации](packages/i18n/README.md)
+
+## Новые разборы источников
+
+- [HTTP-статусы](qa/api-testing/http-status-codes.md)
+- [Основы Playwright на Python](qa/automation/playwright-python-basics.md)

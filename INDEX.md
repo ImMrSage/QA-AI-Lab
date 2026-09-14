@@ -83,3 +83,8 @@ Processed materials now cover testing concepts, exploratory heuristics, API requ
 - [Future Android application](apps/mobile/README.md)
 - [Shared content contract](packages/content/README.md)
 - [Localization conventions](packages/i18n/README.md)
+
+## New source reviews
+
+- [HTTP status codes](qa/api-testing/http-status-codes.md)
+- [Playwright Python basics](qa/automation/playwright-python-basics.md)
