@@ -1,7 +1,7 @@
 # Checklists
 
-- [API request review](api-request-review.md)
-- [Form testing](form-testing.md)
-- [Web UI testing](web-ui-testing.md)
+- [API Request Review](api-request-review.md)
+- [Form Testing](form-testing.md)
+- [Web UI Testing](web-ui-testing.md)
 
 [Knowledge index](../../INDEX.md)

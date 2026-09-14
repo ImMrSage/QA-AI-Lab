@@ -15,7 +15,21 @@ const notes = [
   {title:'OpenAI Academy for QA',topic:'ai',label:'AI FOR QA',depth:'SHOULD KNOW',summary:'A practical resource for turning AI assistance into repeatable, reviewable QA workflows.',file:'../../ai/ai-for-testing/openai-academy-workplace-ai.md',details:['AI Foundations, Applied AI Foundations, and Agents and Workflows','Proposed QA exercises with evidence to review','Vendor announcement separated from independent validation']},
   {title:'Test Plan Template',topic:'playbook',label:'TEMPLATE',depth:'MUST KNOW',summary:'A reusable planning canvas for scope, risks, approach, responsibilities, criteria, and release discussion.',file:'../../playbooks/templates/test-plan.md',details:['Risk and evidence table','Environment and dependency prompts','Results, residual risk, and decision record']}
 ];
+const {lang,t} = window.labI18n;
+if(lang === 'ru') notes.forEach(n => { const entry=window.cardTranslations[n.file.split('/').pop().replace('.md','')]; if(entry) {n.title=entry[0];n.summary=entry[1];} n.label=({qa:'QA И ТЕСТИРОВАНИЕ',ai:'AI',tools:'ИНСТРУМЕНТЫ',playbook:'ПРАКТИКА'})[n.topic]; n.depth=t(n.depth); });
 const cards=document.querySelector('#cards'), search=document.querySelector('#search'), filter=document.querySelector('#filter'), dialog=document.querySelector('#note-dialog'), dialogContent=document.querySelector('#dialog-content');
-function render(){const term=search.value.toLowerCase(), kind=filter.value; const visible=notes.filter(n=>(kind==='all'||n.topic===kind)&&(`${n.title} ${n.summary} ${n.label}`.toLowerCase().includes(term)));document.querySelector('#total-count').textContent=visible.length;cards.innerHTML=visible.map((n,i)=>`<article class="card" data-index="${notes.indexOf(n)}"><div class="card-top"><span class="pill ${n.topic}">${n.label}</span><span class="depth">${n.depth}</span></div><h3>${n.title}</h3><p>${n.summary}</p><div class="card-foot"><span>Read note</span><span class="arrow">↗</span></div></article>`).join('')||'<p>No notes match this search yet.</p>';cards.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>openNote(notes[c.dataset.index])))}
-function openNote(n){const url=new URL('./reader.html',location.href);url.searchParams.set('note',n.file.replace(/^\.\.\/\.\.\//,''));location.href=url.href}
+function render(){const term=search.value.toLowerCase(), kind=filter.value; const visible=notes.filter(n=>(kind==='all'||n.topic===kind)&&(`${n.title} ${n.summary} ${n.label}`.toLowerCase().includes(term)));document.querySelector('#total-count').textContent=visible.length;cards.innerHTML=visible.map((n,i)=>`<article class="card" data-index="${notes.indexOf(n)}"><div class="card-top"><span class="pill ${n.topic}">${n.label}</span><span class="depth">${n.depth}</span></div><h3>${n.title}</h3><p>${n.summary}</p><div class="card-foot"><span>${t('Read note')}</span><span class="arrow">↗</span></div></article>`).join('')||`<p>${t('No notes match this search yet.')}</p>`;cards.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>openNote(notes[c.dataset.index])))}
+function openNote(n){const url=new URL('./reader.html',location.href);url.searchParams.set('note',n.file.replace(/^\.\.\/\.\.\//,''));url.searchParams.set('lang',lang);location.href=url.href}
+document.querySelector('.mobile-menu').addEventListener('click',()=>openNote({file:'INDEX.md'}));
+document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{
+  if(button.dataset.view==='sources') return openNote({file:'docs/sources/qa-ai-digest-2026-07-24.md'});
+  if(button.dataset.view==='playbooks') return openNote({file:'playbooks/checklists/README.md'});
+  openNote({file:'INDEX.md'});
+}));
+const makeCardsAccessible=()=>cards.querySelectorAll('.card').forEach(card=>{
+  card.tabIndex=0; card.setAttribute('role','link');
+  card.setAttribute('aria-label',card.querySelector('h3').textContent);
+  card.addEventListener('keydown',event=>{if(event.key==='Enter')openNote(notes[card.dataset.index]);});
+});
+new MutationObserver(makeCardsAccessible).observe(cards,{childList:true});
 search.addEventListener('input',render);filter.addEventListener('change',render);document.querySelector('.close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});render();

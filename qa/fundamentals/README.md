@@ -1,5 +1,6 @@
-# Fundamentals
+# Testing fundamentals
 
-- [Testing concepts](testing-concepts.md)
+- [Software Quality and Measurable Criteria](software-quality-criteria.md)
+- [Testing Concepts](testing-concepts.md)
 
 [Knowledge index](../../INDEX.md)

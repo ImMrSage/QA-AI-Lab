@@ -1,5 +1,5 @@
-# Performance Testing
+# Performance testing
 
-- [Repeatable load testing](repeatable-load-testing.md) - workload, data, correctness and bottleneck analysis.
+- [Repeatable Load Testing](repeatable-load-testing.md)
 
 [Knowledge index](../../INDEX.md)

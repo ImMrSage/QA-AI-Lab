@@ -1,6 +1,6 @@
-# Security Testing
+# Security testing
 
-- [Security observation versus demonstrated vulnerability](security-observation-vs-vulnerability.md)
-- [Password-reset state testing](password-reset-state-testing.md)
+- [Password Reset as a State Machine](password-reset-state-testing.md)
+- [Security Observation or Demonstrated Vulnerability?](security-observation-vs-vulnerability.md)
 
 [Knowledge index](../../INDEX.md)

@@ -1,11 +1,13 @@
 # Shared Localization
 
-English (`en`) is the only active language at launch. Russian (`ru`) and German (`de`) are planned but are not enabled and have no placeholder translations.
+English (`en`) and Russian (`ru`) are active in the web interface. German is planned. The URL `lang` parameter overrides the saved preference. Russian articles live at `locales/ru/<canonical-path>` with the same ID; relative links resolve against the canonical article. Missing translations show an explicit notice and an English article with `lang=en`.
 
-Store interface strings under stable semantic keys in locale JSON files. English resources start in [locales/en.json](locales/en.json). Application code should obtain user-facing text through the localization layer rather than embedding English strings in components.
+All current knowledge notes, topic catalogs, source registers and reader-linked guides have Russian counterparts. Raw intake is not translated or represented as analyzed content. Empty topics have explicit placeholders in both languages. A translated analysis does not mean previously unread source chapters were reviewed.
+
+The static web app uses `apps/web/i18n.js` for phrases and `apps/web/card-translations.js` for card titles and summaries keyed by note ID. JSON resources under `packages/i18n/locales/` are scaffolds for future shared code, not consumed by the current web app.
 
 Keep full phrases together, support interpolation and pluralization, and format dates and numbers according to the active locale. The localization library will be selected with the application framework.
 
-English is the fallback for missing translations. Do not show a language switcher until another language is usable. Content language and interface language must be tracked separately: future translated interfaces may still display an English article, labeled as English.
+English is the explicit fallback for missing translations. Article and interface language are tracked separately. Switching language retains the note but resets the section because translated headings use different anchors.
 
-Article translations belong with shared content and retain the original content ID. Diagrams and cheat sheets should keep editable text separate from imagery wherever possible, so translation does not require recreating the entire visual.
+Article translations retain the original content ID, source links, code examples, caveats and review dates. Translate complete bodies, including tables and Mermaid labels. Run `python scripts/check_translations.py` for coverage and structural checks; these complement editorial review and do not prove translation quality. Rebuild reader assets after code changes and verify both languages, persistence, links and responsive presentation.

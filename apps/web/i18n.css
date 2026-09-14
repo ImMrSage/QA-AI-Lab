@@ -1,0 +1,7 @@
+#language{font:inherit;border:1px solid #aab4c7;border-radius:8px;padding:8px;background:#fff;color:#101828;max-width:125px}
+.reader-bar{flex-wrap:wrap;gap:10px}
+.card-top{flex-wrap:wrap;gap:8px}.depth{font-size:10px;font-weight:700;color:#667085}
+.card:focus-visible,button:focus-visible,select:focus-visible,input:focus-visible{outline:3px solid #7864f2;outline-offset:4px}
+@media(max-width:600px){.hero-orbit{display:none}.hero>div:first-child{min-width:0}.hero h1{font-size:clamp(36px,9vw,54px)}.hero-copy{max-width:none}}
+.translation-notice{padding:16px;border:1px solid #d4ac50;border-radius:10px;background:#fff5d6;color:#533c06}
+@media(max-width:600px){.crumb{display:none}.top-actions{margin-left:auto}.reader-bar{padding:12px 16px}}

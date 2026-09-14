@@ -1,0 +1,9 @@
+{
+  "app.name": "QA AI Lab",
+  "navigation.library": "Библиотека",
+  "navigation.tools": "Инструменты",
+  "navigation.favorites": "Избранное",
+  "search.placeholder": "Поиск по библиотеке",
+  "content.sources": "Источники",
+  "content.relatedTopics": "Связанные темы"
+}

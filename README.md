@@ -559,6 +559,6 @@ Every new piece of information should make the system more useful, connected, pr
 
 The repository separates the [web application](apps/web/README.md), [future Android application](apps/mobile/README.md), [shared content contract](packages/content/README.md), and [localization resources](packages/i18n/README.md).
 
-English is the only active language initially. Russian and German are planned extensions for both the interface and knowledge content. New authored materials and visuals should use English, while original source titles and URLs remain attributable.
+English and Russian are active for the web interface, notes, diagrams and catalogs. Russian counterparts live under `locales/ru/<canonical-path>` with matching content IDs. German remains planned. Preserve original source titles and URLs. See the [Russian project guide](locales/ru/README.md).
 
-See [product and repository architecture](docs/architecture.md) for scope and development decisions. Application directories are scaffolds, not runnable applications yet.
+See [product and repository architecture](docs/architecture.md) for scope and development decisions. Run the web app with `python scripts/preview.py`; Android remains a scaffold.

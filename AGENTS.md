@@ -12,9 +12,9 @@ When the user sends one or more articles or learning resources:
 
 1. Read and analyze the accessible full material, distinguishing source claims, applications in the relevant domain, and limitations. If access is incomplete, report exactly what remains unread; do not label a bookmark or downloaded body as analyzed.
 2. Check for duplicates using canonical source URLs without tracking parameters. Reuse or update an existing analysis rather than creating duplicate notes.
-3. Save English knowledge notes in the appropriate repository topic, with attribution, tags and related links. Repository Markdown is the current knowledge store; do not imply that a separate database was updated.
+3. Save English notes in the appropriate topic and full Russian counterparts under `locales/ru/<canonical-path>`, with matching IDs, attribution, tags and related links. Repository Markdown is the current knowledge store; do not imply a separate database was updated. Run `python scripts/check_translations.py` before publishing content changes.
 4. Make the material accessible in the website/application through its formatted reader and relevant navigation or collection. Check affected links and rendering. Report any application integration that remains unfinished.
 5. End every ingestion session, including duplicate-only sessions, with a short result and freshly retrieved account usage: **5-hour window: X% used; weekly window: Y% used**. Use the account usage tool immediately before the final response. These are cumulative account percentages, not usage attributable solely to this session. If a value is unavailable, say so rather than estimating it.
 6. When the user specifies a usage ceiling, check usage before work and between batches, leaving room to save progress and report. Do not consume reset credits without explicit authorization. Apply later user changes to the ceiling.
 
-Keep final updates concise and in the user's conversational language; authored library content remains English.
+Keep final updates concise and in the user's conversational language. English and Russian are active languages. New notes should include a complete Russian counterpart under locales/ru/<canonical-path>, with the same ID and source links. Do not call untranslated content translated. Track unfinished translations in packages/i18n/README.md.

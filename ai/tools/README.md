@@ -1,6 +1,6 @@
-# AI Tools for QA
+# AI tools
 
-- [MCP workflows for QA](mcp-for-qa.md) — tool categories, evidence and permissions.
-- [Permission-aware analytics](permission-aware-analytics.md) — Tradeshift/Amazon Quick case review; indirect QA relevance.
+- [MCP Workflows for QA](mcp-for-qa.md)
+- [Permission-Aware Conversational Analytics](permission-aware-analytics.md)
 
 [Knowledge index](../../INDEX.md)

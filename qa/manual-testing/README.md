@@ -1,5 +1,5 @@
-# Manual Testing
+# Manual testing
 
-- [Exploratory testing heuristics](exploratory-heuristics.md)
+- [Exploratory Testing Heuristics](exploratory-heuristics.md)
 
 [Knowledge index](../../INDEX.md)

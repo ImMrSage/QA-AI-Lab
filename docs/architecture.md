@@ -23,15 +23,15 @@ Keep web and mobile in one repository, with separate application directories and
 
 ## Languages
 
-English is the initial language for interface text, original knowledge notes, diagrams, cheat sheets, and project documentation. Preserve original source titles and URLs where needed for attribution.
+English and Russian are active for interface text, knowledge notes, diagrams, cheat sheets and reader documentation. Preserve original source titles and URLs for attribution.
 
-Plan for Russian and German through stable translation keys and language-independent content IDs. Enable those languages when actual translations are ready. Avoid duplicated application implementations per language. Use English as the fallback and explicitly identify the language of untranslated content.
+Russian files mirror canonical paths under `locales/ru/` with matching IDs. German remains planned. One application serves both languages; the URL preference overrides the saved choice. Missing translations explicitly fall back to English. Run `python scripts/check_translations.py` before publishing.
 
 ## Development and delivery
 
 The initial implementation is the web application. Local preview allows review before changes reach GitHub. A hosted version will provide access from phones and computers without the development computer being online.
 
-Android remains a later delivery target using the same content. Repository scaffolding alone does not provide a runnable web or mobile application. Offline reading, synchronization, authentication, and Google Play packaging require separate implementation decisions.
+Android remains a later delivery target using the same content. The static web reader runs locally; Android remains a scaffold. Offline reading, synchronization, authentication and Google Play packaging require separate implementation decisions.
 
 ## Content presentation
 

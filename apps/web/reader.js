@@ -5,11 +5,13 @@ const article = document.querySelector('#article');
 const status = document.querySelector('#reader-status');
 const root = new URL('../../', location.href);
 const params = new URLSearchParams(location.search);
+const { lang, t } = window.labI18n;
 const source = new URL(params.get('note') || 'INDEX.md', root);
 
 function readerLink(url) {
   const target = new URL('./reader.html', location.href);
   target.searchParams.set('note', url.pathname.slice(root.pathname.length));
+  target.searchParams.set('lang', lang);
   target.hash = url.hash;
   return target.href;
 }
@@ -17,22 +19,34 @@ function readerLink(url) {
 async function load() {
   try {
     if (source.origin !== root.origin || !source.pathname.startsWith(root.pathname) || !source.pathname.endsWith('.md')) throw new Error('Choose a Markdown note from this library.');
-    const response = await fetch(source);
+    let response;
+    if (lang === 'ru') {
+      const translated = new URL('locales/ru/' + source.pathname.slice(root.pathname.length), root);
+      response = await fetch(translated);
+      if (!response.ok && response.status !== 404) throw new Error('Не удалось загрузить перевод. Повторите попытку.');
+      if (response.status === 404) {
+        const notice = document.createElement('p'); notice.className = 'translation-notice';
+        notice.textContent = 'Русский перевод пока не готов. Ниже показана английская версия (English).';
+        article.before(notice); response = undefined;
+      }
+    }
+    response ||= await fetch(source);
     if (!response.ok) throw new Error('This note could not be found. Return to the library and try another material.');
     const raw = (await response.text()).replace(/^\uFEFF/, '').replace(/\r\n/g, '\n');
     const front = raw.match(/^---\n([\s\S]*?)\n---(?:\n|$)/);
     const body = front ? raw.slice(front[0].length) : raw;
+    article.lang = lang === 'ru' && !document.querySelector('.translation-notice') ? 'ru' : 'en';
     const metadata = Object.fromEntries((front?.[1] || '').split('\n').map(line => {
       const colon = line.indexOf(':');
       return colon < 0 ? ['', ''] : [line.slice(0, colon), line.slice(colon + 1).trim()];
     }));
     for (const value of [metadata.topic?.replaceAll('-', ' '), metadata.learning_depth, `${Math.max(1, Math.ceil(body.split(/\s+/).length / 220))} min read`, metadata.reviewed ? `Reviewed ${metadata.reviewed}` : '']) {
       if (!value) continue;
-      const badge = document.createElement('span'); badge.textContent = value;
+      const badge = document.createElement('span'); badge.textContent = t(value).replace(' min read', lang === 'ru' ? ' мин чтения' : ' min read').replace('Reviewed ', lang === 'ru' ? 'Проверено ' : 'Reviewed ');
       document.querySelector('#note-meta').append(badge);
     }
     article.innerHTML = DOMPurify.sanitize(marked.parse(body), { USE_PROFILES: { html: true } });
-    document.title = `${article.querySelector('h1')?.textContent || 'Knowledge note'} · QA AI Lab`;
+    document.title = `${article.querySelector('h1')?.textContent || t('Knowledge note')} · QA AI Lab`;
     const usedIds = new Set();
     for (const heading of article.querySelectorAll('h1,h2,h3')) {
       const base = heading.textContent.toLowerCase().replace(/[^\p{L}\p{N}\s-]/gu, '').trim().replace(/\s+/g, '-') || 'section';
@@ -57,10 +71,10 @@ async function load() {
     for (const img of article.querySelectorAll('img[src]')) img.src = new URL(img.getAttribute('src'), source).href;
     for (const table of article.querySelectorAll('table')) {
       const wrap = document.createElement('div'); wrap.className = 'table-scroll'; wrap.tabIndex = 0;
-      wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', 'Scrollable reference table');
+      wrap.setAttribute('role', 'region'); wrap.setAttribute('aria-label', t('Scrollable reference table'));
       table.before(wrap); wrap.append(table);
     }
-    const intro = [...article.querySelectorAll('h2')].find(h => /^(TL;DR|Summary)$/.test(h.textContent));
+    const intro = [...article.querySelectorAll('h2')].find(h => /^(TL;DR|Summary|Кратко)$/.test(h.textContent));
     if (intro?.nextElementSibling?.tagName === 'P') intro.nextElementSibling.classList.add('lead');
     status.hidden = true;
     if (matchMedia('(max-width: 800px)').matches) document.querySelector('.reader-outline details').open = false;
@@ -74,17 +88,17 @@ async function load() {
           const { svg } = await mermaid.render(`note-diagram-${index++}`, code.textContent);
           const figure = document.createElement('figure'); figure.className = 'diagram';
           figure.innerHTML = svg;
-          const caption = document.createElement('figcaption'); caption.textContent = 'Workflow diagram · Scroll sideways on small screens';
+          const caption = document.createElement('figcaption'); caption.textContent = t('Workflow diagram · Scroll sideways on small screens');
           figure.append(caption); code.parentElement.replaceWith(figure);
         } catch {
-          const message = document.createElement('p'); message.textContent = 'Diagram preview unavailable. Its source is shown below.';
+          const message = document.createElement('p'); message.textContent = t('Diagram preview unavailable. Its source is shown below.');
           code.parentElement.before(message);
         }
       }
     }
     if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
   } catch (error) {
-    status.hidden = false; status.className = 'reader-error'; status.textContent = error.message || 'Unable to load this note. Please try again.';
+    status.hidden = false; status.className = 'reader-error'; status.textContent = t(error.message) || (lang === 'ru' ? 'Не удалось загрузить материал.' : 'Unable to load this note. Please try again.');
   }
 }
 document.querySelector('#back-top').addEventListener('click', event => { event.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
