@@ -1,5 +1,7 @@
 # Shared Localization
 
+Author new analyses in the source language first: Russian → English, English → Russian. Preserve source-language attribution and record `source_language` and `authored_language` in both variants. This avoids Russian → English → Russian round trips. Canonical English storage paths do not imply English source authorship. An analysis remains distinct from the original article; archived supplied originals remain unchanged.
+
 English (`en`) and Russian (`ru`) are active in the web interface. German is planned. The URL `lang` parameter overrides the saved preference. Russian articles live at `locales/ru/<canonical-path>` with the same ID; relative links resolve against the canonical article. Missing translations show an explicit notice and an English article with `lang=en`.
 
 All current knowledge notes, topic catalogs, source registers and reader-linked guides have Russian counterparts. Raw intake is not translated or represented as analyzed content. Empty topics have explicit placeholders in both languages. A translated analysis does not mean previously unread source chapters were reviewed.
