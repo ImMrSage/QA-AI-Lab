@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Lead QA and Head of QA: Scope and Metrics',topic:'qa',label:'QA MANAGEMENT',depth:'SHOULD KNOW',summary:'Role boundaries, useful metrics, career paths and a practical decision-ownership checklist.',file:'../../qa/qa-process/lead-qa-vs-head-of-qa.md'},
   {title:'HTTP Status Codes: Checks and Pitfalls',topic:'qa',label:'API TESTING',depth:'MUST KNOW',summary:'Status families, contract checks, redirects, access errors and rate limiting.',file:'../../qa/api-testing/http-status-codes.md'},
   {title:'Playwright Python: From Recording to Verification',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'Locators, pytest, codegen, assertions and a corrected Selenium comparison.',file:'../../qa/automation/playwright-python-basics.md'},
   {title:'Software Quality and Measurable Criteria',topic:'qa',label:'QUALITY',depth:'MUST KNOW',summary:'Turn quality concerns into measurable criteria. Separate ISO model versions, targets, evidence and misleading pass percentages.',file:'../../qa/fundamentals/software-quality-criteria.md'},

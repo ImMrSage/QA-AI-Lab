@@ -1,6 +1,7 @@
 # Процессы и управление QA
 
 - [CATS для безопасности изменений с помощью AI](ai-change-safety-cats.md)
+- [Lead QA и Head of QA — ответственность, метрики и рост](lead-qa-vs-head-of-qa.md)
 - [Критическое чтение показателей найма QA](qa-hiring-index-july-2026.md)
 - [Автоматизация координации релизов](release-orchestration.md)
 - [Планирование тестирования по рискам](test-planning.md)
