@@ -1,6 +1,5 @@
 # Mobile testing
 
-No reviewed materials in this topic yet.
-
+- [Mobile Testing: Reviewed Guide](mobile-testing-guide-review.md)
 
 [Knowledge index](../../INDEX.md)

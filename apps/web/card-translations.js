@@ -17,6 +17,7 @@ window.cardTranslations = Object.fromEntries([
 ].map((entry,i) => [[ 'software-quality-criteria','api-testing-toolkit','api-foundations-and-http-pitfalls','mcp-host-tool-loop','release-orchestration','atomic-test-composition','ml-foundations-for-qa','rest-api-request-basics','testing-concepts','exploratory-heuristics','form-testing','web-ui-testing','test-planning','openai-academy-workplace-ai','test-plan'][i],entry]));
 
 window.cardTranslations['release-readiness-playbook'] = ['Подготовка и выпуск релиза: проверенный playbook','Разбор 25 слайдов о готовности, регрессии, UAT, деплое, hotfix и доказательном решении о выпуске.'];
+window.cardTranslations['mobile-testing-guide-review'] = ['Мобильное тестирование: проверенный разбор гайда','Устройства, разрешения, сеть, доступность, производительность, Charles Proxy и актуальные поправки платформ.'];
 
 window.cardTranslations['http-status-codes'] = ['HTTP-статусы: проверки и ловушки','Классы ответов, контракт, редиректы, доступ и ограничения частоты.'];
 window.cardTranslations['lead-qa-vs-head-of-qa'] = ['Lead QA и Head of QA: роли и метрики','Границы ответственности, полезные метрики, карьерный рост и чек-лист распределения решений.'];
