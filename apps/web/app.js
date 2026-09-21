@@ -1,4 +1,5 @@
 const notes = [
+  {title:'QA Onboarding: Reviewed First-Days Checklist',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'People, access, requirements, environments, releases, metrics and evidence that a new QA is ready.',file:'../../qa/qa-process/qa-onboarding-checklist-review.md'},
   {title:'Python for QA: Reviewed Lessons 1–2',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'Python environments, collections, functions, classes and test architecture with corrected examples.',file:'../../qa/automation/python-qa-foundations-lessons-1-2.md'},
   {title:'Mobile Testing: Reviewed Guide',topic:'qa',label:'MOBILE TESTING',depth:'MUST KNOW',summary:'A reviewed mobile QA guide covering devices, permissions, networks, accessibility, performance, Charles Proxy and current platform caveats.',file:'../../qa/mobile-testing/mobile-testing-guide-review.md'},
   {title:'Release Preparation and Delivery: Reviewed Playbook',topic:'qa',label:'QA PROCESS',depth:'SHOULD KNOW',summary:'A 25-slide release playbook covering readiness, regression, UAT, deployment, hotfixes and evidence-based release decisions.',file:'../../qa/qa-process/release-readiness-playbook.md'},
