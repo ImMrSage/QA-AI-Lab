@@ -19,3 +19,5 @@ window.cardTranslations = Object.fromEntries([
 window.cardTranslations['http-status-codes'] = ['HTTP-статусы: проверки и ловушки','Классы ответов, контракт, редиректы, доступ и ограничения частоты.'];
 window.cardTranslations['lead-qa-vs-head-of-qa'] = ['Lead QA и Head of QA: роли и метрики','Границы ответственности, полезные метрики, карьерный рост и чек-лист распределения решений.'];
 window.cardTranslations['playwright-python-basics'] = ['Playwright на Python: от записи к проверке','Локаторы, pytest, codegen, проверки результата и сравнение с Selenium.'];
+window.cardTranslations['testing-foundations-blocks-1-3-review'] = ['Основы тестирования: разбор блоков 1–3','Проверенный разбор 22 страниц о понятиях, терминологии, качестве, требованиях и ревью.'];
+window.cardTranslations['qa-meeting-transcription-toolkit'] = ['Транскрипция встреч для QA','Выбор из шести инструментов, защита данных встречи и проверка AI-саммари.'];

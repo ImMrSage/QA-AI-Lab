@@ -1,4 +1,6 @@
 const notes = [
+  {title:'Testing Foundations: Review of Blocks 1–3',topic:'qa',label:'FUNDAMENTALS',depth:'MUST KNOW',summary:'A reviewed 22-page guide to testing concepts, terminology, quality, requirements and reviews.',file:'../../qa/fundamentals/testing-foundations-blocks-1-3-review.md'},
+  {title:'Meeting Transcription for QA',topic:'tools',label:'PRODUCTIVITY',depth:'SHOULD KNOW',summary:'Choose among six dictation and transcription tools, protect meeting data and verify AI summaries.',file:'../../tools/productivity/qa-meeting-transcription-toolkit.md'},
   {title:'Lead QA and Head of QA: Scope and Metrics',topic:'qa',label:'QA MANAGEMENT',depth:'SHOULD KNOW',summary:'Role boundaries, useful metrics, career paths and a practical decision-ownership checklist.',file:'../../qa/qa-process/lead-qa-vs-head-of-qa.md'},
   {title:'HTTP Status Codes: Checks and Pitfalls',topic:'qa',label:'API TESTING',depth:'MUST KNOW',summary:'Status families, contract checks, redirects, access errors and rate limiting.',file:'../../qa/api-testing/http-status-codes.md'},
   {title:'Playwright Python: From Recording to Verification',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'Locators, pytest, codegen, assertions and a corrected Selenium comparison.',file:'../../qa/automation/playwright-python-basics.md'},
