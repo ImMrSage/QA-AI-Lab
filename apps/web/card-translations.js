@@ -18,6 +18,7 @@ window.cardTranslations = Object.fromEntries([
 
 window.cardTranslations['release-readiness-playbook'] = ['Подготовка и выпуск релиза: проверенный playbook','Разбор 25 слайдов о готовности, регрессии, UAT, деплое, hotfix и доказательном решении о выпуске.'];
 window.cardTranslations['mobile-testing-guide-review'] = ['Мобильное тестирование: проверенный разбор гайда','Устройства, разрешения, сеть, доступность, производительность, Charles Proxy и актуальные поправки платформ.'];
+window.cardTranslations['python-qa-foundations-lessons-1-2'] = ['Python для QA: проверенный разбор уроков 1–2','Окружение, коллекции, функции, классы и архитектура автотестов с исправленными примерами.'];
 
 window.cardTranslations['http-status-codes'] = ['HTTP-статусы: проверки и ловушки','Классы ответов, контракт, редиректы, доступ и ограничения частоты.'];
 window.cardTranslations['lead-qa-vs-head-of-qa'] = ['Lead QA и Head of QA: роли и метрики','Границы ответственности, полезные метрики, карьерный рост и чек-лист распределения решений.'];
