@@ -31,3 +31,4 @@ window.cardTranslations['agile-devops-tdd-quality-strategies'] = ['Agile, DevOps
 window.cardTranslations['software-development-methodologies'] = ['Модели разработки ПО и организация поставки','Waterfall, V-Model, Spiral, инкрементальная поставка, Scrum и Kanban: выбор по ограничениям и свидетельствам.'];
 window.cardTranslations['ai-assisted-qa-documentation'] = ['QA-документация с помощью AI','Превращайте разрозненные знания проекта в прослеживаемые черновики, проверяйте значимые утверждения и назначайте владельца документа.'];
 window.cardTranslations['delphitools-file-utilities'] = ['delphitools: инструменты для файлов и медиа','Локальные браузерные инструменты для изображений, цветов, документов, PDF и повседневных задач QA.'];
+window.cardTranslations['handy-local-speech-to-text'] = ['Handy: локальный голосовой ввод','Диктуйте QA-заметки и AI-промпты в любое текстовое поле с локальными моделями и необязательной постобработкой.'];

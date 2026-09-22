@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Handy: Local Speech-to-Text',topic:'tools',label:'AI PRODUCTIVITY',depth:'SHOULD KNOW',summary:'Dictate QA notes and AI prompts into any text field with local models and optional post-processing.',file:'../../tools/productivity/handy-local-speech-to-text.md'},
   {title:'delphitools: Local File and Media Utilities',topic:'tools',label:'PRODUCTIVITY',depth:'SHOULD KNOW',summary:'Privacy-focused browser tools for images, colour, documents, PDFs and common QA or developer tasks.',file:'../../tools/productivity/delphitools-file-utilities.md'},
   {title:'AI-Assisted QA Documentation',topic:'ai',label:'AI FOR QA',depth:'SHOULD KNOW',summary:'Turn scattered project knowledge into traceable drafts, verify every material claim and keep documentation owned.',file:'../../ai/ai-for-testing/ai-assisted-qa-documentation.md'},
   {title:'Software Development Models and Delivery Frameworks',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'Waterfall, V-Model, Spiral, incremental delivery, Scrum and Kanban chosen by constraints and evidence.',file:'../../qa/qa-process/software-development-methodologies.md'},
