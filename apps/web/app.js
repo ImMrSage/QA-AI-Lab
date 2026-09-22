@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Agile, DevOps and TDD: A Reviewed Quality Strategy',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'XP, CI/CD, test pyramid, TDD, BDD and ATDD with fixed-ratio myths corrected.',file:'../../qa/automation/agile-devops-tdd-quality-strategies.md'},
   {title:'Authentication and Authorization: Testing Access',topic:'qa',label:'SECURITY',depth:'MUST KNOW',summary:'AuthN, AuthZ, sessions, JWTs, API keys, HTTP semantics and negative access-control scenarios.',file:'../../qa/security/authentication-authorization-review.md'},
   {title:'QA Onboarding: Reviewed First-Days Checklist',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'People, access, requirements, environments, releases, metrics and evidence that a new QA is ready.',file:'../../qa/qa-process/qa-onboarding-checklist-review.md'},
   {title:'Python for QA: Reviewed Lessons 1–2',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'Python environments, collections, functions, classes and test architecture with corrected examples.',file:'../../qa/automation/python-qa-foundations-lessons-1-2.md'},

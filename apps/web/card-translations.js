@@ -27,3 +27,4 @@ window.cardTranslations['lead-qa-vs-head-of-qa'] = ['Lead QA и Head of QA: ро
 window.cardTranslations['playwright-python-basics'] = ['Playwright на Python: от записи к проверке','Локаторы, pytest, codegen, проверки результата и сравнение с Selenium.'];
 window.cardTranslations['testing-foundations-blocks-1-3-review'] = ['Основы тестирования: разбор блоков 1–3','Проверенный разбор 22 страниц о понятиях, терминологии, качестве, требованиях и ревью.'];
 window.cardTranslations['qa-meeting-transcription-toolkit'] = ['Транскрипция встреч для QA','Выбор из шести инструментов, защита данных встречи и проверка AI-саммари.'];
+window.cardTranslations['agile-devops-tdd-quality-strategies'] = ['Agile, DevOps и TDD: проверенная стратегия качества','XP, CI/CD, пирамида тестов, TDD, BDD и ATDD с исправлением мифов о фиксированных процентах.'];

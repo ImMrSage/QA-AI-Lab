@@ -1,5 +1,6 @@
 # Автоматизация тестирования
 
+- [Agile, DevOps и TDD: проверенная стратегия качества](agile-devops-tdd-quality-strategies.md)
 - [Композиция компонентов UI-тестов](atomic-test-composition.md)
 - [Предметный язык данных интеграционных тестов](domain-test-data-dsl.md)
 - [Фреймворк Origami — первичная оценка](origami-framework-review.md)

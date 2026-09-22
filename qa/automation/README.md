@@ -1,5 +1,6 @@
 # Test automation
 
+- [Agile, DevOps and TDD: A Reviewed Quality Strategy](agile-devops-tdd-quality-strategies.md)
 - [Composing UI Test Components](atomic-test-composition.md)
 - [Domain Language for Integration Test Data](domain-test-data-dsl.md)
 - [Origami Framework - Initial Evaluation](origami-framework-review.md)
