@@ -1,4 +1,5 @@
 const notes = [
+  {title:'AI-Assisted QA Documentation',topic:'ai',label:'AI FOR QA',depth:'SHOULD KNOW',summary:'Turn scattered project knowledge into traceable drafts, verify every material claim and keep documentation owned.',file:'../../ai/ai-for-testing/ai-assisted-qa-documentation.md'},
   {title:'Software Development Models and Delivery Frameworks',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'Waterfall, V-Model, Spiral, incremental delivery, Scrum and Kanban chosen by constraints and evidence.',file:'../../qa/qa-process/software-development-methodologies.md'},
   {title:'Agile, DevOps and TDD: Quality Strategy',topic:'qa',label:'AUTOMATION',depth:'MUST KNOW',summary:'XP, CI/CD, test pyramid, TDD, BDD and ATDD as one practical quality strategy.',file:'../../qa/automation/agile-devops-tdd-quality-strategies.md'},
   {title:'Authentication and Authorization: Testing Access',topic:'qa',label:'SECURITY',depth:'MUST KNOW',summary:'AuthN, AuthZ, sessions, JWTs, API keys, HTTP semantics and negative access-control scenarios.',file:'../../qa/security/authentication-authorization-review.md'},
