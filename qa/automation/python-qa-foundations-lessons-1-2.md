@@ -3,7 +3,7 @@ id: python-qa-foundations-lessons-1-2
 language: en
 source_language: ru
 authored_language: ru
-title: Python for QA: Reviewed Lessons 1–2
+title: Python for QA: Foundations, Lessons 1–2
 summary: Environments, collections, functions, classes and test architecture with corrected source examples
 topic: automation
 tags: [python, automation, oop, venv, test-architecture]
@@ -12,24 +12,7 @@ learning_depth: MUST KNOW
 reviewed: 2026-09-22
 ---
 
-# Python for QA: Reviewed Lessons 1–2
-
-## TL;DR
-
-Lesson one introduces the Python environment, Git, VS Code, basic types and collections, and compares keeping automated tests separately with colocating test code and the application. Lesson two continues with `venv`, functions, arguments, classes and a learning model: `Tester → TestCase → Step → Bug`.
-
-Both pages were read in full, including commands, tables, examples, homework and links. The supplied diagram confirms the two organization models, but they are not mutually exclusive architectures: one product often combines multiple test levels and repository shapes.
-
-## Material map
-
-| Area | Keep | Clarify |
-| --- | --- | --- |
-| Test architecture | Test code must follow product changes | Repository, language, environment and test level are independent decisions |
-| Environment | Use a project environment and controlled dependencies | Activation is convenient; invoking the chosen interpreter directly is also valid |
-| Types and collections | `list`, `dict`, `tuple`, `set`, strings and slices | `dict` preserves insertion order; `str` is an immutable sequence |
-| Functions | Explicit parameters, `*args`, `**kwargs`, safe defaults | The full grammar also includes positional-only and keyword-only parameters |
-| Classes | Objects combine state and behavior | `__init__` initializes an existing instance; `self` is a convention, not a keyword |
-| OOP | Encapsulation, inheritance and polymorphism help discuss design | “Three pillars” is a teaching model; underscores do not create strict access levels |
+# Python for QA: Foundations, Lessons 1–2
 
 ## Organizing automation
 
@@ -61,21 +44,19 @@ python -m pytest
 
 Do not commit `.venv`. Store direct dependencies and constraints in `pyproject.toml` or the selected project format, and use a lock file or controlled build procedure for reproducibility. `pip freeze` is useful as an environment snapshot, but without curation it also records transitive and platform-specific packages.
 
-## Main corrections
+## Practical principles
 
-| Source claim | Reviewed clarification |
-| --- | --- |
-| Python executes every line through four sequential conversion steps | CPython usually compiles a module to bytecode executed by its virtual machine; the compiled/interpreted boundary is blurry |
-| Compiled languages are always fastest, bytecode is medium and interpreted languages are slow | Performance depends on implementation, JIT/AOT, workload, libraries and measurement; this table cannot drive a technical choice |
-| C is “static weak,” while Python and JavaScript are simply “dynamic” | Static/dynamic typing and the informal strong/weak scale are different axes; casts and memory access do not create a rigorous classification |
-| Python type errors appear only at runtime | Type hints and static analyzers find many mismatches before execution, although the runtime does not enforce hints by default |
-| `dict` is unordered | Insertion order has been a Python language guarantee since 3.7 |
-| `str` is a primitive, not a collection | Python values are objects; `str` is an immutable sequence type |
-| A `venv` stores complete private copies of Python | It has its own interpreter link/copy and `site-packages`, but can rely on the base installation and standard library |
-| `__init__` is the constructor | `__new__` creates the instance; `__init__` initializes it |
-| `_protected` and `__private` define access levels | One underscore is an internal-API convention; double leading underscores trigger name mangling to avoid accidental clashes, not secrecy |
-| Jupyter is unsuitable for automation | Notebooks help exploration and diagnostics; reproducible automated checks are better stored as modules and run in CI |
-| Collection-use percentages and one “most popular” stack are universal | These are unmeasured practitioner observations, not stable ecosystem statistics |
+- CPython usually compiles a module to bytecode executed by its virtual machine; the compiled/interpreted boundary is blurry
+- Performance depends on implementation, JIT/AOT, workload, libraries and measurement; this table cannot drive a technical choice
+- Static/dynamic typing and the informal strong/weak scale are different axes; casts and memory access do not create a rigorous classification
+- Type hints and static analyzers find many mismatches before execution, although the runtime does not enforce hints by default
+- Insertion order has been a Python language guarantee since 3.7
+- Python values are objects; `str` is an immutable sequence type
+- It has its own interpreter link/copy and `site-packages`, but can rely on the base installation and standard library
+- `__new__` creates the instance; `__init__` initializes it
+- One underscore is an internal-API convention; double leading underscores trigger name mangling to avoid accidental clashes, not secrecy
+- Notebooks help exploration and diagnostics; reproducible automated checks are better stored as modules and run in CI
+- These are unmeasured practitioner observations, not stable ecosystem statistics
 
 ## Corrected learning model
 
@@ -137,7 +118,7 @@ Test more than object construction: an unknown step should produce a clear error
 - [ ] Models validate domain-relevant states and errors.
 - [ ] Test architecture accounts for parallelism and data isolation.
 
-## Sources and connections
+## Sources
 
 - [“Lesson 1: Introduction to Python and Test Automation Basics”](https://qa4life.yonote.ru/share/eb4ebed0-58de-45df-b8ce-3d19fa91dd10), Russian, read 2026-09-22.
 - [“Lesson 2: Functions, Classes and Object-Oriented Programming Principles”](https://qa4life.yonote.ru/share/07652a76-5384-459f-a06a-dea6d5c1a392), Russian, read 2026-09-22.

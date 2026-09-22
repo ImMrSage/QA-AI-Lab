@@ -11,10 +11,6 @@ reviewed: 2026-09-05
 
 # Form Testing
 
-## TL;DR
-
-Check accepted input, rejected input, clear feedback, and the final saved result. Choose expected behavior from the field and business contracts.
-
 ## Input matrix
 
 | Class | Useful values |

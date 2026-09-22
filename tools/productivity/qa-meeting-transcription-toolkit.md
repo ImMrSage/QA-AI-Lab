@@ -14,12 +14,6 @@ reviewed: 2026-09-21
 
 # Meeting Transcription for QA: Tool Choice and a Safe Workflow
 
-## TL;DR
-
-First choose a mode: local dictation, local file transcription or cloud meeting analysis. Then agree on recording, protect confidential data and verify the output against the audio. Transcripts and AI summaries save time, but they do not become an authoritative decision record without human review.
-
-Review of the Russian collection “6 инструментов для транскрипции, которые я использую в работе QA”. No author or separate publication URL was provided. The described personal experience is retained as source claims; the applications were not installed and recognition quality was not compared on real meetings. Capabilities were checked against available product pages on 2026-09-21.
-
 ## Selection map
 
 | Task | Tool | Processing and key limitation |
@@ -104,7 +98,7 @@ Do not invent decisions or owners absent from the source.
 - [ ] Every action has a task, owner and due date, or the gap is explicit.
 - [ ] Raw recordings and transcripts have an owner, retention period and deletion rules.
 
-## Sources and related material
+## Sources
 
 - The source Russian collection with six links, supplied by the user on 2026-09-21; author and publication URL unknown.
 - [Handy](https://handy.computer/), [Google AI Studio](https://aistudio.google.com/), [HypeScribe](https://www.hypescribe.com/ru), [NotebookLM](https://notebooklm.google.com/), [MacWhisper](https://www.macwhisper.net/), [Format Factory on SoftPortal](https://www.softportal.com/software-9536-format-factory.html).

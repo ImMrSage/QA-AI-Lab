@@ -11,10 +11,6 @@ reviewed: 2026-09-12
 
 # Testing Concepts
 
-## TL;DR
-
-Separate where you test, what you evaluate, why you run a check, and how it is executed. These are different dimensions, not competing labels.
-
 ## Quick reference
 
 | Dimension | Examples | QA question |
@@ -58,7 +54,7 @@ One test can belong to several dimensions: an automated system-level regression 
 
 This is an original planning matrix, not a mandatory release recipe. Scope depends on impact, likelihood, available evidence and constraints; neither “full regression every release” nor “smoke only in production” is universally sufficient.
 
-## Terms that need care
+## Practical principles
 
 - **System versus E2E:** system is a test level; a complete journey may cross system boundaries. They are not synonyms.
 - **Acceptance versus UAT:** acceptance includes operational, contractual and regulatory forms as well as UAT; it need not wait for a final project phase.
@@ -67,17 +63,7 @@ This is an original planning matrix, not a mandatory release recipe. Scope depen
 - **Positive versus negative:** valid scenarios extend beyond one happy path. Negative testing examines appropriate handling of invalid inputs or exceptional conditions; an error message may be the correct outcome.
 - **Types versus techniques:** boundary value analysis and equivalence partitioning derive tests; they are not interchangeable with levels or quality attributes.
 
-## QA4Life source review
-
-The article organizes testing by levels, purpose, scenarios and quality concerns, then proposes change-based selection with loyalty, email and payment examples. Its practical value is prompting risk questions. Its numeric loads, response-time targets and anecdotal incident are source examples, not independently verified benchmarks or universal requirements.
-
-Additional corrections: object-access denial need not always return 403; assert the documented access rule and absence of data leakage. UI appearance and usability are different concerns. Accessibility is broader than one contrast number. For normal-size text, WCAG's cited technique addresses a minimum contrast of 4.5:1; assess other text sizes and components against their applicable criteria, not that number alone. See [W3C contrast technique G18](https://www.w3.org/WAI/WCAG22/Techniques/general/G18.html).
-
-Coverage: all seven text sections read on 2026-09-12. No application scenarios executed or source incident independently reproduced.
-
-- [QA4Life / Евгений Гусинец — Testing types cheat sheet](https://telegra.ph/Vidy-i-tipy-testirovaniya--shpargalka-QA-07-03-2)
-
-## Related topics and earlier sources
+## Sources
 
 - [Software quality and measurable criteria](software-quality-criteria.md)
 

@@ -11,10 +11,6 @@ reviewed: 2026-09-05
 
 # Risk-Based Test Planning
 
-## TL;DR
-
-A useful plan connects product risks to coverage, people, environments, evidence, and a release decision. Keep it proportional to the change.
-
 ## Workflow
 
 ```mermaid
@@ -48,11 +44,11 @@ For a saved-payment-method release, prioritize wrong-account access and incorrec
 
 QA coordinates test evidence; developers own implementation fixes; platform teams support relevant infrastructure; product and engineering decision-makers agree business priorities and release risk. Adapt ownership explicitly to the team.
 
-## Limitations and source review
+## Practical guidance
 
 The source mixes entry/exit criteria with suspension criteria; keep them separate. Rate limiting alone does not establish denial-of-service resilience, and hiding data is not equivalent to encryption. High-load experiments need agreed scope and stop conditions. Review the plan with relevant decision-makers rather than assuming every stakeholder must approve every update.
 
-## Related topics and sources
+## Sources
 
 - [Test plan template](../../playbooks/templates/test-plan.md)
 - [Testing concepts](../fundamentals/testing-concepts.md)

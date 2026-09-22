@@ -11,16 +11,6 @@ reviewed: 2026-09-12
 
 # API Foundations and HTTP Pitfalls
 
-## Summary
-
-Understand the contract, then test its observable behavior. Client/server roles explain who requests a service; HTTP defines exchange semantics; the application contract determines valid data and business outcomes.
-
-This companion to [REST API Request Basics](rest-api-request-basics.md) adds architecture and a critical review of two QA4Life articles. The existing note remains the reference for methods, headers, status codes and JSON syntax.
-
-## Source coverage
-
-Both supplied article bodies were read, including interview questions and inline examples. Part 1 introduces client/server architecture, storage, DNS, HTTP/HTTPS/FTP and API contracts. Part 2 covers requests and responses, CRUD, methods, JSON/XML and status codes; its internal numbering also includes a “Part 3” section, which was read as part of that page. Embedded images and other parts of the series were not reviewed. Examples were not sent to a live service.
-
 ## Architecture in one view
 
 ```mermaid
@@ -42,16 +32,14 @@ flowchart TD
 | DNS | Resolves names; do not assume one domain corresponds to one server or one IP |
 | HTTPS | Protects the connection with TLS; does not prove application correctness |
 
-## HTTP corrections to remember
+## Practical guidance
 
-| Simplification in the source | More useful testing rule |
-| --- | --- |
-| POST cannot be cached | POST responses can be cacheable under defined conditions; check actual cache policy |
-| POST bodies have virtually no limit | Servers, gateways and applications can impose body-size limits |
-| PUT clears an omitted field to null | Replacement semantics do not prescribe that exact field outcome; use the contract |
-| 403 proves authentication succeeded | It means refusal; authentication is not a universal prerequisite |
-| 500 proves the request was valid | It describes unexpected server failure, not validated input |
-| Every HTTP version uses a text start line | That presentation is HTTP/1.x; HTTP/2 uses frames and pseudo-headers |
+- POST responses can be cacheable under defined conditions; check actual cache policy
+- Servers, gateways and applications can impose body-size limits
+- Replacement semantics do not prescribe that exact field outcome; use the contract
+- It means refusal; authentication is not a universal prerequisite
+- It describes unexpected server failure, not validated input
+- That presentation is HTTP/1.x; HTTP/2 uses frames and pseudo-headers
 
 These corrections follow [HTTP semantics](https://www.rfc-editor.org/rfc/rfc9110.html#section-9) and [HTTP/2](https://www.rfc-editor.org/rfc/rfc9113.html#section-8.3). HTTP methods are not direct database commands. A POST can include query parameters too.
 
@@ -76,7 +64,7 @@ For a fictional contact API, first specify supported media types, field requirem
 
 Do not infer the responsible component solely from a status code. Capture the failure and investigate whether it originated in the application, gateway or another dependency.
 
-## Sources and related knowledge
+## Sources
 
 - [Continue with parts 3–5: tools, security and automation](../../tools/developer-tools/api-testing-toolkit.md)
 

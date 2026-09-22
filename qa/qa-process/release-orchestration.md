@@ -11,13 +11,13 @@ reviewed: 2026-09-07
 
 # Automating Release Coordination
 
-## Source summary
+## Release automation model
 
-Ozon Seller automated work surrounding mobile release checks: preparing TMS runs and notifications, splitting automated tests by team, rerunning failures, and collecting performance telemetry. Regression preparation starts with the release branch; production smoke remains manually triggered after regression. The release owner still evaluates results and handles exceptions.
+Release coordination can automate TMS run preparation, notifications, test ownership, failed-test reruns and performance telemetry. Regression may start from a release branch, while a production smoke run and exception handling can remain explicit human decisions.
 
-The author reports a reduction from up to seven hours to four. This is a team case study, not a controlled benchmark or a guaranteed saving. Seven to four is approximately 43% less elapsed time. Zero preparation minutes means removed manual effort, not zero pipeline runtime.
+Measure queue time, execution time and human effort separately. A reduction from seven to four hours is about 43%; zero preparation minutes means removed manual effort, not zero pipeline duration.
 
-## Review findings
+## Practical principles
 
 The simplified code selects only `Regress`, while the prose also describes `Regress_once`. Treat the snippet as incomplete. The fixed 15-minute telemetry delay and occasional manual collection show that automation still needs completeness checks. Code was read, not executed; embedded screenshots were not independently inspected.
 
@@ -33,7 +33,7 @@ The simplified code selects only `Regress`, while the prose also describes `Regr
 
 Automate one bottleneck first. Compare elapsed time, human effort and escaped defects over several releases before widening the change.
 
-## Source and related knowledge
+## Sources
 
 - [Bogdan Burkov — Ozon Tech release process case study](https://habr.com/ru/companies/ozontech/articles/1059114/)
 - [Risk-based test planning](test-planning.md)

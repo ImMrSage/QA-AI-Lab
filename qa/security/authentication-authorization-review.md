@@ -14,12 +14,6 @@ reviewed: 2026-09-22
 
 # Authentication and Authorization: Testing Access Without Confusion
 
-## TL;DR
-
-**Authentication (AuthN)** establishes or verifies a subject's identity. **Authorization (AuthZ)** decides whether that subject may perform an action on a particular resource. A successful login does not prove access control is correct: role, resource owner, tenant, scope, object state and server-side enforcement on every request all matter.
-
-Evgeniy Gusinets' Russian article dated January 22, 2026 was read in full. It covers AuthN/AuthZ, stateful sessions, stateless tokens, the token lifecycle and API keys. Its beginner model is useful, but its rules for HTTP statuses, state and key security are too absolute.
-
 ## Test model
 
 ```mermaid
@@ -89,7 +83,7 @@ An API key commonly identifies an application or project rather than a person, a
 - [ ] Missing, unknown, revoked and under-scoped keys differ only as much as the contract permits.
 - [ ] Rate limits and quotas resist route, casing and concurrency bypasses.
 
-## Sources and connections
+## Sources
 
 - [Evgeniy Gusinets, “Аутентификация и Авторизация: не путаем понятия”](https://telegra.ph/Autentifikaciya-i-Avtorizaciya-ne-putaem-ponyatiya-01-22), Russian, published 2026-01-22 and read 2026-09-22.
 - [RFC 9110: HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html), sections 15.5.2–15.5.4.

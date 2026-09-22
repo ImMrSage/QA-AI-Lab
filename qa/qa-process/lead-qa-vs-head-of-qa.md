@@ -18,8 +18,6 @@ reviewed: 2026-09-16
 
 A Lead QA typically organizes testing within a team or product, while a Head of QA develops the QA function across a broader scope. This is a useful scope model, not a universal job hierarchy. Check actual authority, team count, budget and expected outcomes.
 
-Review of seven Russian images titled “Шпаргалка для QA-специалиста — Lead QA vs Head of QA”. All seven were read; the author and original URL are unknown. The “2024–2025” label does not establish a publication date, and the ISTQB badge does not establish provenance or endorsement. This is an independent analysis originally authored in Russian; English reference sources were used to verify individual concepts.
-
 ## Comparison across nine dimensions
 
 | Dimension | Lead QA: typical focus | Head of QA: typical focus |
@@ -97,7 +95,7 @@ The images show Engineer → Senior → Lead → Manager → Head/VP with 0–2,
 
 The “under 50 / 50–300 / 300+ employees” scheme is not a standard either. A small company may combine roles; a large one may distribute QA across product teams without a dedicated Head. “Startups have no QA Manager” and “enterprises always have separate roles” cannot be used as rules. Look at product count, risks, regulation, maturity and team structure.
 
-## Corrections to the source
+## Practical guidance
 
 - Strategy versus tactics remains a scope guide, not a prohibition on leads creating strategy.
 - “Full budget responsibility” is replaced with checking actual authority and approval arrangements.
@@ -115,7 +113,7 @@ The “under 50 / 50–300 / 300+ employees” scheme is not a standard either. 
 - [ ] Who decides on release and accepts residual business risk?
 - [ ] Which technical and management skills are needed for the next step?
 
-## Related material and sources
+## Sources
 
 - [Test planning](test-planning.md).
 - [Release coordination](release-orchestration.md).

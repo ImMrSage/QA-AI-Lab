@@ -11,10 +11,6 @@ reviewed: 2026-09-05
 
 # Web UI Testing
 
-## TL;DR
-
-Test each component's behavior, state, keyboard interaction, and mobile presentation. Reuse the form checklist for detailed data validation.
-
 ## Component matrix
 
 | Component | Checks |
@@ -46,11 +42,11 @@ For modal keyboard behavior, check focus entry, containment while open, and retu
 - [ ] For supported locales, check translated text, dates, numbers, and currencies.
 - [ ] Measure loading against agreed budgets and representative network conditions.
 
-## Limitations and corrections
+## Practical guidance
 
 Hidden pagination, preserved page state, outside-click modal dismissal, and post-submit form clearing are design choices, not universal requirements. Radio groups normally select one option; they do not necessarily permit deselecting it directly. This checklist is not a WCAG conformance audit.
 
-## Related topics and sources
+## Sources
 
 - [Form testing](form-testing.md)
 - [Test planning](../../qa/qa-process/test-planning.md)

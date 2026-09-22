@@ -12,10 +12,6 @@ reviewed: 2026-09-05
 
 # REST API Request Basics
 
-## TL;DR
-
-Read an API exchange as a request plus a response. Test the documented behavior, returned data, permissions, and side effects together. A successful status alone does not prove correctness.
-
 ## What it is
 
 An introductory HTTP reference for QA, processed from three user-supplied Russian cheat-sheet images. The concepts apply to HTTP APIs generally; using HTTP and JSON alone does not establish that an API follows REST architectural constraints.
@@ -130,12 +126,6 @@ These are proposed QA checks, not claims about a real service. See the [companio
 ## Limitations
 
 This is an entry-level reference, not a complete HTTP or REST guide. Authentication, caching, cookies, pagination, and concurrency deserve separate notes. No example request was sent to a live API.
-
-## Source review
-
-The supplied images credit **The Thinking Tester, 2018**, and a Russian translation by **software-testing.ru**. Their exact original article URL and reuse license were not supplied. Attribution is transcribed from the images, not independently verified. The images were used as intake material; this note is an English synthesis with original examples, rather than a reproduction of their layout.
-
-Corrections: database-centric method definitions were replaced; query examples are explicitly contract-dependent; 401 and 403 are distinguished; JSON examples use valid quotes and complete objects; array values are not restricted to objects. Less essential legacy headers were omitted from this introductory reference.
 
 ## Related topics
 

@@ -11,12 +11,6 @@ reviewed: 2026-09-07
 
 # Machine Learning Foundations for QA
 
-## Summary
-
-Use ML vocabulary to question evaluation results, not just to recognize algorithm names. A model can achieve high accuracy while missing the failures that matter. Evaluate the data split, decision threshold, error types and real task outcome together.
-
-This is a QA-focused synthesis of four chapters of the [ML Glossary](https://ml-cheatsheet.readthedocs.io/en/latest/), not a review of its entire website. See the [review scope and corrections](../../docs/sources/ml-cheatsheet-review.md).
-
 ## Concepts to recognize
 
 | Concept | Meaning | QA question |
@@ -77,7 +71,7 @@ The [logistic regression chapter](https://ml-cheatsheet.readthedocs.io/en/latest
 
 Prioritize confusion matrices, baselines, thresholds, independent evaluation data and leakage prevention. Optimizer derivations and neural-network architecture details can wait until a project requires them. For LLM agents, these foundations complement tests of tools, access, evidence and task completion; they do not replace them.
 
-## Related knowledge
+## Sources
 
 - [Agent evaluation lifecycle](agent-evaluation-lifecycle.md)
 - [Evidence-led AI test triage](../ai-for-testing/evidence-led-test-triage.md)

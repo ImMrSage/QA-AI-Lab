@@ -39,7 +39,7 @@ Check the exact status, headers, data and side effects against the API contract.
 | Rate limiting | 429 | Limit scope, recovery and bounded retries |
 | Infrastructure failure | 500 / 502 / 503 / 504 | 502 means invalid upstream response, 504 means upstream timeout; check client handling |
 
-## Corrections to the source
+## Practical guidance
 The article covers codes, positive and negative checks, boundaries, rate limiting, headers and common mistakes. The infographic helps memorize classes, but its 3xx caption overgeneralizes behavior: 304 does not require an ordinary redirect.
 
 Do not impose universal expectations such as “empty body → 400” or “negative number → 422”: establish allowed values and the contract first. 201 is not limited to POST; Location is not unconditionally required. RFC 9110 names 422 Unprocessable Content. HEAD has no body; some dynamically calculated headers may differ from GET. OPTIONS describes capabilities rather than guaranteeing a universal method list.
@@ -49,7 +49,7 @@ Retry-After on 429 is optional and does not promise an exact limit reset. X-Rate
 ## Worked example
 For order creation, record the expected code from OpenAPI, body schema and allowed side effects. Repeat without access, with the wrong format and with a conflicting identifier. After rejection, verify that no order appeared. For a background 202 response, observe the final task state separately. Retry after timeout only with idempotency in mind: otherwise duplicate creation is possible.
 
-## Sources and connections
+## Sources
 Fully read the Russian article [«HTTP-статусы для тестировщика»](https://telegra.ph/HTTP-statusy-dlya-testirovshchika-06-29), QA❤️4Life, Евгений Гусинец. Its publication year is not established from the URL. The supplied Russian infographic was also fully reviewed; author and license are unspecified, and its “2024” label does not establish publication date. This is an original analysis, not a copy of the sources. Books in the article bibliography were not separately read.
 
 English verification documentation: [HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html), [429 and additional statuses](https://www.rfc-editor.org/rfc/rfc6585.html).

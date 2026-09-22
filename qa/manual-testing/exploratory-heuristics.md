@@ -11,10 +11,6 @@ reviewed: 2026-09-05
 
 # Exploratory Testing Heuristics
 
-## TL;DR
-
-Heuristics generate questions. They are neither expected results nor proof of complete coverage. Pick a few that match the feature's risks and use requirements or other evidence to judge behavior.
-
 ## Exploration matrix
 
 | Lens | Variation | Example investigation |
@@ -34,11 +30,11 @@ Heuristics generate questions. They are neither expected results nor proof of co
 
 Explore saved filters for 20 minutes using selection, quantity, and concurrency. Record the setup, questions tried, observations, defects, and untested risks. The timebox and scenario are original examples, not source requirements.
 
-## Limitations and source review
+## Practical guidance
 
 The PDF associates selection with permissions; the lens is broader and also applies to selections and subsets. Maximum-load checks need an agreed environment and limits. A heuristic is not an instruction to exhaust resources on a production system.
 
-## Related topics and sources
+## Sources
 
 - [Testing concepts](../fundamentals/testing-concepts.md)
 - [Form testing](../../playbooks/checklists/form-testing.md)

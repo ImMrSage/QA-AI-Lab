@@ -3,7 +3,7 @@ id: qa-onboarding-checklist-review
 language: en
 source_language: ru
 authored_language: ru
-title: QA Onboarding: Reviewed First-Days Checklist
+title: QA Onboarding Checklist
 summary: Team, process, access, requirements, releases, infrastructure and evidence that a new QA is ready
 topic: qa-process
 tags: [onboarding, qa-process, access, release, metrics]
@@ -12,13 +12,7 @@ learning_depth: MUST KNOW
 reviewed: 2026-09-22
 ---
 
-# QA Onboarding: Reviewed First-Days Checklist
-
-## TL;DR
-
-The single-page infographic offers 17 questions for joining a QA project: team and workflow, documentation and environments, communication and delivery, infrastructure, test artifacts, licensing and metrics. It is a useful conversation map, but “complete onboarding in 48 hours” should be treated as a goal for initial access and orientation, rather than a guarantee of full readiness.
-
-The PDF was reviewed visually in full. It is one horizontal Russian page authored by Evgeniy Gusinets and branded with the QA4Life Telegram channel. It gives no publication date, source URL or license. The supplied written description matches the page structure; item 12 on the page also mentions hotfix and rollback, beyond the five illustrated stages.
+# QA Onboarding Checklist
 
 ## Onboarding outcome
 
@@ -33,7 +27,7 @@ flowchart LR
 
 Onboarding is complete when QA can independently take a change, find its requirement, prepare data, test it in an authorized environment, report a defect, explain risk and participate in a release decision.
 
-## Reviewed checklist
+## Onboarding checklist
 
 ### 1. People and process
 
@@ -68,19 +62,17 @@ Onboarding is complete when QA can independently take a change, find its require
 - [ ] Record exact SPDX identifiers and component versions; engineering/legal/OSPO decide compatibility and QA verifies the agreed control.
 - [ ] Every metric has a definition, source, owner, period and intended decision; no single number evaluates quality or a person.
 
-## Corrections to the 17 points
+## Practical principles
 
-| On the sheet | Practical clarification |
-| --- | --- |
-| “Check everything in the first 48 hours” | Two days can establish a project map and critical access; domain learning and independent delivery need evidence-based milestones |
-| IPs, VPN, servers and logins | Request minimum roles through an approved channel; direct Production access is not a default QA requirement |
-| Dev → Stage → UAT → Production | Names and counts vary; purpose, configuration, data and promotion path matter more |
-| API/UI/mobile/backend as hard boundaries | Component owners help, but critical journeys require joint checks across boundaries |
-| Freeze → Testing → Demo → Deploy → Monitoring | This is one possible flow. Continuous delivery, feature flags and progressive delivery may have no global freeze or pre-release demo |
-| MIT/GPL/Apache | A family name is insufficient: exact version, exceptions, distribution and policy matter; SPDX identifies licenses but provides no legal interpretation |
-| Bug density 2.3 bugs/KLOC is “positive” | Without defect definition, language, discovery phase and context, it cannot be interpreted; a decrease may also mean poorer detection |
-| Test coverage 67% is “normal” | Coverage type and risk are missing. High coverage does not prove assertion quality or scenario value |
-| Velocity 45 is “growth” | Velocity supports team planning; it is not productivity and should not be compared across teams |
+- Two days can establish a project map and critical access; domain learning and independent delivery need evidence-based milestones
+- Request minimum roles through an approved channel; direct Production access is not a default QA requirement
+- Names and counts vary; purpose, configuration, data and promotion path matter more
+- Component owners help, but critical journeys require joint checks across boundaries
+- This is one possible flow. Continuous delivery, feature flags and progressive delivery may have no global freeze or pre-release demo
+- A family name is insufficient: exact version, exceptions, distribution and policy matter; SPDX identifies licenses but provides no legal interpretation
+- Without defect definition, language, discovery phase and context, it cannot be interpreted; a decrease may also mean poorer detection
+- Coverage type and risk are missing. High coverage does not prove assertion quality or scenario value
+- Velocity supports team planning; it is not productivity and should not be compared across teams
 
 ## Readiness evidence
 
@@ -92,7 +84,7 @@ Onboarding is complete when QA can independently take a change, find its require
 | Release | QA can explain release criteria, rollback, monitoring signals and residual risk |
 | Feedback | Onboarding gaps are sent to owners and converted into documentation or access tasks |
 
-## Sources and connections
+## Sources
 
 - “QA ONBOARDING CHECKLIST: What to learn when joining a project,” one-page Russian PDF by Evgeniy Gusinets, received 2026-09-22.
 - [SPDX handling license information](https://spdx.dev/learn/handling-license-info/) and [SPDX overview](https://spdx.dev/about/overview/).

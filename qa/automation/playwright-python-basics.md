@@ -49,12 +49,12 @@ def test_save(page: Page):
     expect(page.get_by_role('button', name='Saved', exact=True)).to_be_visible()
 ```
 
-## Corrections and understanding check
+## Practical guidance
 In with sync_playwright() as p, p is a Playwright object, not the context manager; p.chromium is BrowserType. The page/context fixtures help manage lifecycle but do not clean your external database. A fixed time.sleep pause does not replace an outcome wait. The test_*.py filename pattern is a configurable pytest discovery convention, not the only possible filename.
 
 Check your understanding: what outcome proves saving, what happens with two identical buttons, and can the test run concurrently with shared data? Answer all three before publishing a test.
 
-## Sources and connections
+## Sources
 The Russian lesson was fully read, including code, comparison, AI workflows and interview questions. Whole-page authorship and publication date are not explicitly established; Евгений and Кирилл are mentioned in the text. English official documentation was used for verification. The source's shop examples were not executed; the original teaching example above was checked for syntax only.
 
 - [«Урок 13: Playwright — основы и сравнение с Selenium»](https://qa4life.yonote.ru/share/bd0f6673-7770-4ce7-8daf-89fb837e8ee2)

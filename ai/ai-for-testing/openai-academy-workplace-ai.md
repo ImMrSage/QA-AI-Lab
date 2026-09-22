@@ -12,22 +12,6 @@ reviewed: 2026-09-05
 
 # OpenAI Academy - Workplace AI Learning for QA
 
-## TL;DR
-
-A learning resource to evaluate for practical AI adoption in a QA team. This is a course announcement, not a technical testing tutorial or evidence that the courses improve QA outcomes.
-
-## What the source says
-
-OpenAI announced three Academy courses on June 12, 2026:
-
-| Course | Announced focus |
-| --- | --- |
-| AI Foundations | Prompting, context, output review and responsible use for everyday tasks |
-| Applied AI Foundations | Repeatable workflow plans with inputs, models, tools, checkpoints and human review; quality, speed and cost tradeoffs |
-| Agents and Workflows | Directing agent-assisted tasks with context, outputs, boundaries and review |
-
-The announcement describes completion certificates and organizational learning uses. It does not establish course duration, pricing, prerequisites, language availability, or this user's enrollment eligibility. Those details remain unverified. No course was taken or independently evaluated for this note. [Original announcement](https://openai.com/index/academy-courses-applying-ai-at-work/)
-
 ## Why QA should care
 
 **Our assessment:** medium-to-high relevance for AI-assisted QA and QA management; limited direct relevance to testing LLM systems. The practical opportunity is to turn an occasional useful AI interaction into a reviewable procedure.
@@ -67,7 +51,7 @@ Start with one small task using synthetic or approved input. Compare the result 
 
 SHOULD KNOW for a QA Manager exploring team AI adoption. Choose an exercise first, then evaluate whether the course supports it. A full course commitment is not yet recommended because syllabus depth and access conditions have not been verified.
 
-## Related knowledge
+## Practical guidance
 
 - [API request review](../../playbooks/checklists/api-request-review.md)
 - [Risk-based test planning](../../qa/qa-process/test-planning.md)
