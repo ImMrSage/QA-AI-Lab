@@ -14,27 +14,6 @@ reviewed: 2026-09-22
 
 # Agile, DevOps and TDD: A Reviewed Quality Strategy
 
-## TL;DR
-
-Both editions were read in full and contain 15 pages. Ver2 is the later, substantially redesigned edition of the same material and is the current source; Ver1 is historical evidence. The sequence runs from XP and DevOps through CI/CD, TDD, BDD, ATDD, Agile Testing Quadrants, process selection and the QA role.
-
-The useful core is shared quality ownership and fast feedback. Figures such as `60/30/10`, `80% automation`, `>90% coverage`, `5–10 integrations per day`, `95% successful builds`, and rework percentages are not universal standards.
-
-## Map of all Ver2 pages
-
-| Pages | Subject | Practical reading |
-| --- | --- | --- |
-| 1 | Agile, XP, DevOps, TDD, BDD and ATDD | Related ideas at different levels, not a complexity ladder |
-| 2–3 | XP values, practices and feedback loops | Select practices for the team's problem, not its industry |
-| 4–6 | DevOps, CI, Continuous Delivery and Deployment | Build a short observable path from change to production |
-| 7 | TDD | Red–Green–Refactor shapes behavior in small steps; it guarantees no coverage percentage |
-| 8 | BDD and test pyramid | BDD is collaborative behavior discovery, not a test layer |
-| 9 | ATDD | Agree examples before implementation; measure the effect rather than promise zero rework |
-| 10 | Agile Testing Quadrants | A map of testing purposes, not a strict manual/automation split |
-| 11–12 | Process hybrids and selection | Consider constraints and feedback, not only schedule and requirements stability |
-| 13–14 | QA role and advice | QA is a quality partner; automation ratios depend on risk |
-| 15 | Career and learning plan | Useful topic map; timing is individual |
-
 ## How the practices relate
 
 ```mermaid
@@ -73,22 +52,9 @@ Scrum is a lightweight framework for complex work and intentionally leaves engin
 5. Track change lead time, failure causes, recovery time, escaped defects and flaky rate. Use coverage to locate untested code, not as a quality score.
 6. Revise checks using production evidence, architecture changes and maintenance cost.
 
-## Boundary of the supplied description
-
-The accompanying text promises a Selenium/Playwright/Cypress comparison including “Playwright is 30–40% faster,” plus dedicated QA Metrics and Test Data Management/GDPR sections. Neither 15-page PDF contains them. They are not attributed to the source, and the benchmark requires a reproducible workload, versions, environment and results.
-
-## Verified references
-
-- [Agile Manifesto principles](https://agilemanifesto.org/principles)
-- [Official Scrum Guide 2020](https://scrumguides.org/scrum-guide.html)
-- [Martin Fowler: Continuous Integration](https://martinfowler.com/articles/continuousIntegration.html)
-- [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)
-- [Cucumber: BDD discovery workshop](https://cucumber.io/docs/bdd/discovery-workshop/)
-
 ## Review checkpoint
 
 - Explain CI, Continuous Delivery and Continuous Deployment without naming a tool.
 - Choose test levels by speed, defect localization and risk instead of copying a fixed ratio.
 - Show which uncertainty TDD, BDD and ATDD reduce and who joins each feedback loop.
 - Give every numeric target an owner, measurement window, baseline and response.
-
