@@ -30,3 +30,4 @@ window.cardTranslations['qa-meeting-transcription-toolkit'] = ['Транскри
 window.cardTranslations['agile-devops-tdd-quality-strategies'] = ['Agile, DevOps и TDD: стратегия качества','XP, CI/CD, пирамида тестов, TDD, BDD и ATDD как единая практическая стратегия качества.'];
 window.cardTranslations['software-development-methodologies'] = ['Модели разработки ПО и организация поставки','Waterfall, V-Model, Spiral, инкрементальная поставка, Scrum и Kanban: выбор по ограничениям и свидетельствам.'];
 window.cardTranslations['ai-assisted-qa-documentation'] = ['QA-документация с помощью AI','Превращайте разрозненные знания проекта в прослеживаемые черновики, проверяйте значимые утверждения и назначайте владельца документа.'];
+window.cardTranslations['delphitools-file-utilities'] = ['delphitools: инструменты для файлов и медиа','Локальные браузерные инструменты для изображений, цветов, документов, PDF и повседневных задач QA.'];
