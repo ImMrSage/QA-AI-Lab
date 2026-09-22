@@ -28,3 +28,4 @@ window.cardTranslations['playwright-python-basics'] = ['Playwright на Python: 
 window.cardTranslations['testing-foundations-blocks-1-3-review'] = ['Основы тестирования: блоки 1–3','Понятия, терминология, качество, требования, ревью и практические проверки.'];
 window.cardTranslations['qa-meeting-transcription-toolkit'] = ['Транскрипция встреч для QA','Выбор из шести инструментов, защита данных встречи и проверка AI-саммари.'];
 window.cardTranslations['agile-devops-tdd-quality-strategies'] = ['Agile, DevOps и TDD: стратегия качества','XP, CI/CD, пирамида тестов, TDD, BDD и ATDD как единая практическая стратегия качества.'];
+window.cardTranslations['software-development-methodologies'] = ['Модели разработки ПО и организация поставки','Waterfall, V-Model, Spiral, инкрементальная поставка, Scrum и Kanban: выбор по ограничениям и свидетельствам.'];

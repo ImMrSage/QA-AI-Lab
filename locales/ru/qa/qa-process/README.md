@@ -7,6 +7,7 @@
 - [Автоматизация координации релизов](release-orchestration.md)
 - [Подготовка и выпуск релиза: проверенный playbook](release-readiness-playbook.md)
 - [Планирование тестирования по рискам](test-planning.md)
+- [Модели разработки ПО и организация поставки](software-development-methodologies.md)
 - [Шаблон тест-плана](../../playbooks/templates/test-plan.md)
 
 [Каталог знаний](../../INDEX.md)
