@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Manual and Automated Testing: One Quality Loop',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'Select automation by risk, classify every failure and connect manual evidence to release readiness.',file:'../../qa/qa-process/manual-automation-quality-loop.md'},
   {title:'AIToolTree: AI Tool Discovery',topic:'tools',label:'AI TOOLS',depth:'SHOULD KNOW',summary:'Find AI-tool candidates, then verify ownership, privacy, pricing, limits and evidence independently.',file:'../../tools/productivity/aitooltree-discovery-guide.md'},
   {title:'Handy: Local Speech-to-Text',topic:'tools',label:'AI PRODUCTIVITY',depth:'SHOULD KNOW',summary:'Dictate QA notes and AI prompts into any text field with local models and optional post-processing.',file:'../../tools/productivity/handy-local-speech-to-text.md'},
   {title:'delphitools: Local File and Media Utilities',topic:'tools',label:'PRODUCTIVITY',depth:'SHOULD KNOW',summary:'Privacy-focused browser tools for images, colour, documents, PDFs and common QA or developer tasks.',file:'../../tools/productivity/delphitools-file-utilities.md'},

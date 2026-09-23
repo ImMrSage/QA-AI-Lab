@@ -8,6 +8,7 @@
 - [Release Preparation and Delivery: Reviewed Playbook](release-readiness-playbook.md)
 - [Risk-Based Test Planning](test-planning.md)
 - [Software Development Models and Delivery Frameworks](software-development-methodologies.md)
+- [One Quality Loop for Manual and Automated Testing](manual-automation-quality-loop.md)
 - [Test Plan Template](../../playbooks/templates/test-plan.md)
 
 [Knowledge index](../../INDEX.md)

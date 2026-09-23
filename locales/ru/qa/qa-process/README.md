@@ -8,6 +8,7 @@
 - [Подготовка и выпуск релиза: проверенный playbook](release-readiness-playbook.md)
 - [Планирование тестирования по рискам](test-planning.md)
 - [Модели разработки ПО и организация поставки](software-development-methodologies.md)
+- [Единый контур ручного и автоматизированного тестирования](manual-automation-quality-loop.md)
 - [Шаблон тест-плана](../../playbooks/templates/test-plan.md)
 
 [Каталог знаний](../../INDEX.md)

@@ -33,3 +33,4 @@ window.cardTranslations['ai-assisted-qa-documentation'] = ['QA-документ�
 window.cardTranslations['delphitools-file-utilities'] = ['delphitools: инструменты для файлов и медиа','Локальные браузерные инструменты для изображений, цветов, документов, PDF и повседневных задач QA.'];
 window.cardTranslations['handy-local-speech-to-text'] = ['Handy: локальный голосовой ввод','Диктуйте QA-заметки и AI-промпты в любое текстовое поле с локальными моделями и необязательной постобработкой.'];
 window.cardTranslations['aitooltree-discovery-guide'] = ['AIToolTree: поиск AI-инструментов','Находите кандидатов, а владельца, приватность, цену, лимиты и доказательства проверяйте независимо.'];
+window.cardTranslations['manual-automation-quality-loop'] = ['Ручное и автоматизированное тестирование: единый контур','Выбирайте автоматизацию по риску, классифицируйте каждое падение и связывайте ручные свидетельства с готовностью релиза.'];
