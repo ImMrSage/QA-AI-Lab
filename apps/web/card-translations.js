@@ -35,3 +35,4 @@ window.cardTranslations['handy-local-speech-to-text'] = ['Handy: локальн�
 window.cardTranslations['aitooltree-discovery-guide'] = ['AIToolTree: поиск AI-инструментов','Находите кандидатов, а владельца, приватность, цену, лимиты и доказательства проверяйте независимо.'];
 window.cardTranslations['manual-automation-quality-loop'] = ['Ручное и автоматизированное тестирование: единый контур','Выбирайте автоматизацию по риску, классифицируйте каждое падение и связывайте ручные свидетельства с готовностью релиза.'];
 window.cardTranslations['evidence-engineered-qa-agent'] = ['QA-агент с контуром доказательств','Стройте модель приёмки, запускайте детерминированные проверки и разделяйте свидетельства, неопределённость и решения человека.'];
+window.cardTranslations['bundlephobia-npm-cost-check'] = ['Bundlephobia: стоимость npm-зависимости','Оцените размер пакета до внедрения, затем измерьте реальную production-сборку и runtime-влияние.'];

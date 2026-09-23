@@ -1,4 +1,5 @@
 const notes = [
+  {title:'Bundlephobia: npm Dependency Cost',topic:'tools',label:'DEVELOPER TOOLS',depth:'SHOULD KNOW',summary:'Estimate package size before adoption, then measure the actual production bundle and runtime impact.',file:'../../tools/developer-tools/bundlephobia-npm-cost-check.md'},
   {title:'Evidence-Engineered QA Agents',topic:'ai',label:'AI AGENTS',depth:'MUST KNOW',summary:'Build acceptance models, execute deterministic checks and separate evidence, uncertainty and human decisions.',file:'../../ai/agents/evidence-engineered-qa-agent.md'},
   {title:'Manual and Automated Testing: One Quality Loop',topic:'qa',label:'QA PROCESS',depth:'MUST KNOW',summary:'Select automation by risk, classify every failure and connect manual evidence to release readiness.',file:'../../qa/qa-process/manual-automation-quality-loop.md'},
   {title:'AIToolTree: AI Tool Discovery',topic:'tools',label:'AI TOOLS',depth:'SHOULD KNOW',summary:'Find AI-tool candidates, then verify ownership, privacy, pricing, limits and evidence independently.',file:'../../tools/productivity/aitooltree-discovery-guide.md'},
