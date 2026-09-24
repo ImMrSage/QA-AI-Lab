@@ -785,6 +785,23 @@
       "date": "2026-09-23"
     },
     {
+      "id": "tabiew-terminal-data-explorer",
+      "path": "tools/developer-tools/tabiew-terminal-data-explorer.md",
+      "title": {
+        "en": "Tabiew: Explore Tabular Data in the Terminal",
+        "ru": "Tabiew: просмотр табличных данных в терминале"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/shshemi/tabiew",
+        "https://github.com/shshemi/tabiew/releases"
+      ],
+      "tags": "[csv, json, excel, parquet, sql, terminal, data-tools]",
+      "date": "2026-09-24"
+    },
+    {
       "id": "agent-query-observability",
       "path": "tools/monitoring/agent-query-observability.md",
       "title": {
@@ -1674,6 +1691,20 @@
       "title": "Bundlephobia source repository and FAQ",
       "notes": [
         "bundlephobia-npm-cost-check"
+      ]
+    },
+    {
+      "url": "https://github.com/shshemi/tabiew",
+      "title": "Tabiew",
+      "notes": [
+        "tabiew-terminal-data-explorer"
+      ]
+    },
+    {
+      "url": "https://github.com/shshemi/tabiew/releases",
+      "title": "Tabiew releases",
+      "notes": [
+        "tabiew-terminal-data-explorer"
       ]
     },
     {
