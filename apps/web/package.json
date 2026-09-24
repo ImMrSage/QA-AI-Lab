@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "esbuild reader.js --bundle --format=esm --splitting --minify --outdir=assets --target=es2022"
+    "build": "python ../../scripts/build_web_catalog.py && esbuild reader.js --bundle --format=esm --splitting --minify --outdir=assets --target=es2022"
   },
   "dependencies": {
     "dompurify": "3.4.15",

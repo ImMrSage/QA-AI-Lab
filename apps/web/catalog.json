@@ -1,0 +1,1858 @@
+{
+  "notes": [
+    {
+      "id": "api-foundations-and-http-pitfalls",
+      "path": "qa/api-testing/api-foundations-and-http-pitfalls.md",
+      "title": {
+        "en": "API Foundations and HTTP Pitfalls",
+        "ru": "Основы API и подводные камни HTTP"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html#section-9",
+        "https://www.rfc-editor.org/rfc/rfc9113.html#section-8.3",
+        "https://www.rfc-editor.org/rfc/rfc8446.html#section-1",
+        "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-1-Osnovy-07-07",
+        "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-2-HTTP-i-dannye-07-07"
+      ],
+      "tags": "[api, architecture, http, https, json, xml, interview]",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "consumer-driven-contracts",
+      "path": "qa/api-testing/consumer-driven-contracts.md",
+      "title": {
+        "en": "Consumer-Driven Contracts with Pact",
+        "ru": "Контракты от потребителя с Pact"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058382/",
+        "https://docs.pact.io/pact_broker/can_i_deploy"
+      ],
+      "tags": "[pact, contracts, microservices, ci-cd]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "http-status-codes",
+      "path": "qa/api-testing/http-status-codes.md",
+      "title": {
+        "en": "HTTP Status Codes: Checks and Pitfalls",
+        "ru": "HTTP-статусы: проверки и ловушки"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/HTTP-statusy-dlya-testirovshchika-06-29",
+        "https://www.rfc-editor.org/rfc/rfc9110.html",
+        "https://www.rfc-editor.org/rfc/rfc6585.html"
+      ],
+      "tags": "[http, api-testing, status-codes]",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "rest-api-request-basics",
+      "path": "qa/api-testing/rest-api-request-basics.md",
+      "title": {
+        "en": "REST API Request Basics",
+        "ru": "Основы запросов REST API"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc9110.html#section-9",
+        "https://www.rfc-editor.org/rfc/rfc5789.html",
+        "https://www.rfc-editor.org/rfc/rfc9110.html",
+        "https://www.rfc-editor.org/rfc/rfc9110.html#section-15",
+        "https://www.rfc-editor.org/rfc/rfc8259.html"
+      ],
+      "tags": "[http, rest, json, api-testing, fundamentals]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "agile-devops-tdd-quality-strategies",
+      "path": "qa/automation/agile-devops-tdd-quality-strategies.md",
+      "title": {
+        "en": "Agile, DevOps and TDD: Quality Strategy",
+        "ru": "Agile, DevOps и TDD: стратегия качества"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://agilemanifesto.org/principles",
+        "https://scrumguides.org/scrum-guide.html",
+        "https://martinfowler.com/articles/continuousIntegration.html",
+        "https://martinfowler.com/articles/practical-test-pyramid.html",
+        "https://cucumber.io/docs/bdd/discovery-workshop/"
+      ],
+      "tags": "[agile, devops, ci-cd, tdd, bdd, atdd, xp, testing-pyramid]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "atomic-test-composition",
+      "path": "qa/automation/atomic-test-composition.md",
+      "title": {
+        "en": "Composing UI Test Components",
+        "ru": "Композиция компонентов UI-тестов"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1060244/"
+      ],
+      "tags": "[page-objects, architecture, maintainability]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "domain-test-data-dsl",
+      "path": "qa/automation/domain-test-data-dsl.md",
+      "title": {
+        "en": "Domain Language for Integration Test Data",
+        "ru": "Предметный язык данных интеграционных тестов"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1059908/"
+      ],
+      "tags": "[test-data, groovy, dbunit, maintainability]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "origami-framework-review",
+      "path": "qa/automation/origami-framework-review.md",
+      "title": {
+        "en": "Origami Framework - Initial Evaluation",
+        "ru": "Фреймворк Origami — первичная оценка"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1061356/"
+      ],
+      "tags": "[java, frameworks, integration-testing]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "playwright-python-basics",
+      "path": "qa/automation/playwright-python-basics.md",
+      "title": {
+        "en": "Playwright Python: From Recording to Verification",
+        "ru": "Playwright на Python: от записи к проверке"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://qa4life.yonote.ru/share/bd0f6673-7770-4ce7-8daf-89fb837e8ee2",
+        "https://playwright.dev/python/docs/library",
+        "https://playwright.dev/python/docs/actionability",
+        "https://playwright.dev/python/docs/test-runners",
+        "https://www.selenium.dev/documentation/webdriver/waits/"
+      ],
+      "tags": "[playwright, python, selenium, automation]",
+      "date": "2026-09-14"
+    },
+    {
+      "id": "playwright-review-beyond-lint",
+      "path": "qa/automation/playwright-review-beyond-lint.md",
+      "title": {
+        "en": "Playwright Review Beyond a Green Lint Result",
+        "ru": "Ревью Playwright за пределами успешного линтинга"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058692/"
+      ],
+      "tags": "[playwright, assertions, ci-cd, review]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "property-based-testing",
+      "path": "qa/automation/property-based-testing.md",
+      "title": {
+        "en": "Property-Based Testing with Hypothesis",
+        "ru": "Тестирование на основе свойств с Hypothesis"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058390/"
+      ],
+      "tags": "[python, hypothesis, test-design, stateful-testing]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "python-qa-foundations-lessons-1-2",
+      "path": "qa/automation/python-qa-foundations-lessons-1-2.md",
+      "title": {
+        "en": "Python for QA: Foundations, Lessons 1–2",
+        "ru": "Python для QA: основы, уроки 1–2"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://qa4life.yonote.ru/share/eb4ebed0-58de-45df-b8ce-3d19fa91dd10",
+        "https://qa4life.yonote.ru/share/07652a76-5384-459f-a06a-dea6d5c1a392",
+        "https://docs.python.org/3/tutorial/classes.html",
+        "https://docs.python.org/3/glossary.html",
+        "https://docs.python.org/3/library/venv.html",
+        "https://docs.marimo.io/",
+        "https://code.visualstudio.com/docs/python/environments"
+      ],
+      "tags": "[python, automation, oop, venv, test-architecture]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "software-quality-criteria",
+      "path": "qa/fundamentals/software-quality-criteria.md",
+      "title": {
+        "en": "Software Quality and Measurable Criteria",
+        "ru": "Качество ПО и измеримые критерии"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/Kachestvo-PO-i-kriterii-kachestva-v-testirovanii-07-01-4"
+      ],
+      "tags": "[quality, metrics, iso-25010, requirements, risk]",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "testing-concepts",
+      "path": "qa/fundamentals/testing-concepts.md",
+      "title": {
+        "en": "Testing Concepts",
+        "ru": "Основные понятия тестирования"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "article",
+      "urls": [
+        "https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf"
+      ],
+      "tags": "[fundamentals, testing]",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "testing-foundations-blocks-1-3-review",
+      "path": "qa/fundamentals/testing-foundations-blocks-1-3-review.md",
+      "title": {
+        "en": "Testing Foundations: Blocks 1–3",
+        "ru": "Основы тестирования: блоки 1–3"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "article",
+      "urls": [
+        "https://www.iso.org/standard/78176.html",
+        "https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf"
+      ],
+      "tags": "[fundamentals, terminology, quality, requirements, reviews]",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "exploratory-heuristics",
+      "path": "qa/manual-testing/exploratory-heuristics.md",
+      "title": {
+        "en": "Exploratory Testing Heuristics",
+        "ru": "Эвристики исследовательского тестирования"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "article",
+      "urls": [],
+      "tags": "[manual-testing, testing]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "mobile-testing-guide-review",
+      "path": "qa/mobile-testing/mobile-testing-guide-review.md",
+      "title": {
+        "en": "Mobile Testing Guide",
+        "ru": "Мобильное тестирование: практическое руководство"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://qa4life.yonote.ru/share/410ee537-b9b4-4c37-87f8-6856defec0b1",
+        "https://developer.android.com/guide/topics/manifest/uses-sdk-element",
+        "https://developer.android.com/google/play/requirements/target-sdk",
+        "https://developer.android.com/privacy-and-security/security-config",
+        "https://developer.android.com/privacy-and-security/minimize-permission-requests"
+      ],
+      "tags": "[mobile, ios, android, charles, accessibility, performance, security]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "repeatable-load-testing",
+      "path": "qa/performance/repeatable-load-testing.md",
+      "title": {
+        "en": "Repeatable Load Testing",
+        "ru": "Воспроизводимое нагрузочное тестирование"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1061680/"
+      ],
+      "tags": "[performance, scalability, gatling, test-data]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "ai-change-safety-cats",
+      "path": "qa/qa-process/ai-change-safety-cats.md",
+      "title": {
+        "en": "CATS for AI-Assisted Change Safety",
+        "ru": "CATS для безопасности изменений с помощью AI"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058978/",
+        "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/",
+        "https://platformcon.com/sessions/ai-accelerated-delivery-needs-refactoring-the-cats-guardrails-framework"
+      ],
+      "tags": "[ai, contracts, invariants, observability, refactoring]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "lead-qa-vs-head-of-qa",
+      "path": "qa/qa-process/lead-qa-vs-head-of-qa.md",
+      "title": {
+        "en": "Lead QA and Head of QA — Responsibilities, Metrics and Growth",
+        "ru": "Lead QA и Head of QA — ответственность, метрики и рост"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://istqb.org/certifications/certified-tester-advanced-level-test-management-ctal-tm-v3-0/",
+        "https://asq.org/quality-resources/cost-of-quality",
+        "https://sre.google/sre-book/service-level-objectives/"
+      ],
+      "tags": "[qa-management, leadership, metrics, career]",
+      "date": "2026-09-16"
+    },
+    {
+      "id": "manual-automation-quality-loop",
+      "path": "qa/qa-process/manual-automation-quality-loop.md",
+      "title": {
+        "en": "One Quality Loop for Manual and Automated Testing",
+        "ru": "Единый контур ручного и автоматизированного тестирования"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/infowatch/articles/1063872/"
+      ],
+      "tags": "[manual-testing, automation, regression, triage, release-readiness]",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "qa-hiring-index-july-2026",
+      "path": "qa/qa-process/qa-hiring-index-july-2026.md",
+      "title": {
+        "en": "Reading QA Hiring Indicators Critically",
+        "ru": "Критическое чтение показателей найма QA"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1061482/"
+      ],
+      "tags": "[career, metrics, source-quality]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "qa-onboarding-checklist-review",
+      "path": "qa/qa-process/qa-onboarding-checklist-review.md",
+      "title": {
+        "en": "QA Onboarding Checklist",
+        "ru": "QA Onboarding: чек-лист первых дней"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://spdx.dev/learn/handling-license-info/",
+        "https://spdx.dev/about/overview/",
+        "https://www.atlassian.com/agile/project-management/velocity-scrum",
+        "https://dora.dev/guides/dora-metrics/"
+      ],
+      "tags": "[onboarding, qa-process, access, release, metrics]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "release-orchestration",
+      "path": "qa/qa-process/release-orchestration.md",
+      "title": {
+        "en": "Automating Release Coordination",
+        "ru": "Автоматизация координации релизов"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/ozontech/articles/1059114/"
+      ],
+      "tags": "[release, ci-cd, mobile, metrics]",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "release-readiness-playbook",
+      "path": "qa/qa-process/release-readiness-playbook.md",
+      "title": {
+        "en": "Release Preparation and Delivery Playbook",
+        "ru": "Подготовка и выпуск релиза: playbook"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf",
+        "https://semver.org/",
+        "https://docs.github.com/en/get-started/using-github/github-flow"
+      ],
+      "tags": "[release, regression, uat, git, hotfix, reporting]",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "software-development-methodologies",
+      "path": "qa/qa-process/software-development-methodologies.md",
+      "title": {
+        "en": "Software Development Models and Delivery Frameworks",
+        "ru": "Модели разработки ПО и организация поставки"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://agilemanifesto.org/",
+        "https://agilemanifesto.org/principles",
+        "https://scrumguides.org/scrum-guide.html",
+        "https://kanbanguides.org/",
+        "https://www.scrum.org/resources/kanban-guide-scrum-teams",
+        "https://www.fda.gov/medical-devices/regulatory-accelerator/medical-device-software-guidance-navigator",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices"
+      ],
+      "tags": "[sdlc, waterfall, v-model, spiral, scrum, kanban, qa-process]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "test-planning",
+      "path": "qa/qa-process/test-planning.md",
+      "title": {
+        "en": "Risk-Based Test Planning",
+        "ru": "Планирование тестирования по рискам"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [],
+      "tags": "[qa-process, testing]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "authentication-authorization-review",
+      "path": "qa/security/authentication-authorization-review.md",
+      "title": {
+        "en": "Authentication and Authorization: Testing Access Without Confusion",
+        "ru": "Аутентификация и авторизация: проверки доступа без путаницы"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/Autentifikaciya-i-Avtorizaciya-ne-putaem-ponyatiya-01-22",
+        "https://www.rfc-editor.org/rfc/rfc9110.html",
+        "https://www.rfc-editor.org/rfc/rfc7519.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html"
+      ],
+      "tags": "[authentication, authorization, jwt, sessions, api-key]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "password-reset-state-testing",
+      "path": "qa/security/password-reset-state-testing.md",
+      "title": {
+        "en": "Password Reset as a State Machine",
+        "ru": "Сброс пароля как автомат состояний"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html",
+        "https://habr.com/ru/articles/1058180/"
+      ],
+      "tags": "[authentication, state-transitions, test-design]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "security-observation-vs-vulnerability",
+      "path": "qa/security/security-observation-vs-vulnerability.md",
+      "title": {
+        "en": "Security Observation or Demonstrated Vulnerability?",
+        "ru": "Наблюдение о безопасности или доказанная уязвимость?"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058396/"
+      ],
+      "tags": "[bug-bounty, browser, evidence]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "usability-beyond-complaints",
+      "path": "qa/web-testing/usability-beyond-complaints.md",
+      "title": {
+        "en": "Usability Beyond User Complaints",
+        "ru": "Удобство использования за пределами жалоб"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1060872/"
+      ],
+      "tags": "[ux, research, usability, prioritization]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "evidence-engineered-qa-agent",
+      "path": "ai/agents/evidence-engineered-qa-agent.md",
+      "title": {
+        "en": "Evidence-Engineered QA Agents",
+        "ru": "QA-агент с инженерным контуром доказательств"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1064824/",
+        "https://doi.org/10.6028/NIST.AI.100-1",
+        "https://arxiv.org/abs/2210.03629",
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/1b44b878bb782e6954cd888628510e90-Paper-Conference.pdf"
+      ],
+      "tags": "[ai-agents, qa, evidence, tools, safety, evaluation]",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "mcp-host-tool-loop",
+      "path": "ai/agents/mcp-host-tool-loop.md",
+      "title": {
+        "en": "MCP and the Host Tool Loop",
+        "ru": "MCP и цикл вызова инструментов в хосте"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1027508/",
+        "https://modelcontextprotocol.io/specification/2025-11-25/schema",
+        "https://modelcontextprotocol.io/specification/2025-03-26/client/roots"
+      ],
+      "tags": "[mcp, agents, integration, tools]",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "production-coding-agent-controls",
+      "path": "ai/agents/production-coding-agent-controls.md",
+      "title": {
+        "en": "Quality Controls for Production Coding Agents",
+        "ru": "Контроль качества кодинг-агентов в production"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/"
+      ],
+      "tags": "[coding-agents, evaluations, memory, ci-cd, governance]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "specialized-workflow-evaluation",
+      "path": "ai/agents/specialized-workflow-evaluation.md",
+      "title": {
+        "en": "Evaluating Specialized Agent Workflows",
+        "ru": "Оценка специализированных процессов агентов"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/"
+      ],
+      "tags": "[nemo, amazon-quick, mcp, evaluations, workflows]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "ai-assisted-acceptance-criteria",
+      "path": "ai/ai-for-testing/ai-assisted-acceptance-criteria.md",
+      "title": {
+        "en": "AI-Assisted Acceptance Criteria",
+        "ru": "Критерии приёмки с помощью AI"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/banki/articles/1056464/"
+      ],
+      "tags": "[acceptance-criteria, shift-left, human-review]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "ai-assisted-qa-documentation",
+      "path": "ai/ai-for-testing/ai-assisted-qa-documentation.md",
+      "title": {
+        "en": "AI-Assisted QA Documentation",
+        "ru": "QA-документация с помощью AI"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/cloud_ru/articles/1062556/"
+      ],
+      "tags": "[ai, qa, documentation, rag, knowledge-management]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "evidence-led-test-triage",
+      "path": "ai/ai-for-testing/evidence-led-test-triage.md",
+      "title": {
+        "en": "Evidence-Led AI Test Triage",
+        "ru": "AI-триаж тестов по свидетельствам"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1062316/"
+      ],
+      "tags": "[debugging, allure, ui-testing, agents, cost]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "openai-academy-workplace-ai",
+      "path": "ai/ai-for-testing/openai-academy-workplace-ai.md",
+      "title": {
+        "en": "OpenAI Academy - Workplace AI Learning for QA",
+        "ru": "OpenAI Academy — обучение рабочему применению AI для QA"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://openai.com/index/academy-courses-applying-ai-at-work/",
+        "https://academy.openai.com/"
+      ],
+      "tags": "[learning-resource, ai-adoption, workflows, agents, qa-management]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "agent-evaluation-lifecycle",
+      "path": "ai/llm-testing/agent-evaluation-lifecycle.md",
+      "title": {
+        "en": "Agent Evaluation from Build to Production",
+        "ru": "Оценка агентов от разработки до production"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/"
+      ],
+      "tags": "[agents, evaluations, strands, agentcore, reliability]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "ml-foundations-for-qa",
+      "path": "ai/llm-testing/ml-foundations-for-qa.md",
+      "title": {
+        "en": "Machine Learning Foundations for QA",
+        "ru": "Основы машинного обучения для QA"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://ml-cheatsheet.readthedocs.io/en/latest/glossary.html",
+        "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+        "https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html",
+        "https://ml-cheatsheet.readthedocs.io/en/latest/regularization.html",
+        "https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html"
+      ],
+      "tags": "[machine-learning, metrics, data-leakage, classification, learning-resource]",
+      "date": "2026-09-07"
+    },
+    {
+      "id": "mcp-for-qa",
+      "path": "ai/tools/mcp-for-qa.md",
+      "title": {
+        "en": "MCP Workflows for QA",
+        "ru": "Процессы MCP для QA"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1058170/",
+        "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture"
+      ],
+      "tags": "[mcp, requirements, automation, tool-evaluation]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "permission-aware-analytics",
+      "path": "ai/tools/permission-aware-analytics.md",
+      "title": {
+        "en": "Permission-Aware Conversational Analytics",
+        "ru": "Диалоговая аналитика с учётом прав доступа"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/evolving-from-legacy-bi-to-agentic-ai-at-tradeshift-with-amazon-quick/"
+      ],
+      "tags": "[amazon-quick, analytics, tenancy, data-quality]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "api-testing-toolkit",
+      "path": "tools/developer-tools/api-testing-toolkit.md",
+      "title": {
+        "en": "API Toolkit, Security and Test Strategy",
+        "ru": "Инструменты API, безопасность и стратегия тестирования"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://spec.openapis.org/oas/latest.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+        "https://jmeter.apache.org/usermanual/best-practices.html",
+        "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-3-Instrumentarij-07-07",
+        "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-4-Bezopasnost-i-arhitektura-07-07",
+        "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-5-Avtomatizaciya-i-praktika-07-07"
+      ],
+      "tags": "[api, postman, curl, openapi, jmeter, security, automation]",
+      "date": "2026-09-12"
+    },
+    {
+      "id": "bundlephobia-npm-cost-check",
+      "path": "tools/developer-tools/bundlephobia-npm-cost-check.md",
+      "title": {
+        "en": "Bundlephobia: Estimating npm Dependency Cost",
+        "ru": "Bundlephobia: оценка стоимости npm-зависимости"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://bundlephobia.com/",
+        "https://github.com/pastelsky/bundlephobia"
+      ],
+      "tags": "[npm, javascript, performance, dependencies, bundle-size]",
+      "date": "2026-09-23"
+    },
+    {
+      "id": "agent-query-observability",
+      "path": "tools/monitoring/agent-query-observability.md",
+      "title": {
+        "en": "Observability for Natural-Language Data Queries",
+        "ru": "Наблюдаемость запросов к данным на естественном языке"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/"
+      ],
+      "tags": "[agents, sql, tracing, authorization, data-quality]",
+      "date": "2026-09-06"
+    },
+    {
+      "id": "aitooltree-discovery-guide",
+      "path": "tools/productivity/aitooltree-discovery-guide.md",
+      "title": {
+        "en": "AIToolTree: Discovering AI Tools Critically",
+        "ru": "AIToolTree: осознанный поиск AI-инструментов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://aitooltree.com/"
+      ],
+      "tags": "[ai-tools, directory, evaluation, privacy, procurement]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "delphitools-file-utilities",
+      "path": "tools/productivity/delphitools-file-utilities.md",
+      "title": {
+        "en": "delphitools: Local Browser Utilities for Files and Media",
+        "ru": "delphitools: локальные браузерные инструменты для файлов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://delphi.tools/",
+        "https://rmv.fyi/projects/taxiway/",
+        "https://rmv.fyi/projects/delphitools/"
+      ],
+      "tags": "[files, images, pdf, svg, privacy, browser-tools]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "handy-local-speech-to-text",
+      "path": "tools/productivity/handy-local-speech-to-text.md",
+      "title": {
+        "en": "Handy: Local Speech-to-Text for QA and AI Work",
+        "ru": "Handy: локальный голосовой ввод для QA и AI"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://handy.computer/",
+        "https://handy.computer/docs",
+        "https://handy.computer/privacy"
+      ],
+      "tags": "[speech-to-text, transcription, voice, local-ai, privacy, qa-workflow]",
+      "date": "2026-09-22"
+    },
+    {
+      "id": "qa-meeting-transcription-toolkit",
+      "path": "tools/productivity/qa-meeting-transcription-toolkit.md",
+      "title": {
+        "en": "Meeting Transcription for QA: Tool Choice and a Safe Workflow",
+        "ru": "Транскрипция встреч для QA: выбор инструмента и безопасный процесс"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://handy.computer/",
+        "https://aistudio.google.com/",
+        "https://www.hypescribe.com/ru",
+        "https://notebooklm.google.com/",
+        "https://www.macwhisper.net/",
+        "https://www.softportal.com/software-9536-format-factory.html",
+        "https://handy.computer/docs",
+        "https://handy.computer/privacy",
+        "https://ai.google.dev/gemini-api/docs/audio",
+        "https://www.hypescribe.com/pricing",
+        "https://support.google.com/gemininotebook/answer/16215270?hl=en",
+        "https://docs.macwhisper.com/article/57-macwhisper-command-line-tool"
+      ],
+      "tags": "[transcription, meetings, qa-workflow, privacy, ai-tools]",
+      "date": "2026-09-21"
+    },
+    {
+      "id": "api-request-review",
+      "path": "playbooks/checklists/api-request-review.md",
+      "title": {
+        "en": "API Request Review",
+        "ru": "Проверка API-запроса"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [],
+      "tags": "[http, api-testing, checklist]",
+      "date": ""
+    },
+    {
+      "id": "form-testing",
+      "path": "playbooks/checklists/form-testing.md",
+      "title": {
+        "en": "Form Testing",
+        "ru": "Тестирование форм"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html"
+      ],
+      "tags": "[web-testing, testing]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "web-ui-testing",
+      "path": "playbooks/checklists/web-ui-testing.md",
+      "title": {
+        "en": "Web UI Testing",
+        "ru": "Тестирование Web UI"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/"
+      ],
+      "tags": "[web-testing, testing]",
+      "date": "2026-09-05"
+    },
+    {
+      "id": "test-plan",
+      "path": "playbooks/templates/test-plan.md",
+      "title": {
+        "en": "Test Plan Template",
+        "ru": "Шаблон тест-плана"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [],
+      "tags": "[qa-process, testing]",
+      "date": "2026-09-05"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-9",
+      "title": "HTTP semantics",
+      "notes": [
+        "api-foundations-and-http-pitfalls",
+        "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9113.html#section-8.3",
+      "title": "HTTP/2",
+      "notes": [
+        "api-foundations-and-http-pitfalls"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8446.html#section-1",
+      "title": "TLS 1.3",
+      "notes": [
+        "api-foundations-and-http-pitfalls"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-1-Osnovy-07-07",
+      "title": "QA4Life / Евгений Гусинец — Part 1: Foundations",
+      "notes": [
+        "api-foundations-and-http-pitfalls"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-2-HTTP-i-dannye-07-07",
+      "title": "QA4Life / Евгений Гусинец — Part 2: HTTP and Data",
+      "notes": [
+        "api-foundations-and-http-pitfalls"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058382/",
+      "title": "Pact article",
+      "notes": [
+        "consumer-driven-contracts"
+      ]
+    },
+    {
+      "url": "https://docs.pact.io/pact_broker/can_i_deploy",
+      "title": "Official Pact deployment compatibility documentation",
+      "notes": [
+        "consumer-driven-contracts"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/HTTP-statusy-dlya-testirovshchika-06-29",
+      "title": "«HTTP-статусы для тестировщика»",
+      "notes": [
+        "http-status-codes"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "title": "HTTP Semantics",
+      "notes": [
+        "http-status-codes",
+        "rest-api-request-basics",
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc6585.html",
+      "title": "429 and additional statuses",
+      "notes": [
+        "http-status-codes"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc5789.html",
+      "title": "PATCH",
+      "notes": [
+        "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html#section-15",
+      "title": "Status definitions",
+      "notes": [
+        "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc8259.html",
+      "title": "JSON specification",
+      "notes": [
+        "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://agilemanifesto.org/principles",
+      "title": "Principles behind the Agile Manifesto",
+      "notes": [
+        "agile-devops-tdd-quality-strategies",
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://scrumguides.org/scrum-guide.html",
+      "title": "The Scrum Guide",
+      "notes": [
+        "agile-devops-tdd-quality-strategies",
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://martinfowler.com/articles/continuousIntegration.html",
+      "title": "Martin Fowler: Continuous Integration",
+      "notes": [
+        "agile-devops-tdd-quality-strategies"
+      ]
+    },
+    {
+      "url": "https://martinfowler.com/articles/practical-test-pyramid.html",
+      "title": "The Practical Test Pyramid",
+      "notes": [
+        "agile-devops-tdd-quality-strategies"
+      ]
+    },
+    {
+      "url": "https://cucumber.io/docs/bdd/discovery-workshop/",
+      "title": "Cucumber: BDD discovery workshop",
+      "notes": [
+        "agile-devops-tdd-quality-strategies"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1060244/",
+      "title": "Atomic Autotest Design",
+      "notes": [
+        "atomic-test-composition"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1059908/",
+      "title": "HFLabs test-data DSL case study",
+      "notes": [
+        "domain-test-data-dsl"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1061356/",
+      "title": "Origami introduction",
+      "notes": [
+        "origami-framework-review"
+      ]
+    },
+    {
+      "url": "https://qa4life.yonote.ru/share/bd0f6673-7770-4ce7-8daf-89fb837e8ee2",
+      "title": "«Урок 13: Playwright — основы и сравнение с Selenium»",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/python/docs/library",
+      "title": "Playwright Python library",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/python/docs/actionability",
+      "title": "Actionability",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/python/docs/test-runners",
+      "title": "Pytest plugin",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://www.selenium.dev/documentation/webdriver/waits/",
+      "title": "Selenium waits",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058692/",
+      "title": "Playwright lint and review article",
+      "notes": [
+        "playwright-review-beyond-lint"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058390/",
+      "title": "Hypothesis article",
+      "notes": [
+        "property-based-testing"
+      ]
+    },
+    {
+      "url": "https://qa4life.yonote.ru/share/eb4ebed0-58de-45df-b8ce-3d19fa91dd10",
+      "title": "“Lesson 1: Introduction to Python and Test Automation Basics”",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://qa4life.yonote.ru/share/07652a76-5384-459f-a06a-dea6d5c1a392",
+      "title": "“Lesson 2: Functions, Classes and Object-Oriented Programming Principles”",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://docs.python.org/3/tutorial/classes.html",
+      "title": "Python classes and name mangling",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://docs.python.org/3/glossary.html",
+      "title": "Python glossary",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://docs.python.org/3/library/venv.html",
+      "title": "venv",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://docs.marimo.io/",
+      "title": "marimo documentation",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://code.visualstudio.com/docs/python/environments",
+      "title": "Python environments in VS Code",
+      "notes": [
+        "python-qa-foundations-lessons-1-2"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/Kachestvo-PO-i-kriterii-kachestva-v-testirovanii-07-01-4",
+      "title": "QA4Life / Евгений Гусинец — Software quality and quality criteria",
+      "notes": [
+        "software-quality-criteria"
+      ]
+    },
+    {
+      "url": "https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf",
+      "title": "ISTQB CTFL v4.0.1, section 2.2",
+      "notes": [
+        "testing-concepts",
+        "testing-foundations-blocks-1-3-review"
+      ]
+    },
+    {
+      "url": "https://www.iso.org/standard/78176.html",
+      "title": "ISO/IEC 25010:2023",
+      "notes": [
+        "testing-foundations-blocks-1-3-review"
+      ]
+    },
+    {
+      "url": "https://qa4life.yonote.ru/share/410ee537-b9b4-4c37-87f8-6856defec0b1",
+      "title": "Evgeniy Gusinets — “Шпаргалка-гайд по мобильному тестированию”",
+      "notes": [
+        "mobile-testing-guide-review"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/guide/topics/manifest/uses-sdk-element",
+      "title": "Android API levels",
+      "notes": [
+        "mobile-testing-guide-review"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/google/play/requirements/target-sdk",
+      "title": "Google Play target API requirements",
+      "notes": [
+        "mobile-testing-guide-review"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/privacy-and-security/security-config",
+      "title": "Network Security Configuration",
+      "notes": [
+        "mobile-testing-guide-review"
+      ]
+    },
+    {
+      "url": "https://developer.android.com/privacy-and-security/minimize-permission-requests",
+      "title": "minimize permission requests",
+      "notes": [
+        "mobile-testing-guide-review"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1061680/",
+      "title": "Case study",
+      "notes": [
+        "repeatable-load-testing"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058978/",
+      "title": "Habr translation",
+      "notes": [
+        "ai-change-safety-cats"
+      ]
+    },
+    {
+      "url": "https://stackoverflow.blog/2026/05/12/you-shipped-it-fast-but-did-you-ship-it-right/",
+      "title": "Underlying English essay: You shipped it fast. But did you ship it right?",
+      "notes": [
+        "ai-change-safety-cats"
+      ]
+    },
+    {
+      "url": "https://platformcon.com/sessions/ai-accelerated-delivery-needs-refactoring-the-cats-guardrails-framework",
+      "title": "Author's PlatformCon session",
+      "notes": [
+        "ai-change-safety-cats"
+      ]
+    },
+    {
+      "url": "https://istqb.org/certifications/certified-tester-advanced-level-test-management-ctal-tm-v3-0/",
+      "title": "ISTQB CTAL-TM overview",
+      "notes": [
+        "lead-qa-vs-head-of-qa"
+      ]
+    },
+    {
+      "url": "https://asq.org/quality-resources/cost-of-quality",
+      "title": "ASQ",
+      "notes": [
+        "lead-qa-vs-head-of-qa"
+      ]
+    },
+    {
+      "url": "https://sre.google/sre-book/service-level-objectives/",
+      "title": "Google SRE",
+      "notes": [
+        "lead-qa-vs-head-of-qa"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/infowatch/articles/1063872/",
+      "title": "InfoWatch on Habr: connecting manual and automated testing",
+      "notes": [
+        "manual-automation-quality-loop"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1061482/",
+      "title": "Original article",
+      "notes": [
+        "qa-hiring-index-july-2026"
+      ]
+    },
+    {
+      "url": "https://spdx.dev/learn/handling-license-info/",
+      "title": "SPDX handling license information",
+      "notes": [
+        "qa-onboarding-checklist-review"
+      ]
+    },
+    {
+      "url": "https://spdx.dev/about/overview/",
+      "title": "SPDX overview",
+      "notes": [
+        "qa-onboarding-checklist-review"
+      ]
+    },
+    {
+      "url": "https://www.atlassian.com/agile/project-management/velocity-scrum",
+      "title": "Atlassian on sprint velocity",
+      "notes": [
+        "qa-onboarding-checklist-review"
+      ]
+    },
+    {
+      "url": "https://dora.dev/guides/dora-metrics/",
+      "title": "DORA delivery metrics",
+      "notes": [
+        "qa-onboarding-checklist-review"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/ozontech/articles/1059114/",
+      "title": "Bogdan Burkov — Ozon Tech release process case study",
+      "notes": [
+        "release-orchestration"
+      ]
+    },
+    {
+      "url": "https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf",
+      "title": "Scrum Guide 2020",
+      "notes": [
+        "release-readiness-playbook"
+      ]
+    },
+    {
+      "url": "https://semver.org/",
+      "title": "Semantic Versioning 2.0.0",
+      "notes": [
+        "release-readiness-playbook"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/get-started/using-github/github-flow",
+      "title": "GitHub flow",
+      "notes": [
+        "release-readiness-playbook"
+      ]
+    },
+    {
+      "url": "https://agilemanifesto.org/",
+      "title": "Manifesto for Agile Software Development",
+      "notes": [
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://kanbanguides.org/",
+      "title": "The Kanban Guide",
+      "notes": [
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://www.scrum.org/resources/kanban-guide-scrum-teams",
+      "title": "Kanban Guide for Scrum Teams",
+      "notes": [
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/medical-devices/regulatory-accelerator/medical-device-software-guidance-navigator",
+      "title": "FDA Medical Device Software Guidance Navigator",
+      "notes": [
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/shelf-software-use-medical-devices",
+      "title": "FDA: Off-The-Shelf Software Use in Medical Devices",
+      "notes": [
+        "software-development-methodologies"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/Autentifikaciya-i-Avtorizaciya-ne-putaem-ponyatiya-01-22",
+      "title": "Evgeniy Gusinets, “Аутентификация и Авторизация: не путаем понятия”",
+      "notes": [
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7519.html",
+      "title": "RFC 7519: JSON Web Token",
+      "notes": [
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/JSON_Web_Token_Cheat_Sheet.html",
+      "title": "JWT Cheat Sheet",
+      "notes": [
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+      "title": "Session Management",
+      "notes": [
+        "authentication-authorization-review",
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html",
+      "title": "REST Security",
+      "notes": [
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html",
+      "title": "OWASP guidance",
+      "notes": [
+        "password-reset-state-testing"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058180/",
+      "title": "Password reset article",
+      "notes": [
+        "password-reset-state-testing"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058396/",
+      "title": "Black-box bug-bounty account",
+      "notes": [
+        "security-observation-vs-vulnerability"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1060872/",
+      "title": "Student-portal usability study",
+      "notes": [
+        "usability-beyond-complaints"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1064824/",
+      "title": "Habr: an engineering verification loop for QA agents",
+      "notes": [
+        "evidence-engineered-qa-agent"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.6028/NIST.AI.100-1",
+      "title": "NIST AI Risk Management Framework 1.0",
+      "notes": [
+        "evidence-engineered-qa-agent"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "notes": [
+        "evidence-engineered-qa-agent"
+      ]
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2023/file/1b44b878bb782e6954cd888628510e90-Paper-Conference.pdf",
+      "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+      "notes": [
+        "evidence-engineered-qa-agent"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1027508/",
+      "title": "Dmitry Barovik — MCP explained",
+      "notes": [
+        "mcp-host-tool-loop"
+      ]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-11-25/schema",
+      "title": "MCP 2025-11-25 schema",
+      "notes": [
+        "mcp-host-tool-loop"
+      ]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-03-26/client/roots",
+      "title": "Roots protocol reference",
+      "notes": [
+        "mcp-host-tool-loop"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/ai-teammates-how-monday-com-runs-production-ai-agents-on-amazon-bedrock/",
+      "title": "monday.com production agents on AWS",
+      "notes": [
+        "production-coding-agent-controls"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-specialized-agent-workflows-for-your-business-with-amazon-quick-and-nvidia-nemo-agent-toolkit/",
+      "title": "AWS and NVIDIA workflow tutorial",
+      "notes": [
+        "specialized-workflow-evaluation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/banki/articles/1056464/",
+      "title": "Original case study",
+      "notes": [
+        "ai-assisted-acceptance-criteria"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/cloud_ru/articles/1062556/",
+      "title": "Cloud.ru on Habr: How a QA engineer uses AI for documentation",
+      "notes": [
+        "ai-assisted-qa-documentation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1062316/",
+      "title": "AI failure-investigation case study",
+      "notes": [
+        "evidence-led-test-triage"
+      ]
+    },
+    {
+      "url": "https://openai.com/index/academy-courses-applying-ai-at-work/",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "notes": [
+        "openai-academy-workplace-ai"
+      ]
+    },
+    {
+      "url": "https://academy.openai.com/",
+      "title": "OpenAI Academy",
+      "notes": [
+        "openai-academy-workplace-ai"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/evaluating-ai-agents-a-production-blueprint-with-strands-and-agentcore/",
+      "title": "AWS and Motorway evaluation blueprint",
+      "notes": [
+        "agent-evaluation-lifecycle"
+      ]
+    },
+    {
+      "url": "https://ml-cheatsheet.readthedocs.io/en/latest/glossary.html",
+      "title": "source glossary",
+      "notes": [
+        "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://scikit-learn.org/stable/common_pitfalls.html#data-leakage",
+      "title": "scikit-learn's leakage guidance",
+      "notes": [
+        "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://ml-cheatsheet.readthedocs.io/en/latest/loss_functions.html",
+      "title": "loss chapter",
+      "notes": [
+        "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://ml-cheatsheet.readthedocs.io/en/latest/regularization.html",
+      "title": "regularization chapter",
+      "notes": [
+        "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html",
+      "title": "logistic regression chapter",
+      "notes": [
+        "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1058170/",
+      "title": "MCP for QA overview",
+      "notes": [
+        "mcp-for-qa"
+      ]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/learn/architecture",
+      "title": "Official MCP architecture",
+      "notes": [
+        "mcp-for-qa"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/evolving-from-legacy-bi-to-agentic-ai-at-tradeshift-with-amazon-quick/",
+      "title": "Tradeshift and AWS case study",
+      "notes": [
+        "permission-aware-analytics"
+      ]
+    },
+    {
+      "url": "https://spec.openapis.org/oas/latest.html",
+      "title": "OpenAPI specification",
+      "notes": [
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://jmeter.apache.org/usermanual/best-practices.html",
+      "title": "best practices",
+      "notes": [
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-3-Instrumentarij-07-07",
+      "title": "Part 3 — Tools",
+      "notes": [
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-4-Bezopasnost-i-arhitektura-07-07",
+      "title": "Part 4 — Security and Architecture",
+      "notes": [
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/SHpargalka-po-API-dlya-QA-CHast-5-Avtomatizaciya-i-praktika-07-07",
+      "title": "Part 5 — Automation and Practice",
+      "notes": [
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://bundlephobia.com/",
+      "title": "Bundlephobia",
+      "notes": [
+        "bundlephobia-npm-cost-check"
+      ]
+    },
+    {
+      "url": "https://github.com/pastelsky/bundlephobia",
+      "title": "Bundlephobia source repository and FAQ",
+      "notes": [
+        "bundlephobia-npm-cost-check"
+      ]
+    },
+    {
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+      "title": "Jefferies and AWS trade-assistant case study",
+      "notes": [
+        "agent-query-observability"
+      ]
+    },
+    {
+      "url": "https://aitooltree.com/",
+      "title": "AIToolTree",
+      "notes": [
+        "aitooltree-discovery-guide"
+      ]
+    },
+    {
+      "url": "https://delphi.tools/",
+      "title": "delphitools",
+      "notes": [
+        "delphitools-file-utilities"
+      ]
+    },
+    {
+      "url": "https://rmv.fyi/projects/taxiway/",
+      "title": "Taxiway",
+      "notes": [
+        "delphitools-file-utilities"
+      ]
+    },
+    {
+      "url": "https://rmv.fyi/projects/delphitools/",
+      "title": "delphitools project page",
+      "notes": [
+        "delphitools-file-utilities"
+      ]
+    },
+    {
+      "url": "https://handy.computer/",
+      "title": "Handy",
+      "notes": [
+        "handy-local-speech-to-text",
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://handy.computer/docs",
+      "title": "Handy documentation",
+      "notes": [
+        "handy-local-speech-to-text",
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://handy.computer/privacy",
+      "title": "Handy privacy policy",
+      "notes": [
+        "handy-local-speech-to-text",
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://aistudio.google.com/",
+      "title": "Google AI Studio",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://www.hypescribe.com/ru",
+      "title": "HypeScribe",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://notebooklm.google.com/",
+      "title": "NotebookLM",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://www.macwhisper.net/",
+      "title": "MacWhisper",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://www.softportal.com/software-9536-format-factory.html",
+      "title": "Format Factory",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/audio",
+      "title": "Gemini audio understanding",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://www.hypescribe.com/pricing",
+      "title": "current pricing page",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://support.google.com/gemininotebook/answer/16215270?hl=en",
+      "title": "source help",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://docs.macwhisper.com/article/57-macwhisper-command-line-tool",
+      "title": "CLI documentation",
+      "notes": [
+        "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html",
+      "title": "OWASP input validation guidance",
+      "notes": [
+        "form-testing"
+      ]
+    },
+    {
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "title": "W3C dialog guidance",
+      "notes": [
+        "web-ui-testing"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "path": "docs/sources/originals/2026-09-21-qa-release-playbook.pdf",
+      "name": "2026-09-21-qa-release-playbook",
+      "bytes": 7124315
+    },
+    {
+      "path": "docs/sources/originals/2026-09-21-testing-foundations-block-1-new.pdf",
+      "name": "2026-09-21-testing-foundations-block-1-new",
+      "bytes": 3509261
+    },
+    {
+      "path": "docs/sources/originals/2026-09-21-testing-foundations-blocks-1-3.pdf",
+      "name": "2026-09-21-testing-foundations-blocks-1-3",
+      "bytes": 8545359
+    },
+    {
+      "path": "docs/sources/originals/QA ONBOARDING CHECKLIST.pdf",
+      "name": "QA ONBOARDING CHECKLIST",
+      "bytes": 1094802
+    },
+    {
+      "path": "docs/sources/originals/TDD_DevOps_CI_CD_Стратегии_Качества Ver1 .pdf",
+      "name": "TDD_DevOps_CI_CD_Стратегии_Качества Ver1 ",
+      "bytes": 3138751
+    },
+    {
+      "path": "docs/sources/originals/TDD_DevOps_CI_CD_Стратегии_Качества Ver2 .pdf",
+      "name": "TDD_DevOps_CI_CD_Стратегии_Качества Ver2 ",
+      "bytes": 2424214
+    },
+    {
+      "path": "docs/sources/originals/Методологии разработки Ver1.pdf",
+      "name": "Методологии разработки Ver1",
+      "bytes": 2636191
+    },
+    {
+      "path": "docs/sources/originals/Методологии разработки Ver2.pdf",
+      "name": "Методологии разработки Ver2",
+      "bytes": 2726808
+    }
+  ]
+}

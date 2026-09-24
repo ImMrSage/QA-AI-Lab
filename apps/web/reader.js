@@ -7,11 +7,27 @@ const root = new URL('../../', location.href);
 const params = new URLSearchParams(location.search);
 const { lang, t } = window.labI18n;
 const source = new URL(params.get('note') || 'INDEX.md', root);
+const backButton=document.querySelector('#reader-back');
+backButton.textContent=lang==='ru'?'← Назад':'← Back';
+backButton.addEventListener('click',()=>{
+  try {
+    const previous=new URL(document.referrer);
+    if(previous.origin===location.origin&&previous.pathname.startsWith(root.pathname+'apps/web/')&&history.length>1){history.back();return;}
+  } catch {}
+  let candidate=params.get('from');
+  try { candidate ||= sessionStorage.getItem('lab-return'); } catch {}
+  const fallback=new URL('./index.html?view=library&lang='+lang,location.href);
+  let destination=fallback;
+  try { const u=new URL(candidate||fallback.href,location.href); if(u.origin===location.origin&&/\/apps\/web\/(index\.html)?$/.test(u.pathname))destination=u; } catch {}
+  destination.searchParams.set('lang',lang);
+  location.href=destination.href;
+});
 
 function readerLink(url) {
   const target = new URL('./reader.html', location.href);
   target.searchParams.set('note', url.pathname.slice(root.pathname.length));
   target.searchParams.set('lang', lang);
+  if(params.get('from'))target.searchParams.set('from',params.get('from'));
   target.hash = url.hash;
   return target.href;
 }
