@@ -18,6 +18,7 @@ const paths = {
  audio:'<path d="M3 10v4m4-8v12m5-16v20m5-16v12m4-8v4"/>',
  convert:'<path d="M3 7h16l-4-4m4 4-4 4M21 17H5l4-4m-4 4 4 4"/>',
  table:'<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M9 9v11m6-11v11M3 14h18"/>',
+ terminal:'<rect x="2" y="4" width="20" height="16" rx="3"/><path d="m6 9 3 3-3 3m6 0h6"/>',
  grid:'<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>',
  workflow:'<circle cx="5" cy="6" r="3"/><circle cx="19" cy="6" r="3"/><circle cx="12" cy="19" r="3"/><path d="M8 6h8M7 9l3.5 7M17 9l-3.5 7"/>',
  link:'<path d="m10 13 4-4m-6 7-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 1 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0" transform="translate(1 1)"/>'
@@ -42,7 +43,7 @@ export function visual(note){
  return {shape,style:`--tone:${theme[1]};--tint:${theme[2]}`};
 }
 const toolVisuals={
- Handy:['mic','handy','#bb6b31','#fff3e6'], Bundlephobia:['package','bundlephobia','#bd4651','#fff0f2'], Tabiew:['table',null,'#217a65','#e8f7f1'],
+ Handy:['mic','handy','#bb6b31','#fff3e6'], Bundlephobia:['package','bundlephobia','#bd4651','#fff0f2'], Tabiew:['table',null,'#217a65','#e8f7f1'], GGH:['terminal',null,'#2f704f','#e9f6ee'],
  delphitools:['files','delphitools','#3375b9','#eaf3ff'], AIToolTree:['tree','aitooltree','#288456','#eaf8ee'], AIFlowy:['workflow',null,'#6d51bd','#f1edff'],
  NotebookLM:['book',null,'#343c59','#edf0f8'], 'Google AI Studio':['bot','ai-studio','#426cc5','#edf3ff'],
  HypeScribe:['audio','hypescribe','#7957c8','#f1edfc'], MacWhisper:['audio',null,'#a6469a','#fcedf9'],

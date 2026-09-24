@@ -802,6 +802,23 @@
       "date": "2026-09-23"
     },
     {
+      "id": "ggh-ssh-session-wrapper",
+      "path": "tools/developer-tools/ggh-ssh-session-wrapper.md",
+      "title": {
+        "en": "GGH: Recall and Search SSH Sessions",
+        "ru": "GGH: история и поиск SSH-сессий"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/byawitz/ggh",
+        "https://github.com/byawitz/ggh/releases"
+      ],
+      "tags": "[ssh, terminal, servers, devops, productivity]",
+      "date": "2026-09-24"
+    },
+    {
       "id": "tabiew-terminal-data-explorer",
       "path": "tools/developer-tools/tabiew-terminal-data-explorer.md",
       "title": {
@@ -1722,6 +1739,20 @@
       "title": "Bundlephobia source repository and FAQ",
       "notes": [
         "bundlephobia-npm-cost-check"
+      ]
+    },
+    {
+      "url": "https://github.com/byawitz/ggh",
+      "title": "GGH",
+      "notes": [
+        "ggh-ssh-session-wrapper"
+      ]
+    },
+    {
+      "url": "https://github.com/byawitz/ggh/releases",
+      "title": "GGH releases",
+      "notes": [
+        "ggh-ssh-session-wrapper"
       ]
     },
     {
