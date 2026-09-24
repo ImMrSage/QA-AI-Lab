@@ -747,6 +747,23 @@
       "date": "2026-09-06"
     },
     {
+      "id": "aiflowy-ai-application-platform",
+      "path": "tools/developer-tools/aiflowy-ai-application-platform.md",
+      "title": {
+        "en": "AIFlowy: Open AI Application Platform",
+        "ru": "AIFlowy: открытая платформа AI-приложений"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/aiflowy/aiflowy",
+        "https://aiflowy.tech"
+      ],
+      "tags": "[ai-agents, rag, workflows, java, self-hosting, mcp]",
+      "date": "2026-09-24"
+    },
+    {
       "id": "api-testing-toolkit",
       "path": "tools/developer-tools/api-testing-toolkit.md",
       "title": {
@@ -1642,6 +1659,20 @@
       "title": "Tradeshift and AWS case study",
       "notes": [
         "permission-aware-analytics"
+      ]
+    },
+    {
+      "url": "https://github.com/aiflowy/aiflowy",
+      "title": "AIFlowy",
+      "notes": [
+        "aiflowy-ai-application-platform"
+      ]
+    },
+    {
+      "url": "https://aiflowy.tech",
+      "title": "AIFlowy documentation",
+      "notes": [
+        "aiflowy-ai-application-platform"
       ]
     },
     {

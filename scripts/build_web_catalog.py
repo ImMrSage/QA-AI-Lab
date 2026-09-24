@@ -3,7 +3,7 @@ from pathlib import Path
 import re, json
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'apps/web'
-TOOL_IDS = {'bundlephobia-npm-cost-check','aitooltree-discovery-guide','handy-local-speech-to-text','delphitools-file-utilities','tabiew-terminal-data-explorer'}
+TOOL_IDS = {'bundlephobia-npm-cost-check','aitooltree-discovery-guide','handy-local-speech-to-text','delphitools-file-utilities','tabiew-terminal-data-explorer','aiflowy-ai-application-platform'}
 def read(p): return p.read_text(encoding='utf-8-sig')
 def field(s,k):
     m=re.search(r'^'+k+r':\s*(.+)$',s,re.M)
