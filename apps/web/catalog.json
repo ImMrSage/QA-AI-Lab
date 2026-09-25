@@ -144,6 +144,24 @@
       "date": "2026-09-06"
     },
     {
+      "id": "playwright-native-ui-test-foundation",
+      "path": "qa/automation/playwright-native-ui-test-foundation.md",
+      "title": {
+        "en": "A Minimal UI Test Foundation with Native Playwright Capabilities",
+        "ru": "Минимальная основа UI-тестов на возможностях Playwright"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/infowatch/articles/1065886/",
+        "https://playwright.dev/python/docs/browser-contexts",
+        "https://playwright.dev/python/docs/test-assertions"
+      ],
+      "tags": "[playwright, python, pytest, ui-testing, page-object, authentication]",
+      "date": "2026-09-25"
+    },
+    {
       "id": "playwright-python-basics",
       "path": "qa/automation/playwright-python-basics.md",
       "title": {
@@ -317,6 +335,23 @@
       "date": "2026-09-06"
     },
     {
+      "id": "performance-testing-degradation-thinking",
+      "path": "qa/performance-testing/performance-testing-degradation-thinking.md",
+      "title": {
+        "en": "Performance Testing as Behaviour Under Sustained Load",
+        "ru": "Performance testing: поведение и деградация под длительной нагрузкой"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/lemana_tech/articles/1068776/",
+        "https://grafana.com/docs/k6/latest/testing-guides/test-types/"
+      ],
+      "tags": "[performance, load-testing, workload-model, latency, test-data, observability]",
+      "date": "2026-09-25"
+    },
+    {
       "id": "ai-change-safety-cats",
       "path": "qa/qa-process/ai-change-safety-cats.md",
       "title": {
@@ -333,6 +368,23 @@
       ],
       "tags": "[ai, contracts, invariants, observability, refactoring]",
       "date": "2026-09-06"
+    },
+    {
+      "id": "infrastructure-release-environment-alignment",
+      "path": "qa/qa-process/infrastructure-release-environment-alignment.md",
+      "title": {
+        "en": "Infrastructure Releases and Environment Alignment",
+        "ru": "Инфраструктурные релизы и соответствие сред"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/psb/articles/1068552/",
+        "https://opengitops.dev/"
+      ],
+      "tags": "[infrastructure, environments, releases, change-management, configuration-drift, performance]",
+      "date": "2026-09-25"
     },
     {
       "id": "lead-qa-vs-head-of-qa",
@@ -542,6 +594,23 @@
       ],
       "tags": "[ux, research, usability, prioritization]",
       "date": "2026-09-06"
+    },
+    {
+      "id": "debuggable-agentic-bug-fixing",
+      "path": "ai/agents/debuggable-agentic-bug-fixing.md",
+      "title": {
+        "en": "Debuggable Agentic Bug Fixing with External Evidence",
+        "ru": "Отлаживаемое агентное исправление багов с внешними доказательствами"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/testops_tms/articles/1070080/",
+        "https://arxiv.org/abs/2310.01798"
+      ],
+      "tags": "[ai-agents, bug-fixing, evaluation, brt, validation, human-in-the-loop]",
+      "date": "2026-09-25"
     },
     {
       "id": "evidence-engineered-qa-agent",
@@ -1145,6 +1214,27 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/infowatch/articles/1065886/",
+      "title": "Владислав Тимашенков: «Ваш UI-фреймворк уже написан»",
+      "notes": [
+        "playwright-native-ui-test-foundation"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/python/docs/browser-contexts",
+      "title": "Playwright Python: isolation",
+      "notes": [
+        "playwright-native-ui-test-foundation"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/python/docs/test-assertions",
+      "title": "Playwright Python: assertions",
+      "notes": [
+        "playwright-native-ui-test-foundation"
+      ]
+    },
+    {
       "url": "https://qa4life.yonote.ru/share/bd0f6673-7770-4ce7-8daf-89fb837e8ee2",
       "title": "«Урок 13: Playwright — основы и сравнение с Selenium»",
       "notes": [
@@ -1307,6 +1397,20 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/lemana_tech/articles/1068776/",
+      "title": "Алексей Тиньков: «Как провести нагрузочное тестирование правильно. Часть 1»",
+      "notes": [
+        "performance-testing-degradation-thinking"
+      ]
+    },
+    {
+      "url": "https://grafana.com/docs/k6/latest/testing-guides/test-types/",
+      "title": "Grafana k6: test types",
+      "notes": [
+        "performance-testing-degradation-thinking"
+      ]
+    },
+    {
       "url": "https://habr.com/ru/articles/1058978/",
       "title": "Habr translation",
       "notes": [
@@ -1325,6 +1429,20 @@
       "title": "Author's PlatformCon session",
       "notes": [
         "ai-change-safety-cats"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/psb/articles/1068552/",
+      "title": "Константин Кузнецов: «Инфраструктурный релиз. Консистентность сред vs соответствие сред»",
+      "notes": [
+        "infrastructure-release-environment-alignment"
+      ]
+    },
+    {
+      "url": "https://opengitops.dev/",
+      "title": "OpenGitOps principles",
+      "notes": [
+        "infrastructure-release-environment-alignment"
       ]
     },
     {
@@ -1515,6 +1633,20 @@
       "title": "Student-portal usability study",
       "notes": [
         "usability-beyond-complaints"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/testops_tms/articles/1070080/",
+      "title": "Михаил Ланкин и Сергей Левенец: «Агентная правка багов, ч. 1»",
+      "notes": [
+        "debuggable-agentic-bug-fixing"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2310.01798",
+      "title": "Huang et al.: Large Language Models Cannot Self-Correct Reasoning Yet",
+      "notes": [
+        "debuggable-agentic-bug-fixing"
       ]
     },
     {
