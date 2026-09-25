@@ -1433,7 +1433,7 @@
     },
     {
       "url": "https://habr.com/ru/companies/psb/articles/1068552/",
-      "title": "Константин Кузнецов: «Инфраструктурный релиз. Консистентность сред vs соответствие сред»",
+      "title": "Technical article: “Infrastructure release: environment consistency and alignment”",
       "notes": [
         "infrastructure-release-environment-alignment"
       ]

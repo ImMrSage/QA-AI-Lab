@@ -43,6 +43,5 @@ Production-sized hardware is not automatically required. Start from the decision
 
 ## Sources
 
-- [Константин Кузнецов: «Инфраструктурный релиз. Консистентность сред vs соответствие сред»](https://habr.com/ru/companies/psb/articles/1068552/)
+- [Technical article: “Infrastructure release: environment consistency and alignment”](https://habr.com/ru/companies/psb/articles/1068552/)
 - [OpenGitOps principles](https://opengitops.dev/)
-
