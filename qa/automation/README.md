@@ -5,6 +5,7 @@
 - [Domain Language for Integration Test Data](domain-test-data-dsl.md)
 - [Origami Framework - Initial Evaluation](origami-framework-review.md)
 - [Playwright Python: From Recording to Verification](playwright-python-basics.md)
+- [Playwright TypeScript Practical Cheat Sheet](playwright-typescript-cheat-sheet.md)
 - [Playwright Review Beyond a Green Lint Result](playwright-review-beyond-lint.md)
 - [Property-Based Testing with Hypothesis](property-based-testing.md)
 - [Python for QA: Reviewed Lessons 1–2](python-qa-foundations-lessons-1-2.md)

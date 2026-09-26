@@ -32,6 +32,90 @@ function readerLink(url) {
   return target.href;
 }
 
+function sectionPreview(heading) {
+  let node = heading.nextElementSibling;
+  while (node && !/^H[1-3]$/.test(node.tagName)) {
+    if (node.matches('p,ul,ol,blockquote')) {
+      const text = node.textContent.replace(/\s+/g, ' ').trim();
+      if (text) return text.length > 132 ? `${text.slice(0, 129).trim()}…` : text;
+    }
+    node = node.nextElementSibling;
+  }
+  return '';
+}
+
+function summaryIcon(text) {
+  const rules = [
+    [/source|источник|reference/i, '↗'], [/test|тест|quality|качеств/i, '✓'],
+    [/security|безопас|auth/i, '◇'], [/data|данн|storage|хран/i, '▦'],
+    [/api|http|graphql|интеграц/i, '⇄'], [/workflow|process|процесс|flow|цикл/i, '→'],
+    [/risk|риск|limit|огранич/i, '!'], [/example|пример|practice|практи/i, '{ }'],
+  ];
+  return rules.find(([pattern]) => pattern.test(text))?.[1] || '•';
+}
+
+function addVisualSummary(metadata) {
+  const title = article.querySelector('h1');
+  if (!title) return;
+  const ignored = /^(sources?|источники|references?|related (knowledge|topics)|связанные (материалы|темы))$/i;
+  const headings = [...article.querySelectorAll('h2')].filter(heading => !ignored.test(heading.textContent.trim()));
+  if (!headings.length) return;
+
+  const section = document.createElement('section');
+  section.className = 'visual-summary';
+  section.setAttribute('aria-label', t('Visual summary'));
+  const header = document.createElement('div');
+  header.className = 'visual-summary-head';
+  const label = document.createElement('span');
+  label.className = 'visual-summary-label';
+  label.textContent = t('Visual summary');
+  const hint = document.createElement('span');
+  hint.textContent = t('Select a card to open that section');
+  header.append(label, hint);
+
+  const map = document.createElement('div');
+  map.className = 'visual-summary-map';
+  const core = document.createElement('div');
+  core.className = 'visual-summary-core';
+  const coreTitle = document.createElement('strong');
+  coreTitle.textContent = title.textContent;
+  const coreSummary = document.createElement('span');
+  coreSummary.textContent = metadata.summary || '';
+  core.append(coreTitle, coreSummary);
+  map.append(core);
+
+  const nodes = document.createElement('div');
+  nodes.className = 'visual-summary-nodes';
+  headings.forEach((heading, index) => {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = `visual-summary-node tone-${index % 6}`;
+    button.setAttribute('aria-label', `${t('Open section')}: ${heading.textContent}`);
+    const number = document.createElement('span');
+    number.className = 'visual-summary-number';
+    number.textContent = String(index + 1).padStart(2, '0');
+    const icon = document.createElement('span');
+    icon.className = 'visual-summary-icon';
+    icon.textContent = summaryIcon(heading.textContent);
+    const copy = document.createElement('span');
+    copy.className = 'visual-summary-copy';
+    const nodeTitle = document.createElement('strong');
+    nodeTitle.textContent = heading.textContent;
+    const preview = document.createElement('small');
+    preview.textContent = sectionPreview(heading);
+    copy.append(nodeTitle, preview);
+    button.append(number, icon, copy);
+    button.addEventListener('click', () => {
+      heading.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
+      history.replaceState(null, '', `#${encodeURIComponent(heading.id)}`);
+    });
+    nodes.append(button);
+  });
+  map.append(nodes);
+  section.append(header, map);
+  title.after(section);
+}
+
 async function load() {
   try {
     if (source.origin !== root.origin || !source.pathname.startsWith(root.pathname) || !source.pathname.endsWith('.md')) throw new Error('Choose a Markdown note from this library.');
@@ -74,6 +158,7 @@ async function load() {
         document.querySelector('#toc').append(link);
       }
     }
+    addVisualSummary(metadata);
     for (const link of article.querySelectorAll('a[href]')) {
       const href = link.getAttribute('href');
       if (href.startsWith('#')) continue;

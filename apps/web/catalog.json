@@ -56,6 +56,23 @@
       "date": "2026-09-14"
     },
     {
+      "id": "registered-graphql-query-architecture",
+      "path": "qa/api-testing/registered-graphql-query-architecture.md",
+      "title": {
+        "en": "Registered GraphQL Queries at Scale",
+        "ru": "Архитектура зарегистрированных GraphQL-запросов"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://www.linkedin.com/blog/engineering/architecture/how-linkedin-adopted-a-graphql-architecture-for-product-developm",
+        "https://spec.graphql.org/"
+      ],
+      "tags": "[graphql, registered-queries, api, schema, query-registry, distributed-systems]",
+      "date": "2026-09-26"
+    },
+    {
       "id": "rest-api-request-basics",
       "path": "qa/api-testing/rest-api-request-basics.md",
       "title": {
@@ -74,6 +91,24 @@
       ],
       "tags": "[http, rest, json, api-testing, fundamentals]",
       "date": "2026-09-05"
+    },
+    {
+      "id": "system-integration-patterns",
+      "path": "qa/api-testing/system-integration-patterns.md",
+      "title": {
+        "en": "Nine System Integration Patterns and Their Test Boundaries",
+        "ru": "Девять паттернов интеграции систем и границы их тестирования"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://learn.microsoft.com/en-us/azure/architecture/integration/integration-start-here",
+        "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+        "https://learn.microsoft.com/en-us/azure/architecture/microservices/design/gateway"
+      ],
+      "tags": "[integration, api-gateway, pub-sub, event-sourcing, etl, batch, streaming, orchestration]",
+      "date": "2026-09-26"
     },
     {
       "id": "agile-devops-tdd-quality-strategies",
@@ -196,6 +231,26 @@
       ],
       "tags": "[playwright, assertions, ci-cd, review]",
       "date": "2026-09-06"
+    },
+    {
+      "id": "playwright-typescript-cheat-sheet",
+      "path": "qa/automation/playwright-typescript-cheat-sheet.md",
+      "title": {
+        "en": "Playwright TypeScript Practical Cheat Sheet",
+        "ru": "Практическая шпаргалка Playwright TypeScript"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://playwright.dev/docs/locators",
+        "https://playwright.dev/docs/test-assertions",
+        "https://playwright.dev/docs/test-configuration",
+        "https://playwright.dev/docs/api-testing",
+        "https://playwright.dev/docs/trace-viewer"
+      ],
+      "tags": "[playwright, typescript, automation, locators, assertions, browser-context, tracing]",
+      "date": "2026-09-26"
     },
     {
       "id": "property-based-testing",
@@ -1135,6 +1190,20 @@
       ]
     },
     {
+      "url": "https://www.linkedin.com/blog/engineering/architecture/how-linkedin-adopted-a-graphql-architecture-for-product-developm",
+      "title": "LinkedIn Engineering: How LinkedIn adopted a GraphQL architecture",
+      "notes": [
+        "registered-graphql-query-architecture"
+      ]
+    },
+    {
+      "url": "https://spec.graphql.org/",
+      "title": "GraphQL specification",
+      "notes": [
+        "registered-graphql-query-architecture"
+      ]
+    },
+    {
       "url": "https://www.rfc-editor.org/rfc/rfc5789.html",
       "title": "PATCH",
       "notes": [
@@ -1153,6 +1222,27 @@
       "title": "JSON specification",
       "notes": [
         "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/integration/integration-start-here",
+      "title": "Microsoft: integration architecture design",
+      "notes": [
+        "system-integration-patterns"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven",
+      "title": "Microsoft: event-driven architecture",
+      "notes": [
+        "system-integration-patterns"
+      ]
+    },
+    {
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/microservices/design/gateway",
+      "title": "Microsoft: API gateways in microservices",
+      "notes": [
+        "system-integration-patterns"
       ]
     },
     {
@@ -1274,6 +1364,41 @@
       "title": "Playwright lint and review article",
       "notes": [
         "playwright-review-beyond-lint"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/locators",
+      "title": "Playwright locators",
+      "notes": [
+        "playwright-typescript-cheat-sheet"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/test-assertions",
+      "title": "Playwright assertions",
+      "notes": [
+        "playwright-typescript-cheat-sheet"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/test-configuration",
+      "title": "Playwright configuration",
+      "notes": [
+        "playwright-typescript-cheat-sheet"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/api-testing",
+      "title": "Playwright API testing",
+      "notes": [
+        "playwright-typescript-cheat-sheet"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/trace-viewer",
+      "title": "Playwright trace viewer",
+      "notes": [
+        "playwright-typescript-cheat-sheet"
       ]
     },
     {

@@ -5,6 +5,7 @@
 - [Предметный язык данных интеграционных тестов](domain-test-data-dsl.md)
 - [Фреймворк Origami — первичная оценка](origami-framework-review.md)
 - [Playwright на Python: от записи к проверке](playwright-python-basics.md)
+- [Практическая шпаргалка Playwright TypeScript](playwright-typescript-cheat-sheet.md)
 - [Ревью Playwright за пределами успешного линтинга](playwright-review-beyond-lint.md)
 - [Тестирование на основе свойств с Hypothesis](property-based-testing.md)
 - [Python для QA: проверенный разбор уроков 1–2](python-qa-foundations-lessons-1-2.md)
