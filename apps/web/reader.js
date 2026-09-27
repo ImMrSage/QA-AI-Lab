@@ -98,37 +98,62 @@ function enableVisualZoom() {
   const reset = document.createElement('button'); reset.type = 'button'; reset.textContent = '100%'; reset.setAttribute('aria-label', t('Reset zoom'));
   const plus = document.createElement('button'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', t('Zoom in'));
   const close = document.createElement('button'); close.type = 'button'; close.textContent = '×'; close.setAttribute('aria-label', t('Close'));
-  toolbar.append(minus, reset, plus, close);
+  const help = document.createElement('span'); help.className = 'visual-lightbox-help'; help.textContent = t('Left click to zoom in · right click to zoom out');
+  toolbar.append(help, minus, reset, plus, close);
   const stage = document.createElement('div'); stage.className = 'visual-lightbox-stage';
-  const canvas = document.createElement('div'); canvas.className = 'visual-lightbox-canvas'; stage.append(canvas);
+  const sizer = document.createElement('div'); sizer.className = 'visual-lightbox-sizer';
+  const canvas = document.createElement('div'); canvas.className = 'visual-lightbox-canvas'; sizer.append(canvas); stage.append(sizer);
   dialog.append(toolbar, stage); document.body.append(dialog);
 
-  let active = null, anchor = null, scale = 1;
+  const scales = [.75, 1, 1.25, 1.5, 2, 2.5, 3];
+  let active = null, anchor = null, scaleIndex = 1, baseWidth = 0, baseHeight = 0;
   const applyScale = () => {
-    canvas.style.zoom = scale;
-    canvas.style.width = '100%';
+    const scale = scales[scaleIndex];
+    canvas.style.transform = `scale(${scale})`;
+    sizer.style.width = `${Math.ceil(baseWidth * scale)}px`;
+    sizer.style.height = `${Math.ceil(baseHeight * scale)}px`;
     reset.textContent = `${Math.round(scale * 100)}%`;
+    minus.disabled = scaleIndex === 0;
+    plus.disabled = scaleIndex === scales.length - 1;
   };
   const restore = () => {
     if (!active || !anchor?.parentNode) return;
     anchor.parentNode.replaceChild(active, anchor);
     active.classList.remove('is-enlarged'); active = null; anchor = null;
-    canvas.style.removeProperty('zoom'); canvas.style.removeProperty('width'); canvas.replaceChildren();
+    canvas.style.removeProperty('transform'); canvas.style.removeProperty('width');
+    sizer.style.removeProperty('width'); sizer.style.removeProperty('height'); canvas.replaceChildren();
   };
   const open = node => {
     if (dialog.open) return;
     active = node; anchor = document.createComment('visual lightbox anchor'); node.before(anchor); canvas.append(node);
-    node.classList.add('is-enlarged'); scale = 1; applyScale(); dialog.showModal();
+    node.classList.add('is-enlarged'); dialog.showModal();
+    const stageStyle = getComputedStyle(stage);
+    const horizontalPadding = parseFloat(stageStyle.paddingLeft) + parseFloat(stageStyle.paddingRight);
+    canvas.style.width = `${Math.max(320, stage.clientWidth - horizontalPadding)}px`;
+    baseWidth = canvas.getBoundingClientRect().width;
+    baseHeight = canvas.getBoundingClientRect().height;
+    scaleIndex = 1; applyScale();
   };
-  const changeScale = delta => { scale = Math.min(3, Math.max(.6, scale + delta)); applyScale(); };
-  minus.addEventListener('click', () => changeScale(-.2));
-  plus.addEventListener('click', () => changeScale(.2));
-  reset.addEventListener('click', () => { scale = 1; applyScale(); });
+  const changeScale = direction => {
+    scaleIndex = Math.min(scales.length - 1, Math.max(0, scaleIndex + direction));
+    applyScale();
+  };
+  minus.addEventListener('click', () => changeScale(-1));
+  plus.addEventListener('click', () => changeScale(1));
+  reset.addEventListener('click', () => { scaleIndex = 1; applyScale(); });
+  canvas.addEventListener('click', event => {
+    if (!dialog.open || event.target.closest('a,button')) return;
+    changeScale(1);
+  });
+  canvas.addEventListener('contextmenu', event => {
+    if (!dialog.open || event.target.closest('a,button')) return;
+    event.preventDefault(); changeScale(-1);
+  });
   close.addEventListener('click', () => dialog.close());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
   dialog.addEventListener('close', restore);
 
-  const visuals = [...article.querySelectorAll('.diagram, img, .visual-brief .table-scroll, .visual-checksheet')];
+  const visuals = [...article.querySelectorAll('.diagram, img, .table-scroll, .visual-checksheet')];
   visuals.forEach(node => {
     node.classList.add('zoomable-visual'); node.tabIndex = 0; node.setAttribute('role', 'button'); node.setAttribute('aria-label', t('Click to enlarge'));
     const activate = event => {

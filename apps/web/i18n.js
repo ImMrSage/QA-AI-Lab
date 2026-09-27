@@ -32,7 +32,7 @@
     'Workflow diagram · Scroll sideways on small screens':'Схема · На узком экране доступна горизонтальная прокрутка',
     'Diagram · Click to enlarge':'Схема · Нажмите, чтобы увеличить','Visual model':'Визуальная модель',
     'Architecture diagram':'Архитектурная схема','Decision matrix':'Матрица решений','Practical checklist':'Практический чек-лист',
-    'Click to enlarge':'Нажмите, чтобы увеличить','Enlarged visual':'Увеличенная схема','Zoom out':'Уменьшить','Zoom in':'Увеличить','Reset zoom':'Сбросить масштаб',
+    'Click to enlarge':'Нажмите, чтобы увеличить','Enlarged visual':'Увеличенная схема','Zoom out':'Уменьшить','Zoom in':'Увеличить','Reset zoom':'Сбросить масштаб','Left click to zoom in · right click to zoom out':'Левый клик — увеличить · правый — уменьшить',
     'Diagram preview unavailable. Its source is shown below.':'Схема недоступна. Ниже показан её исходный код.'
   };
   const t = text => lang === 'ru' ? (phrases[text] || text) : text;
