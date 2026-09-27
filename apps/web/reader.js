@@ -104,11 +104,16 @@ function enableVisualZoom() {
   dialog.append(toolbar, stage); document.body.append(dialog);
 
   let active = null, anchor = null, scale = 1;
-  const applyScale = () => { canvas.style.width = `${scale * 100}%`; reset.textContent = `${Math.round(scale * 100)}%`; };
+  const applyScale = () => {
+    canvas.style.zoom = scale;
+    canvas.style.width = '100%';
+    reset.textContent = `${Math.round(scale * 100)}%`;
+  };
   const restore = () => {
     if (!active || !anchor?.parentNode) return;
     anchor.parentNode.replaceChild(active, anchor);
-    active.classList.remove('is-enlarged'); active = null; anchor = null; canvas.replaceChildren();
+    active.classList.remove('is-enlarged'); active = null; anchor = null;
+    canvas.style.removeProperty('zoom'); canvas.style.removeProperty('width'); canvas.replaceChildren();
   };
   const open = node => {
     if (dialog.open) return;
