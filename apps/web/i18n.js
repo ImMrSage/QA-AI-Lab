@@ -30,8 +30,10 @@
     'Choose a Markdown note from this library.':'Выберите материал Markdown из библиотеки.',
     'This note could not be found. Return to the library and try another material.':'Материал не найден. Вернитесь в библиотеку и выберите другой.',
     'Workflow diagram · Scroll sideways on small screens':'Схема · На узком экране доступна горизонтальная прокрутка',
-    'Diagram preview unavailable. Its source is shown below.':'Схема недоступна. Ниже показан её исходный код.',
-    'Visual summary':'Визуальный конспект','Select a card to open that section':'Выберите карточку, чтобы открыть раздел','Open section':'Открыть раздел'
+    'Diagram · Click to enlarge':'Схема · Нажмите, чтобы увеличить','Visual model':'Визуальная модель',
+    'Architecture diagram':'Архитектурная схема','Decision matrix':'Матрица решений','Practical checklist':'Практический чек-лист',
+    'Click to enlarge':'Нажмите, чтобы увеличить','Enlarged visual':'Увеличенная схема','Zoom out':'Уменьшить','Zoom in':'Увеличить','Reset zoom':'Сбросить масштаб',
+    'Diagram preview unavailable. Its source is shown below.':'Схема недоступна. Ниже показан её исходный код.'
   };
   const t = text => lang === 'ru' ? (phrases[text] || text) : text;
   function localize(root = document.body) {

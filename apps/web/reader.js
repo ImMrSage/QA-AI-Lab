@@ -32,88 +32,107 @@ function readerLink(url) {
   return target.href;
 }
 
-function sectionPreview(heading) {
-  let node = heading.nextElementSibling;
-  while (node && !/^H[1-3]$/.test(node.tagName)) {
-    if (node.matches('p,ul,ol,blockquote')) {
-      const text = node.textContent.replace(/\s+/g, ' ').trim();
-      if (text) return text.length > 132 ? `${text.slice(0, 129).trim()}…` : text;
-    }
-    node = node.nextElementSibling;
-  }
+const referenceHeading = /^(sources?|источники|references?|related (knowledge|topics)|связанные (материалы|темы))$/i;
+
+function owningHeading(node) {
+  let current = node;
+  while ((current = current.previousElementSibling)) if (current.tagName === 'H2') return current.textContent.trim();
   return '';
 }
 
-function summaryIcon(text) {
-  const rules = [
-    [/source|источник|reference/i, '↗'], [/test|тест|quality|качеств/i, '✓'],
-    [/security|безопас|auth/i, '◇'], [/data|данн|storage|хран/i, '▦'],
-    [/api|http|graphql|интеграц/i, '⇄'], [/workflow|process|процесс|flow|цикл/i, '→'],
-    [/risk|риск|limit|огранич/i, '!'], [/example|пример|practice|практи/i, '{ }'],
-  ];
-  return rules.find(([pattern]) => pattern.test(text))?.[1] || '•';
+function isSubstantive(node) {
+  return !referenceHeading.test(owningHeading(node));
 }
 
-function addVisualSummary(metadata) {
+function addVisualBrief() {
   const title = article.querySelector('h1');
   if (!title) return;
-  const ignored = /^(sources?|источники|references?|related (knowledge|topics)|связанные (материалы|темы))$/i;
-  const headings = [...article.querySelectorAll('h2')].filter(heading => !ignored.test(heading.textContent.trim()));
-  if (!headings.length) return;
+  const diagram = [...article.querySelectorAll('.diagram')].find(isSubstantive);
+  const table = [...article.querySelectorAll('.table-scroll')].find(isSubstantive);
+  const list = [...article.querySelectorAll('ul,ol')].find(node => isSubstantive(node) && node.children.length >= 3);
+  const sourceVisual = diagram || table || list;
+  if (!sourceVisual) return;
 
-  const section = document.createElement('section');
-  section.className = 'visual-summary';
-  section.setAttribute('aria-label', t('Visual summary'));
+  const brief = document.createElement('section');
+  brief.className = 'visual-brief';
+  brief.setAttribute('aria-label', t('Visual model'));
   const header = document.createElement('div');
-  header.className = 'visual-summary-head';
-  const label = document.createElement('span');
-  label.className = 'visual-summary-label';
-  label.textContent = t('Visual summary');
+  header.className = 'visual-brief-head';
+  const label = document.createElement('strong');
+  label.textContent = t('Visual model');
+  const type = document.createElement('span');
+  type.textContent = diagram ? t('Architecture diagram') : table ? t('Decision matrix') : t('Practical checklist');
   const hint = document.createElement('span');
-  hint.textContent = t('Select a card to open that section');
-  header.append(label, hint);
+  hint.textContent = t('Click to enlarge');
+  header.append(label, type, hint);
+  const body = document.createElement('div');
+  body.className = 'visual-brief-body';
 
-  const map = document.createElement('div');
-  map.className = 'visual-summary-map';
-  const core = document.createElement('div');
-  core.className = 'visual-summary-core';
-  const coreTitle = document.createElement('strong');
-  coreTitle.textContent = title.textContent;
-  const coreSummary = document.createElement('span');
-  coreSummary.textContent = metadata.summary || '';
-  core.append(coreTitle, coreSummary);
-  map.append(core);
-
-  const nodes = document.createElement('div');
-  nodes.className = 'visual-summary-nodes';
-  headings.forEach((heading, index) => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.className = `visual-summary-node tone-${index % 6}`;
-    button.setAttribute('aria-label', `${t('Open section')}: ${heading.textContent}`);
-    const number = document.createElement('span');
-    number.className = 'visual-summary-number';
-    number.textContent = String(index + 1).padStart(2, '0');
-    const icon = document.createElement('span');
-    icon.className = 'visual-summary-icon';
-    icon.textContent = summaryIcon(heading.textContent);
-    const copy = document.createElement('span');
-    copy.className = 'visual-summary-copy';
-    const nodeTitle = document.createElement('strong');
-    nodeTitle.textContent = heading.textContent;
-    const preview = document.createElement('small');
-    preview.textContent = sectionPreview(heading);
-    copy.append(nodeTitle, preview);
-    button.append(number, icon, copy);
-    button.addEventListener('click', () => {
-      heading.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'start' });
-      history.replaceState(null, '', `#${encodeURIComponent(heading.id)}`);
+  if (diagram || table) {
+    sourceVisual.before(document.createComment('visual moved to article brief'));
+    body.append(sourceVisual);
+  } else {
+    const flow = document.createElement('ol');
+    flow.className = 'visual-checksheet';
+    [...list.children].slice(0, 8).forEach((item, index) => {
+      const step = document.createElement('li');
+      const number = document.createElement('span');
+      number.textContent = String(index + 1).padStart(2, '0');
+      const copy = document.createElement('p');
+      copy.textContent = item.textContent.replace(/\s+/g, ' ').trim();
+      step.append(number, copy); flow.append(step);
     });
-    nodes.append(button);
+    body.append(flow);
+  }
+  brief.append(header, body);
+  title.after(brief);
+}
+
+function enableVisualZoom() {
+  const dialog = document.createElement('dialog');
+  dialog.className = 'visual-lightbox';
+  dialog.setAttribute('aria-label', t('Enlarged visual'));
+  const toolbar = document.createElement('div');
+  toolbar.className = 'visual-lightbox-toolbar';
+  const minus = document.createElement('button'); minus.type = 'button'; minus.textContent = '−'; minus.setAttribute('aria-label', t('Zoom out'));
+  const reset = document.createElement('button'); reset.type = 'button'; reset.textContent = '100%'; reset.setAttribute('aria-label', t('Reset zoom'));
+  const plus = document.createElement('button'); plus.type = 'button'; plus.textContent = '+'; plus.setAttribute('aria-label', t('Zoom in'));
+  const close = document.createElement('button'); close.type = 'button'; close.textContent = '×'; close.setAttribute('aria-label', t('Close'));
+  toolbar.append(minus, reset, plus, close);
+  const stage = document.createElement('div'); stage.className = 'visual-lightbox-stage';
+  const canvas = document.createElement('div'); canvas.className = 'visual-lightbox-canvas'; stage.append(canvas);
+  dialog.append(toolbar, stage); document.body.append(dialog);
+
+  let active = null, anchor = null, scale = 1;
+  const applyScale = () => { canvas.style.width = `${scale * 100}%`; reset.textContent = `${Math.round(scale * 100)}%`; };
+  const restore = () => {
+    if (!active || !anchor?.parentNode) return;
+    anchor.parentNode.replaceChild(active, anchor);
+    active.classList.remove('is-enlarged'); active = null; anchor = null; canvas.replaceChildren();
+  };
+  const open = node => {
+    if (dialog.open) return;
+    active = node; anchor = document.createComment('visual lightbox anchor'); node.before(anchor); canvas.append(node);
+    node.classList.add('is-enlarged'); scale = 1; applyScale(); dialog.showModal();
+  };
+  const changeScale = delta => { scale = Math.min(3, Math.max(.6, scale + delta)); applyScale(); };
+  minus.addEventListener('click', () => changeScale(-.2));
+  plus.addEventListener('click', () => changeScale(.2));
+  reset.addEventListener('click', () => { scale = 1; applyScale(); });
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', restore);
+
+  const visuals = [...article.querySelectorAll('.diagram, img, .visual-brief .table-scroll, .visual-checksheet')];
+  visuals.forEach(node => {
+    node.classList.add('zoomable-visual'); node.tabIndex = 0; node.setAttribute('role', 'button'); node.setAttribute('aria-label', t('Click to enlarge'));
+    const activate = event => {
+      if (dialog.open || event.target.closest('a,button')) return;
+      if (event.type === 'keydown' && !['Enter', ' '].includes(event.key)) return;
+      event.preventDefault(); open(node);
+    };
+    node.addEventListener('click', activate); node.addEventListener('keydown', activate);
   });
-  map.append(nodes);
-  section.append(header, map);
-  title.after(section);
 }
 
 async function load() {
@@ -158,7 +177,6 @@ async function load() {
         document.querySelector('#toc').append(link);
       }
     }
-    addVisualSummary(metadata);
     for (const link of article.querySelectorAll('a[href]')) {
       const href = link.getAttribute('href');
       if (href.startsWith('#')) continue;
@@ -189,7 +207,7 @@ async function load() {
           const { svg } = await mermaid.render(`note-diagram-${index++}`, code.textContent);
           const figure = document.createElement('figure'); figure.className = 'diagram';
           figure.innerHTML = svg;
-          const caption = document.createElement('figcaption'); caption.textContent = t('Workflow diagram · Scroll sideways on small screens');
+          const caption = document.createElement('figcaption'); caption.textContent = t('Diagram · Click to enlarge');
           figure.append(caption); code.parentElement.replaceWith(figure);
         } catch {
           const message = document.createElement('p'); message.textContent = t('Diagram preview unavailable. Its source is shown below.');
@@ -197,6 +215,8 @@ async function load() {
         }
       }
     }
+    addVisualBrief();
+    enableVisualZoom();
     if (location.hash) document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView();
   } catch (error) {
     status.hidden = false; status.className = 'reader-error'; status.textContent = t(error.message) || (lang === 'ru' ? 'Не удалось загрузить материал.' : 'Unable to load this note. Please try again.');
