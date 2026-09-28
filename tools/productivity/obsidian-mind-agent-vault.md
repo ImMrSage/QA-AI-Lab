@@ -35,7 +35,7 @@ The useful idea for QA AI Lab is a shared knowledge layer: people browse the sam
 
 Use an **adapted integration**, not `shardmind install` over this repository. The upstream template is intended for a fresh folder and brings its own `AGENTS.md`, `.codex`, directory taxonomy and frontmatter requirements. A full overlay could replace rules that already govern QA AI Lab.
 
-Start by opening this repository as an Obsidian vault and use the committed Bases dashboard. Keep the existing English notes and their Russian counterparts in place. Add explicit links only when the relationship is meaningful. After the vault views are stable, add QMD as a named, local index and expose read-first MCP operations. Enable agent writes only after path restrictions, Git diffs and existing translation checks are part of the workflow.
+Open this repository as an Obsidian vault and use the committed Bases dashboard. Keep the existing English notes and their Russian counterparts in place, and add explicit links only when the relationship is meaningful. QA AI Lab now maintains a named, project-local QMD index and exposes its search and read operations to Codex through the `qaAiLab` MCP server. Search results locate canonical Markdown; they do not replace reviewing the note. Keep agent writes behind path restrictions, Git diffs and the existing translation checks.
 
 ## Cost and operational notes
 

@@ -1,0 +1,14 @@
+collections:
+  qa-ai-lab:
+    path: .
+    pattern: "{qa,ai,tools,playbooks,locales/ru}/**/*.md,INDEX.md,Home.md,docs/obsidian/*.md"
+    context:
+      "": QA AI Lab knowledge base. Markdown and Git are the source of truth; English canonical notes and Russian counterparts cover software testing, AI, development tools and playbooks.
+      qa: Software quality assurance and testing knowledge.
+      ai: Artificial intelligence, agents and AI-assisted workflows.
+      tools: Compact reviews and operational guidance for useful tools.
+      locales/ru: Russian counterparts of QA AI Lab knowledge notes.
+models:
+  embed: hf:ggml-org/embeddinggemma-300M-GGUF/embeddinggemma-300M-Q8_0.gguf
+  generate: hf:tobil/qmd-query-expansion-1.7B-gguf/qmd-query-expansion-1.7B-q4_k_m.gguf
+  rerank: hf:ggml-org/Qwen3-Reranker-0.6B-Q8_0-GGUF/qwen3-reranker-0.6b-q8_0.gguf

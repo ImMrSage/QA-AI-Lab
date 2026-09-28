@@ -6,6 +6,10 @@ Follow the knowledge processing and source-quality rules in [README.md](README.m
 
 QA, AI, and Tools are independent pillars. AI includes foundations, neural networks, personal growth, game and app development, everyday automation, learning, and future business projects. Tools includes utilities for QA, AI, and general development. AI for testing is an intersection; never require a QA use case to accept or analyze AI material. Choose examples and relevance sections according to the source's actual domain. Preserve cross-links without forcing every note into QA.
 
+## Agent retrieval through QMD
+
+When the `qaAiLab` MCP server is available, use it to discover related notes and duplicates before adding content. On this Windows host, start with a typed `lex` search and `rerank: false`; use `vec` only after a successful runtime check because the current direct vector query can stall despite valid embeddings. Treat search results as navigation hints: read the canonical Markdown file before changing it or citing its claims. The QMD index is derived and rebuildable; Markdown plus Git remains the source of truth. If MCP is unavailable in the current session, use `rg` and repository reads and do not claim that semantic search ran.
+
 ## Every article ingestion session
 
 When the user sends one or more articles or learning resources:

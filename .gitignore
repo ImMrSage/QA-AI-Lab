@@ -18,3 +18,8 @@ Thumbs.db
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache/
+
+# Rebuildable local QMD search index
+.qmd/*.sqlite
+.qmd/*.sqlite-shm
+.qmd/*.sqlite-wal
