@@ -1,0 +1,81 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'id != null'
+    - or:
+        - 'file.inFolder("qa")'
+        - 'file.inFolder("ai")'
+        - 'file.inFolder("tools")'
+        - 'file.inFolder("playbooks")'
+properties:
+  file.name:
+    displayName: Note
+  title:
+    displayName: Title
+  topic:
+    displayName: Topic
+  format:
+    displayName: Format
+  learning_depth:
+    displayName: Depth
+  reviewed:
+    displayName: Reviewed
+  tags:
+    displayName: Tags
+views:
+  - type: table
+    name: All knowledge
+    order:
+      - file.name
+      - title
+      - topic
+      - format
+      - learning_depth
+      - reviewed
+      - tags
+  - type: table
+    name: QA
+    filters:
+      and:
+        - 'file.inFolder("qa")'
+    order:
+      - file.name
+      - title
+      - topic
+      - learning_depth
+      - reviewed
+  - type: table
+    name: AI
+    filters:
+      and:
+        - 'file.inFolder("ai")'
+    order:
+      - file.name
+      - title
+      - topic
+      - learning_depth
+      - reviewed
+  - type: table
+    name: Tools
+    filters:
+      and:
+        - 'file.inFolder("tools")'
+    order:
+      - file.name
+      - title
+      - topic
+      - tags
+      - reviewed
+  - type: table
+    name: Recently reviewed
+    filters:
+      and:
+        - 'reviewed != null'
+    order:
+      - file.name
+      - title
+      - topic
+      - reviewed
+    sort:
+      - property: reviewed
+        direction: DESC

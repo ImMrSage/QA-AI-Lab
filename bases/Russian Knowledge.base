@@ -1,0 +1,46 @@
+filters:
+  and:
+    - 'file.ext == "md"'
+    - 'id != null'
+    - or:
+        - 'file.inFolder("locales/ru/qa")'
+        - 'file.inFolder("locales/ru/ai")'
+        - 'file.inFolder("locales/ru/tools")'
+        - 'file.inFolder("locales/ru/playbooks")'
+properties:
+  file.name:
+    displayName: Заметка
+  title:
+    displayName: Заголовок
+  topic:
+    displayName: Тема
+  format:
+    displayName: Формат
+  learning_depth:
+    displayName: Глубина
+  reviewed:
+    displayName: Проверено
+  tags:
+    displayName: Теги
+views:
+  - type: table
+    name: Все материалы
+    order:
+      - file.name
+      - title
+      - topic
+      - format
+      - learning_depth
+      - reviewed
+      - tags
+  - type: table
+    name: Инструменты
+    filters:
+      and:
+        - 'file.inFolder("locales/ru/tools")'
+    order:
+      - file.name
+      - title
+      - topic
+      - tags
+      - reviewed

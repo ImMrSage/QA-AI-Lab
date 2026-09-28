@@ -3,7 +3,6 @@ from pathlib import Path
 import re, json
 ROOT = Path(__file__).resolve().parents[1]
 WEB = ROOT / 'apps/web'
-TOOL_IDS = {'bundlephobia-npm-cost-check','aitooltree-discovery-guide','handy-local-speech-to-text','delphitools-file-utilities','tabiew-terminal-data-explorer','aiflowy-ai-application-platform','ggh-ssh-session-wrapper'}
 def read(p): return p.read_text(encoding='utf-8-sig')
 def field(s,k):
     m=re.search(r'^'+k+r':\s*(.+)$',s,re.M)
@@ -31,7 +30,8 @@ for area in ['qa','ai','tools','playbooks']:
             if url not in urls: urls.append(url)
             entry=sources.setdefault(url,{'url':url,'title':label,'notes':[]})
             if ident not in entry['notes']: entry['notes'].append(ident)
-        notes.append({'id':ident,'path':rel,'title':{'en':field(en,'title'),'ru':field(ru,'title')},'domain':'ai' if area=='ai' or ident=='agent-query-observability' else 'qa', 'group':section(rel),'kind':'tool' if ident in TOOL_IDS else 'article','urls':urls,'tags':field(en,'tags'),'date':field(en,'reviewed')})
+        note_format=field(en,'format')
+        notes.append({'id':ident,'path':rel,'title':{'en':field(en,'title'),'ru':field(ru,'title')},'domain':'ai' if area=='ai' or ident=='agent-query-observability' else 'qa', 'group':section(rel),'kind':'tool' if note_format=='tool-guide' else 'article','urls':urls,'tags':field(en,'tags'),'date':field(en,'reviewed')})
 materials=[]
 for p in sorted((ROOT/'docs/sources/originals').glob('*.pdf')):
     materials.append({'path':p.relative_to(ROOT).as_posix(),'name':p.stem,'bytes':p.stat().st_size})

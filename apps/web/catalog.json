@@ -1028,6 +1028,26 @@
       "date": "2026-09-22"
     },
     {
+      "id": "obsidian-mind-agent-vault",
+      "path": "tools/productivity/obsidian-mind-agent-vault.md",
+      "title": {
+        "en": "Obsidian Mind: an agent-ready knowledge vault",
+        "ru": "Obsidian Mind: база знаний для AI-агентов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/breferrari/obsidian-mind",
+        "https://github.com/tobi/qmd",
+        "https://github.com/breferrari/obsidian-mind/blob/main/AGENTS.md",
+        "https://obsidian.md/help/bases/syntax",
+        "https://obsidian.md/pricing"
+      ],
+      "tags": "[obsidian, knowledge-management, mcp, ai-agents, qmd, markdown]",
+      "date": "2026-09-28"
+    },
+    {
       "id": "qa-meeting-transcription-toolkit",
       "path": "tools/productivity/qa-meeting-transcription-toolkit.md",
       "title": {
@@ -1036,7 +1056,7 @@
       },
       "domain": "qa",
       "group": "delivery",
-      "kind": "article",
+      "kind": "tool",
       "urls": [
         "https://handy.computer/",
         "https://aistudio.google.com/",
@@ -2083,6 +2103,41 @@
       "notes": [
         "handy-local-speech-to-text",
         "qa-meeting-transcription-toolkit"
+      ]
+    },
+    {
+      "url": "https://github.com/breferrari/obsidian-mind",
+      "title": "Obsidian Mind",
+      "notes": [
+        "obsidian-mind-agent-vault"
+      ]
+    },
+    {
+      "url": "https://github.com/tobi/qmd",
+      "title": "QMD",
+      "notes": [
+        "obsidian-mind-agent-vault"
+      ]
+    },
+    {
+      "url": "https://github.com/breferrari/obsidian-mind/blob/main/AGENTS.md",
+      "title": "Obsidian Mind agent integration notes",
+      "notes": [
+        "obsidian-mind-agent-vault"
+      ]
+    },
+    {
+      "url": "https://obsidian.md/help/bases/syntax",
+      "title": "Obsidian Bases syntax",
+      "notes": [
+        "obsidian-mind-agent-vault"
+      ]
+    },
+    {
+      "url": "https://obsidian.md/pricing",
+      "title": "Obsidian pricing",
+      "notes": [
+        "obsidian-mind-agent-vault"
       ]
     },
     {

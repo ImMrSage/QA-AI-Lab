@@ -13,3 +13,8 @@ coverage/
 # Operating system files
 .DS_Store
 Thumbs.db
+
+# Obsidian machine-local UI state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
