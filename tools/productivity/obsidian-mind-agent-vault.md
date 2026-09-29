@@ -9,7 +9,7 @@ topic: productivity
 tags: [obsidian, knowledge-management, mcp, ai-agents, qmd, markdown]
 format: tool-guide
 learning_depth: SHOULD KNOW
-reviewed: 2026-09-28
+reviewed: 2026-09-29
 ---
 
 # Obsidian Mind: an agent-ready knowledge vault
@@ -37,6 +37,32 @@ Use an **adapted integration**, not `shardmind install` over this repository. Th
 
 Open this repository as an Obsidian vault and use the committed Bases dashboard. Keep the existing English notes and their Russian counterparts in place, and add explicit links only when the relationship is meaningful. QA AI Lab now maintains a named, project-local QMD index and exposes its search and read operations to Codex through the `qaAiLab` MCP server. Search results locate canonical Markdown; they do not replace reviewing the note. Keep agent writes behind path restrictions, Git diffs and the existing translation checks.
 
+## Future AI workflow: durable core, replaceable tools
+
+Nick Milo's short proposes a useful three-layer model. The inner layer is the **ideaverse**: notes, ideas and reasoning stored as plain text. The middle layer is a small set of **maps** that explains the structure and gives an AI enough context to navigate it. AI models and applications form the outer, replaceable **tools** layer. The practical point is portability: a model or application can disappear without taking the knowledge system with it.
+
+```mermaid
+flowchart LR
+    K[Markdown knowledge<br/>notes, sources, decisions] --> M[Context maps<br/>Home, indexes, topic maps]
+    M --> A[AI access<br/>QMD and read-only MCP]
+    A --> T1[Codex]
+    A --> T2[Claude or Gemini]
+    A --> T3[Future models]
+    T1 -. replaceable .-> T2
+    T2 -. replaceable .-> T3
+```
+
+For QA AI Lab, turn that concept into the following operating pattern:
+
+1. Keep durable knowledge in reviewable Markdown, including sources, decisions and links—not in chat history or a provider-specific memory feature.
+2. Maintain only a few curated maps: `Home.md`, `INDEX.md`, domain indexes and explicit links between genuinely related notes. These maps should explain where knowledge belongs and which file is authoritative.
+3. Give an agent the maps first, then use QMD to discover candidates, and finally read the canonical source note before answering or editing.
+4. Keep provider-neutral conventions in `AGENTS.md`, frontmatter and validation scripts so another model can follow the same workflow.
+5. Treat AI output as an inbox item until a person or validation pipeline checks attribution, bilingual consistency and site rendering.
+6. Periodically test the same retrieval task with another model. A successful swap is evidence that the knowledge layer is portable; identical prose is not required.
+
+The video calls the result an “AIOS.” That is the creator's framing, not a separate standard or product requirement. The durable design principle is the useful part: own the knowledge and navigation layers, and let AI tools rotate around them.
+
 ## Cost and operational notes
 
 Obsidian's desktop application and Obsidian Mind's source code can be used without a subscription. Obsidian Sync and Publish are optional paid services. QMD runs locally and does not require a per-query API key, but its recommended embedding, query-expansion and reranking models require downloads and local memory/storage. The upstream project currently requires Obsidian 1.12+, Node.js 22+ and Git; QA AI Lab already uses a compatible Node.js 22 runtime.
@@ -49,3 +75,4 @@ Treat hooks and MCP servers as executable code. Review upstream changes before u
 - [Obsidian Mind agent integration notes](https://github.com/breferrari/obsidian-mind/blob/main/AGENTS.md)
 - [Obsidian Bases syntax](https://obsidian.md/help/bases/syntax)
 - [Obsidian pricing](https://obsidian.md/pricing)
+- [Nick Milo: “Set up Obsidian THIS way to swap any AI models”](https://www.youtube.com/shorts/8Jo9AtcquOs)

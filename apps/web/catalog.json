@@ -1042,10 +1042,11 @@
         "https://github.com/tobi/qmd",
         "https://github.com/breferrari/obsidian-mind/blob/main/AGENTS.md",
         "https://obsidian.md/help/bases/syntax",
-        "https://obsidian.md/pricing"
+        "https://obsidian.md/pricing",
+        "https://www.youtube.com/shorts/8Jo9AtcquOs"
       ],
       "tags": "[obsidian, knowledge-management, mcp, ai-agents, qmd, markdown]",
-      "date": "2026-09-28"
+      "date": "2026-09-29"
     },
     {
       "id": "qa-meeting-transcription-toolkit",
@@ -2136,6 +2137,13 @@
     {
       "url": "https://obsidian.md/pricing",
       "title": "Obsidian pricing",
+      "notes": [
+        "obsidian-mind-agent-vault"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/shorts/8Jo9AtcquOs",
+      "title": "Nick Milo: “Set up Obsidian THIS way to swap any AI models”",
       "notes": [
         "obsidian-mind-agent-vault"
       ]
