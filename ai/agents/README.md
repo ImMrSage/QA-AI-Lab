@@ -1,6 +1,7 @@
 # AI agents
 
 - [MCP and the Host Tool Loop](mcp-host-tool-loop.md)
+- [Jev vs Laya: Fast Decision Models for AI Agents](jev-vs-laya-decision-models.md)
 - [Evidence-Engineered QA Agents](evidence-engineered-qa-agent.md)
 - [Quality Controls for Production Coding Agents](production-coding-agent-controls.md)
 - [Evaluating Specialized Agent Workflows](specialized-workflow-evaluation.md)
