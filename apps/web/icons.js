@@ -43,6 +43,15 @@ export function visual(note){
  return {shape,style:`--tone:${theme[1]};--tint:${theme[2]}`};
 }
 const toolVisuals={
+ "DevDocs":["book",null,"#2866bc","#edf3ff"],
+ "explainshell":["terminal",null,"#2f704f","#edf3ff"],
+ "RegExr":["code",null,"#7555bf","#edf3ff"],
+ "Learn Git Branching":["workflow",null,"#be4548","#edf3ff"],
+ "VisuAlgo":["network",null,"#087e91","#edf3ff"],
+ "JSON Crack":["tree",null,"#19815b","#edf3ff"],
+ "Transform":["convert",null,"#bb6630","#edf3ff"],
+ "Hoppscotch":["network",null,"#288456","#edf3ff"],
+ "Carbon":["monitor",null,"#8651bc","#edf3ff"],
  Handy:['mic','handy','#bb6b31','#fff3e6'], Bundlephobia:['package','bundlephobia','#bd4651','#fff0f2'], Tabiew:['table',null,'#217a65','#e8f7f1'], GGH:['terminal',null,'#2f704f','#e9f6ee'],
  delphitools:['files','delphitools','#3375b9','#eaf3ff'], AIToolTree:['tree','aitooltree','#288456','#eaf8ee'], AIFlowy:['workflow',null,'#6d51bd','#f1edff'],
  NotebookLM:['book',null,'#343c59','#edf0f8'], 'Google AI Studio':['bot','ai-studio','#426cc5','#edf3ff'],
