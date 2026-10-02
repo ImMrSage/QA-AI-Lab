@@ -1,5 +1,6 @@
 # AI for testing
 
+- [AI-Generated Tests: Meaning and Reliability Checks](ai-generated-tests-quality-gates.md)
 - [AI-Assisted Acceptance Criteria](ai-assisted-acceptance-criteria.md)
 - [AI-Assisted QA Documentation](ai-assisted-qa-documentation.md)
 - [Evidence-Led AI Test Triage](evidence-led-test-triage.md)

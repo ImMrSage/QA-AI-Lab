@@ -1,5 +1,6 @@
 # AI для тестирования
 
+- [AI-тесты: проверка смысла и надёжности](ai-generated-tests-quality-gates.md)
 - [Критерии приёмки с помощью AI](ai-assisted-acceptance-criteria.md)
 - [QA-документация с помощью AI](ai-assisted-qa-documentation.md)
 - [AI-триаж тестов по свидетельствам](evidence-led-test-triage.md)

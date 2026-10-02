@@ -799,6 +799,24 @@
       "date": "2026-09-22"
     },
     {
+      "id": "ai-generated-tests-quality-gates",
+      "path": "ai/ai-for-testing/ai-generated-tests-quality-gates.md",
+      "title": {
+        "en": "AI-Generated Tests: Meaning and Reliability Checks",
+        "ru": "AI-тесты: проверка смысла и надёжности"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/netologyru/articles/1070438/",
+        "https://docs.github.com/en/copilot/tutorials/write-tests",
+        "https://stryker-mutator.io/docs/"
+      ],
+      "tags": "[test-generation, test-oracles, mutation-testing, quality-gates]",
+      "date": "2026-10-02"
+    },
+    {
       "id": "evidence-led-test-triage",
       "path": "ai/ai-for-testing/evidence-led-test-triage.md",
       "title": {
@@ -2051,6 +2069,27 @@
       "title": "Cloud.ru on Habr: How a QA engineer uses AI for documentation",
       "notes": [
         "ai-assisted-qa-documentation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/netologyru/articles/1070438/",
+      "title": "Нетология / kirakirap — ИИ пишет тест-кейсы и автотесты за тебя: как их генерировать и не получить ложное покрытие (RU)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/copilot/tutorials/write-tests",
+      "title": "GitHub Docs — Writing tests with GitHub Copilot (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://stryker-mutator.io/docs/",
+      "title": "Stryker — What is mutation testing? (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
       ]
     },
     {
