@@ -940,6 +940,54 @@
       "date": "2026-09-23"
     },
     {
+      "id": "carbon-code-images",
+      "path": "tools/developer-tools/carbon-code-images.md",
+      "title": {
+        "en": "Carbon: Code screenshots",
+        "ru": "Carbon: Изображения кода"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://carbon.now.sh/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "devdocs-documentation",
+      "path": "tools/developer-tools/devdocs-documentation.md",
+      "title": {
+        "en": "DevDocs: API documentation",
+        "ru": "DevDocs: Справочник документации"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://devdocs.io/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "explainshell-command-explainer",
+      "path": "tools/developer-tools/explainshell-command-explainer.md",
+      "title": {
+        "en": "explainshell: Shell command explanations",
+        "ru": "explainshell: Разбор shell-команд"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://explainshell.com/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
       "id": "ggh-ssh-session-wrapper",
       "path": "tools/developer-tools/ggh-ssh-session-wrapper.md",
       "title": {
@@ -957,6 +1005,70 @@
       "date": "2026-09-24"
     },
     {
+      "id": "hoppscotch-api-client",
+      "path": "tools/developer-tools/hoppscotch-api-client.md",
+      "title": {
+        "en": "Hoppscotch: API request workspace",
+        "ru": "Hoppscotch: Рабочее пространство API"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://hoppscotch.io/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "jsoncrack-data-graphs",
+      "path": "tools/developer-tools/jsoncrack-data-graphs.md",
+      "title": {
+        "en": "JSON Crack: Interactive JSON graphs",
+        "ru": "JSON Crack: Интерактивные графы JSON"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://jsoncrack.com/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "learn-git-branching",
+      "path": "tools/developer-tools/learn-git-branching.md",
+      "title": {
+        "en": "Learn Git Branching: Visual Git practice",
+        "ru": "Learn Git Branching: Наглядная практика Git"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://learngitbranching.js.org/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "regexr-pattern-testing",
+      "path": "tools/developer-tools/regexr-pattern-testing.md",
+      "title": {
+        "en": "RegExr: Regular expression testing",
+        "ru": "RegExr: Проверка регулярных выражений"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://regexr.com/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
       "id": "tabiew-terminal-data-explorer",
       "path": "tools/developer-tools/tabiew-terminal-data-explorer.md",
       "title": {
@@ -972,6 +1084,38 @@
       ],
       "tags": "[csv, json, excel, parquet, sql, terminal, data-tools]",
       "date": "2026-09-24"
+    },
+    {
+      "id": "transform-code-converters",
+      "path": "tools/developer-tools/transform-code-converters.md",
+      "title": {
+        "en": "Transform: Code and data conversion",
+        "ru": "Transform: Конвертация кода и данных"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://transform.tools/"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
+    },
+    {
+      "id": "visualgo-algorithm-visualization",
+      "path": "tools/developer-tools/visualgo-algorithm-visualization.md",
+      "title": {
+        "en": "VisuAlgo: Algorithm animations",
+        "ru": "VisuAlgo: Анимации алгоритмов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://visualgo.net/en"
+      ],
+      "tags": "[developer-tools, utilities]",
+      "date": "2026-10-02"
     },
     {
       "id": "agent-query-observability",
@@ -2034,6 +2178,27 @@
       ]
     },
     {
+      "url": "https://carbon.now.sh/",
+      "title": "Carbon",
+      "notes": [
+        "carbon-code-images"
+      ]
+    },
+    {
+      "url": "https://devdocs.io/",
+      "title": "DevDocs",
+      "notes": [
+        "devdocs-documentation"
+      ]
+    },
+    {
+      "url": "https://explainshell.com/",
+      "title": "explainshell",
+      "notes": [
+        "explainshell-command-explainer"
+      ]
+    },
+    {
       "url": "https://github.com/byawitz/ggh",
       "title": "GGH",
       "notes": [
@@ -2048,6 +2213,34 @@
       ]
     },
     {
+      "url": "https://hoppscotch.io/",
+      "title": "Hoppscotch",
+      "notes": [
+        "hoppscotch-api-client"
+      ]
+    },
+    {
+      "url": "https://jsoncrack.com/",
+      "title": "JSON Crack",
+      "notes": [
+        "jsoncrack-data-graphs"
+      ]
+    },
+    {
+      "url": "https://learngitbranching.js.org/",
+      "title": "Learn Git Branching",
+      "notes": [
+        "learn-git-branching"
+      ]
+    },
+    {
+      "url": "https://regexr.com/",
+      "title": "RegExr",
+      "notes": [
+        "regexr-pattern-testing"
+      ]
+    },
+    {
       "url": "https://github.com/shshemi/tabiew",
       "title": "Tabiew",
       "notes": [
@@ -2059,6 +2252,20 @@
       "title": "Tabiew releases",
       "notes": [
         "tabiew-terminal-data-explorer"
+      ]
+    },
+    {
+      "url": "https://transform.tools/",
+      "title": "Transform",
+      "notes": [
+        "transform-code-converters"
+      ]
+    },
+    {
+      "url": "https://visualgo.net/en",
+      "title": "VisuAlgo",
+      "notes": [
+        "visualgo-algorithm-visualization"
       ]
     },
     {
