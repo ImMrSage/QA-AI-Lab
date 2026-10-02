@@ -10,6 +10,23 @@ QA, AI, and Tools are independent pillars. AI includes foundations, neural netwo
 
 When the `qaAiLab` MCP server is available, use it to discover related notes and duplicates before adding content. On this Windows host, start with a typed `lex` search and `rerank: false`; use `vec` only after a successful runtime check because the current direct vector query can stall despite valid embeddings. Treat search results as navigation hints: read the canonical Markdown file before changing it or citing its claims. The QMD index is derived and rebuildable; Markdown plus Git remains the source of truth. If MCP is unavailable in the current session, use `rg` and repository reads and do not claim that semantic search ran.
 
+## Choose scope before writing
+
+For every new source, first decide what is worth adding and how much detail it needs. Inspect the accessible material and existing related notes before choosing a format; length alone is not a reason to compress it.
+
+- **Link and description:** navigation resources, large courses, or material the user explicitly wants bookmarked.
+- **Concise synthesis:** a few durable ideas with little additional practical detail.
+- **Detailed practical note:** tutorials, comparisons, workflows, or material with useful tables, examples, checklists and decision criteria. Retain the substance of those elements in an original, reviewed form.
+- **Update an existing note:** overlapping content; add only the useful new knowledge and its source.
+
+Before editing, briefly tell the user the chosen scope, why it fits, what will be retained and what will be omitted. Proceed within the authorized scope; ask only when an unresolved preference materially affects the result. A request to shorten one source does not apply to later sources.
+
+Judge sections by practical value, novelty, reliability and relevance to QA, AI or Tools. Remove repetition, promotion and unsupported claims; do not discard useful tables or examples merely to save tokens. Check that important decisions, conditions and limitations remain understandable. Respect copyright: preserve knowledge through original synthesis and source links, not wholesale reproduction.
+
+Start published notes with useful content. Do not add PDF page maps, editorial histories or original-versus-corrected claim tables. Integrate verified explanations directly; keep references at the end. The scope decision belongs in the progress update, not in the article introduction.
+
+If only a link or a summary was saved, name it accordingly. Do not imply that all source material was included. Apply this assessment to each future ingestion and to existing notes when they are revisited; a rule change alone does not mean the library has been reprocessed.
+
 ## Every article ingestion session
 
 When the user sends one or more articles or learning resources:

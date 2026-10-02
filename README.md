@@ -123,7 +123,24 @@ When I provide an article, documentation page, note, transcript, code example, s
 
 Process it into useful knowledge.
 
-For each significant source, extract:
+## Choose scope before writing
+
+For every new source, first decide what is worth adding and how much detail it needs. Inspect the accessible material and existing related notes before choosing a format; length alone is not a reason to compress it.
+
+- **Link and description:** navigation resources, large courses, or material the user explicitly wants bookmarked.
+- **Concise synthesis:** a few durable ideas with little additional practical detail.
+- **Detailed practical note:** tutorials, comparisons, workflows, or material with useful tables, examples, checklists and decision criteria. Retain the substance of those elements in an original, reviewed form.
+- **Update an existing note:** overlapping content; add only the useful new knowledge and its source.
+
+Before editing, briefly tell the user the chosen scope, why it fits, what will be retained and what will be omitted. Proceed within the authorized scope; ask only when an unresolved preference materially affects the result. A request to shorten one source does not apply to later sources.
+
+Judge sections by practical value, novelty, reliability and relevance to QA, AI or Tools. Remove repetition, promotion and unsupported claims; do not discard useful tables or examples merely to save tokens. Check that important decisions, conditions and limitations remain understandable. Respect copyright: preserve knowledge through original synthesis and source links, not wholesale reproduction.
+
+Start published notes with useful content. Do not add PDF page maps, editorial histories or original-versus-corrected claim tables. Integrate verified explanations directly; keep references at the end. The scope decision belongs in the progress update, not in the article introduction.
+
+If only a link or a summary was saved, name it accordingly. Do not imply that all source material was included. Apply this assessment to each future ingestion and to existing notes when they are revisited; a rule change alone does not mean the library has been reprocessed.
+
+For substantial sources, select useful elements from the following; these are not mandatory published headings:
 
 ## Summary
 
@@ -171,7 +188,7 @@ Avoid creating isolated notes when they clearly belong to an existing topic.
 
 When I give you a new article or resource:
 
-1. Analyze the material.
+1. Analyze the material and choose the ingestion scope before writing.
 2. Identify the primary subject.
 3. Classify it under QA, AI, Tools, or multiple categories if necessary.
 4. Extract durable knowledge rather than copying the entire source.
