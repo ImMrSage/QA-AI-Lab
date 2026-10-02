@@ -811,7 +811,11 @@
       "urls": [
         "https://habr.com/ru/companies/netologyru/articles/1070438/",
         "https://docs.github.com/en/copilot/tutorials/write-tests",
-        "https://stryker-mutator.io/docs/"
+        "https://stryker-mutator.io/docs/",
+        "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+        "https://arxiv.org/html/2410.21136v1",
+        "https://arxiv.org/abs/2601.08998",
+        "https://arxiv.org/abs/2402.09171"
       ],
       "tags": "[test-generation, test-oracles, mutation-testing, quality-gates]",
       "date": "2026-10-02"
@@ -2088,6 +2092,34 @@
     {
       "url": "https://stryker-mutator.io/docs/",
       "title": "Stryker — What is mutation testing? (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/",
+      "title": "ISTQB — Certified Tester Foundation Level v4.0 (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2410.21136v1",
+      "title": "Do LLMs generate test oracles that capture the actual or the expected program behaviour? (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2601.08998",
+      "title": "On the Flakiness of LLM-Generated Tests for Industrial and Open-Source Database Management Systems (EN)",
+      "notes": [
+        "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.09171",
+      "title": "Automated Unit Test Improvement using Large Language Models at Meta (EN)",
       "notes": [
         "ai-generated-tests-quality-gates"
       ]
