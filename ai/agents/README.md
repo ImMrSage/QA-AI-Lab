@@ -1,5 +1,6 @@
 # AI agents
 
+- [Learn Harness Engineering: Reliable AI Agent Workflows](learn-harness-engineering.md)
 - [MCP and the Host Tool Loop](mcp-host-tool-loop.md)
 - [Jev vs Laya: Fast Decision Models for AI Agents](jev-vs-laya-decision-models.md)
 - [Evidence-Engineered QA Agents](evidence-engineered-qa-agent.md)

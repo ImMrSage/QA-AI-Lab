@@ -701,6 +701,22 @@
       "date": "2026-09-29"
     },
     {
+      "id": "learn-harness-engineering",
+      "path": "ai/agents/learn-harness-engineering.md",
+      "title": {
+        "en": "Learn Harness Engineering: Reliable AI Agent Workflows",
+        "ru": "Learn Harness Engineering: надёжная работа AI-агентов"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://walkinglabs.github.io/learn-harness-engineering/en/"
+      ],
+      "tags": "[learning-resource, agents, harness-engineering, workflows]",
+      "date": "2026-10-02"
+    },
+    {
       "id": "mcp-host-tool-loop",
       "path": "ai/agents/mcp-host-tool-loop.md",
       "title": {
@@ -1979,6 +1995,13 @@
       "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
       "notes": [
         "evidence-engineered-qa-agent"
+      ]
+    },
+    {
+      "url": "https://walkinglabs.github.io/learn-harness-engineering/en/",
+      "title": "Open Learn Harness Engineering",
+      "notes": [
+        "learn-harness-engineering"
       ]
     },
     {
