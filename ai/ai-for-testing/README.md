@@ -1,5 +1,6 @@
 # AI for testing
 
+- [AI in Everyday QA Work](everyday-ai-qa-workflows.md)
 - [AI-Generated Tests: Meaning and Reliability Checks](ai-generated-tests-quality-gates.md)
 - [AI-Assisted Acceptance Criteria](ai-assisted-acceptance-criteria.md)
 - [AI-Assisted QA Documentation](ai-assisted-qa-documentation.md)

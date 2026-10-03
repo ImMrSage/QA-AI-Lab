@@ -1,5 +1,6 @@
 # AI для тестирования
 
+- [AI в ежедневной работе QA](everyday-ai-qa-workflows.md)
 - [AI-тесты: проверка смысла и надёжности](ai-generated-tests-quality-gates.md)
 - [Критерии приёмки с помощью AI](ai-assisted-acceptance-criteria.md)
 - [QA-документация с помощью AI](ai-assisted-qa-documentation.md)

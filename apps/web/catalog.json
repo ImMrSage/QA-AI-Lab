@@ -854,6 +854,22 @@
       "date": "2026-10-02"
     },
     {
+      "id": "everyday-ai-qa-workflows",
+      "path": "ai/ai-for-testing/everyday-ai-qa-workflows.md",
+      "title": {
+        "en": "AI in Everyday QA Work",
+        "ru": "AI в ежедневной работе QA"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/Kak-ya-ispolzuyu-AI-v-rabote-QA-CHestno-09-08"
+      ],
+      "tags": "[ai, qa, test-design, sql, playwright, productivity]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "evidence-led-test-triage",
       "path": "ai/ai-for-testing/evidence-led-test-triage.md",
       "title": {
@@ -2242,6 +2258,13 @@
       "title": "Automated Unit Test Improvement using Large Language Models at Meta (EN)",
       "notes": [
         "ai-generated-tests-quality-gates"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/Kak-ya-ispolzuyu-AI-v-rabote-QA-CHestno-09-08",
+      "title": "Evgeny Gusinets / QA❤️4Life: «Как я использую AI в работе QA. Честно.» (RU)",
+      "notes": [
+        "everyday-ai-qa-workflows"
       ]
     },
     {
