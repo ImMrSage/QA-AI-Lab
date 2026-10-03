@@ -1,5 +1,6 @@
 # Developer tools
 
+- [ChartDB: Database schema diagrams](chartdb-database-diagrams.md)
 - [API Toolkit, Security and Test Strategy](api-testing-toolkit.md)
 - [Bundlephobia: Estimating npm Dependency Cost](bundlephobia-npm-cost-check.md)
 - [DevDocs: API documentation](devdocs-documentation.md)

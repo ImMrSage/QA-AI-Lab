@@ -43,6 +43,7 @@ export function visual(note){
  return {shape,style:`--tone:${theme[1]};--tint:${theme[2]}`};
 }
 const toolVisuals={
+ ChartDB:["network",null,"#087e91","#e5f5f8"],
  "DevDocs":["book",null,"#2866bc","#edf3ff"],
  "explainshell":["terminal",null,"#2f704f","#edf3ff"],
  "RegExr":["code",null,"#7555bf","#edf3ff"],

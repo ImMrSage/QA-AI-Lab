@@ -994,6 +994,23 @@
       "date": "2026-10-02"
     },
     {
+      "id": "chartdb-database-diagrams",
+      "path": "tools/developer-tools/chartdb-database-diagrams.md",
+      "title": {
+        "en": "ChartDB: Database schema diagrams",
+        "ru": "ChartDB: схемы баз данных"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://app.chartdb.io/",
+        "https://chartdb.io/"
+      ],
+      "tags": "[database, er-diagrams, sql, developer-tools]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "devdocs-documentation",
       "path": "tools/developer-tools/devdocs-documentation.md",
       "title": {
@@ -2276,6 +2293,20 @@
       "title": "Carbon",
       "notes": [
         "carbon-code-images"
+      ]
+    },
+    {
+      "url": "https://app.chartdb.io/",
+      "title": "ChartDB app",
+      "notes": [
+        "chartdb-database-diagrams"
+      ]
+    },
+    {
+      "url": "https://chartdb.io/",
+      "title": "ChartDB",
+      "notes": [
+        "chartdb-database-diagrams"
       ]
     },
     {
