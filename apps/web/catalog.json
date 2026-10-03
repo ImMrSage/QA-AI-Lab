@@ -1027,6 +1027,24 @@
       "date": "2026-09-07"
     },
     {
+      "id": "free-llm-api-evaluation",
+      "path": "ai/tools/free-llm-api-evaluation.md",
+      "title": {
+        "en": "Free LLM APIs: Terms and Suitability Checks",
+        "ru": "Бесплатные LLM API: условия и проверка пригодности"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1081820/",
+        "https://tokenharbor.ai/docs/api/rate-limits",
+        "https://docs.z.ai/guides/overview/pricing"
+      ],
+      "tags": "[llm, api, free-tier, rate-limits, evaluation]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "mcp-for-qa",
       "path": "ai/tools/mcp-for-qa.md",
       "title": {
@@ -2511,6 +2529,27 @@
       "title": "logistic regression chapter",
       "notes": [
         "ml-foundations-for-qa"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1081820/",
+      "title": "Ungated: Бесплатный API для LLM: тестирую 6 сервисов, модели и реальные лимиты (RU)",
+      "notes": [
+        "free-llm-api-evaluation"
+      ]
+    },
+    {
+      "url": "https://tokenharbor.ai/docs/api/rate-limits",
+      "title": "Token Harbor: API rate limits (EN)",
+      "notes": [
+        "free-llm-api-evaluation"
+      ]
+    },
+    {
+      "url": "https://docs.z.ai/guides/overview/pricing",
+      "title": "Z.ai: Pricing (EN)",
+      "notes": [
+        "free-llm-api-evaluation"
       ]
     },
     {
