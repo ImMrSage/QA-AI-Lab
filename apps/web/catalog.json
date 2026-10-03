@@ -1059,6 +1059,23 @@
       "date": "2026-10-02"
     },
     {
+      "id": "fakedata-test-data-generator",
+      "path": "tools/developer-tools/fakedata-test-data-generator.md",
+      "title": {
+        "en": "FakeData: Custom test data",
+        "ru": "FakeData: Настраиваемые тестовые данные"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "tool",
+      "urls": [
+        "https://fakedata-mu.vercel.app/",
+        "https://www.producthunt.com/posts/fakedata"
+      ],
+      "tags": "[test-data, mock-data, developer-tools]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "ggh-ssh-session-wrapper",
       "path": "tools/developer-tools/ggh-ssh-session-wrapper.md",
       "title": {
@@ -1187,6 +1204,22 @@
       ],
       "tags": "[developer-tools, utilities]",
       "date": "2026-10-02"
+    },
+    {
+      "id": "upup-offline-content",
+      "path": "tools/developer-tools/upup-offline-content.md",
+      "title": {
+        "en": "UpUp: Offline website content",
+        "ru": "UpUp: Контент сайта без сети"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/TalAter/UpUp"
+      ],
+      "tags": "[offline-first, service-workers, javascript, developer-tools]",
+      "date": "2026-10-03"
     },
     {
       "id": "visualgo-algorithm-visualization",
@@ -2363,6 +2396,20 @@
       ]
     },
     {
+      "url": "https://fakedata-mu.vercel.app/",
+      "title": "FakeData",
+      "notes": [
+        "fakedata-test-data-generator"
+      ]
+    },
+    {
+      "url": "https://www.producthunt.com/posts/fakedata",
+      "title": "FakeData on Product Hunt",
+      "notes": [
+        "fakedata-test-data-generator"
+      ]
+    },
+    {
       "url": "https://github.com/byawitz/ggh",
       "title": "GGH",
       "notes": [
@@ -2430,6 +2477,13 @@
       "title": "Transform",
       "notes": [
         "transform-code-converters"
+      ]
+    },
+    {
+      "url": "https://github.com/TalAter/UpUp",
+      "title": "UpUp",
+      "notes": [
+        "upup-offline-content"
       ]
     },
     {

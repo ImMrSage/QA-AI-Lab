@@ -43,6 +43,8 @@ export function visual(note){
  return {shape,style:`--tone:${theme[1]};--tint:${theme[2]}`};
 }
 const toolVisuals={
+ "FakeData":["table", null, "#087e91", "#e5f5f8"],
+ "UpUp":["monitor", null, "#c47720", "#fff3df"],
  "Steel Browser":["monitor",null,"#477f98","#e7f2f7"],
  ChartDB:["network",null,"#087e91","#e5f5f8"],
  "DevDocs":["book",null,"#2866bc","#edf3ff"],

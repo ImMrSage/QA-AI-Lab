@@ -1,5 +1,7 @@
 # Инструменты разработки
 
+- [UpUp: Контент сайта без сети](upup-offline-content.md)
+- [FakeData: Настраиваемые тестовые данные](fakedata-test-data-generator.md)
 - [Steel Browser: Браузерная инфраструктура для AI-агентов](steel-browser-agent-infrastructure.md)
 - [ChartDB: схемы баз данных](chartdb-database-diagrams.md)
 - [Инструменты API, безопасность и стратегия тестирования](api-testing-toolkit.md)

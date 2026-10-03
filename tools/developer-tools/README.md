@@ -1,5 +1,7 @@
 # Developer tools
 
+- [UpUp: Offline website content](upup-offline-content.md)
+- [FakeData: Custom test data](fakedata-test-data-generator.md)
 - [Steel Browser: Browser infrastructure for AI agents](steel-browser-agent-infrastructure.md)
 - [ChartDB: Database schema diagrams](chartdb-database-diagrams.md)
 - [API Toolkit, Security and Test Strategy](api-testing-toolkit.md)
