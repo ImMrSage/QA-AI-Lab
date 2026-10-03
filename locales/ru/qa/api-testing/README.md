@@ -1,5 +1,6 @@
 # Тестирование API
 
+- [Тестирование API: ответ, доступ и состояние](api-response-access-state-checks.md)
 - [Основы API и подводные камни HTTP](api-foundations-and-http-pitfalls.md)
 - [Контракты от потребителя с Pact](consumer-driven-contracts.md)
 - [HTTP-статусы: проверки и ловушки](http-status-codes.md)

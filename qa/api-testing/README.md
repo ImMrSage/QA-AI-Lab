@@ -1,5 +1,6 @@
 # API testing
 
+- [API Testing: Responses, Access and State](api-response-access-state-checks.md)
 - [API Foundations and HTTP Pitfalls](api-foundations-and-http-pitfalls.md)
 - [Consumer-Driven Contracts with Pact](consumer-driven-contracts.md)
 - [HTTP Status Codes: Checks and Pitfalls](http-status-codes.md)

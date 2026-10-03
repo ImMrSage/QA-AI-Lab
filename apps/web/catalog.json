@@ -21,6 +21,25 @@
       "date": "2026-09-12"
     },
     {
+      "id": "api-response-access-state-checks",
+      "path": "qa/api-testing/api-response-access-state-checks.md",
+      "title": {
+        "en": "API Testing: Responses, Access and State",
+        "ru": "Тестирование API: ответ, доступ и состояние"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/netologyru/articles/1075684/",
+        "https://www.rfc-editor.org/rfc/rfc9110.html",
+        "https://json-schema.org/understanding-json-schema/reference/object",
+        "https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/"
+      ],
+      "tags": "[api, http, postman, test-design, authorization, state]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "consumer-driven-contracts",
       "path": "qa/api-testing/consumer-driven-contracts.md",
       "title": {
@@ -1501,6 +1520,37 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/netologyru/articles/1075684/",
+      "title": "Netology: «Как тестировать API: 20 проверок, которые должен уметь делать QA» (RU)",
+      "notes": [
+        "api-response-access-state-checks"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "title": "RFC 9110: HTTP Semantics (EN)",
+      "notes": [
+        "api-response-access-state-checks",
+        "http-status-codes",
+        "rest-api-request-basics",
+        "authentication-authorization-review"
+      ]
+    },
+    {
+      "url": "https://json-schema.org/understanding-json-schema/reference/object",
+      "title": "JSON Schema: object (EN)",
+      "notes": [
+        "api-response-access-state-checks"
+      ]
+    },
+    {
+      "url": "https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/",
+      "title": "OWASP: Broken Object Level Authorization (EN)",
+      "notes": [
+        "api-response-access-state-checks"
+      ]
+    },
+    {
       "url": "https://habr.com/ru/articles/1058382/",
       "title": "Pact article",
       "notes": [
@@ -1519,15 +1569,6 @@
       "title": "«HTTP-статусы для тестировщика»",
       "notes": [
         "http-status-codes"
-      ]
-    },
-    {
-      "url": "https://www.rfc-editor.org/rfc/rfc9110.html",
-      "title": "HTTP Semantics",
-      "notes": [
-        "http-status-codes",
-        "rest-api-request-basics",
-        "authentication-authorization-review"
       ]
     },
     {
