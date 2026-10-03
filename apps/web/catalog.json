@@ -1140,6 +1140,22 @@
       "date": "2026-10-02"
     },
     {
+      "id": "steel-browser-agent-infrastructure",
+      "path": "tools/developer-tools/steel-browser-agent-infrastructure.md",
+      "title": {
+        "en": "Steel Browser: Browser infrastructure for AI agents",
+        "ru": "Steel Browser: Браузерная инфраструктура для AI-агентов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/steel-dev/steel-browser"
+      ],
+      "tags": "[browser-automation, ai-agents, playwright, developer-tools]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "tabiew-terminal-data-explorer",
       "path": "tools/developer-tools/tabiew-terminal-data-explorer.md",
       "title": {
@@ -2386,6 +2402,13 @@
       "title": "RegExr",
       "notes": [
         "regexr-pattern-testing"
+      ]
+    },
+    {
+      "url": "https://github.com/steel-dev/steel-browser",
+      "title": "Steel Browser",
+      "notes": [
+        "steel-browser-agent-infrastructure"
       ]
     },
     {

@@ -1,5 +1,6 @@
 # Инструменты разработки
 
+- [Steel Browser: Браузерная инфраструктура для AI-агентов](steel-browser-agent-infrastructure.md)
 - [ChartDB: схемы баз данных](chartdb-database-diagrams.md)
 - [Инструменты API, безопасность и стратегия тестирования](api-testing-toolkit.md)
 - [Bundlephobia: оценка стоимости npm-зависимости](bundlephobia-npm-cost-check.md)

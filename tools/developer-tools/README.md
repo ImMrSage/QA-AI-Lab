@@ -1,5 +1,6 @@
 # Developer tools
 
+- [Steel Browser: Browser infrastructure for AI agents](steel-browser-agent-infrastructure.md)
 - [ChartDB: Database schema diagrams](chartdb-database-diagrams.md)
 - [API Toolkit, Security and Test Strategy](api-testing-toolkit.md)
 - [Bundlephobia: Estimating npm Dependency Cost](bundlephobia-npm-cost-check.md)
