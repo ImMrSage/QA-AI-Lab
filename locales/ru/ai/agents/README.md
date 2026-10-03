@@ -1,5 +1,6 @@
 # AI-агенты
 
+- [Процесс доставки изменений с AI-агентами](agent-delivery-workflow.md)
 - [Диагностика отказов AI-агентов](agent-failure-diagnosis.md)
 - [Claude Code: руководство Ранаса Мукминова](claude-code-mukminov-book.md)
 - [Learn Harness Engineering: надёжная работа AI-агентов](learn-harness-engineering.md)

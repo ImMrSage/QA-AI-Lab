@@ -670,6 +670,22 @@
       "date": "2026-09-06"
     },
     {
+      "id": "agent-delivery-workflow",
+      "path": "ai/agents/agent-delivery-workflow.md",
+      "title": {
+        "en": "Delivery Workflows with AI Agents",
+        "ru": "Процесс доставки изменений с AI-агентами"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1081076/"
+      ],
+      "tags": "[agents, delivery, documentation, workflows, review, productivity]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "agent-failure-diagnosis",
       "path": "ai/agents/agent-failure-diagnosis.md",
       "title": {
@@ -2147,6 +2163,13 @@
       "title": "Student-portal usability study",
       "notes": [
         "usability-beyond-complaints"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1081076/",
+      "title": "eaterman99: «Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку» (RU)",
+      "notes": [
+        "agent-delivery-workflow"
       ]
     },
     {
