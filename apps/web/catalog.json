@@ -184,6 +184,22 @@
       "date": "2026-09-06"
     },
     {
+      "id": "coverage-artifact-pipeline",
+      "path": "qa/automation/coverage-artifact-pipeline.md",
+      "title": {
+        "en": "Collecting and Merging Code Coverage",
+        "ru": "Сбор и объединение кодового покрытия"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/swd_es/articles/1080274/"
+      ],
+      "tags": "[coverage, ci-cd, gcc, artifacts, integration-testing]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "domain-test-data-dsl",
       "path": "qa/automation/domain-test-data-dsl.md",
       "title": {
@@ -558,10 +574,11 @@
       "group": "delivery",
       "kind": "article",
       "urls": [
-        "https://habr.com/ru/companies/ozontech/articles/1059114/"
+        "https://habr.com/ru/companies/ozontech/articles/1059114/",
+        "https://habr.com/ru/companies/sberbank/articles/1077512/"
       ],
       "tags": "[release, ci-cd, mobile, metrics]",
-      "date": "2026-09-07"
+      "date": "2026-10-03"
     },
     {
       "id": "release-readiness-playbook",
@@ -1736,6 +1753,13 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/swd_es/articles/1080274/",
+      "title": "Ivan Rastegaev: «Особенности сбора кодового покрытия в ОС „Нейтрино“» (RU)",
+      "notes": [
+        "coverage-artifact-pipeline"
+      ]
+    },
+    {
       "url": "https://habr.com/ru/articles/1059908/",
       "title": "HFLabs test-data DSL case study",
       "notes": [
@@ -2082,6 +2106,13 @@
     {
       "url": "https://habr.com/ru/companies/ozontech/articles/1059114/",
       "title": "Bogdan Burkov — Ozon Tech release process case study",
+      "notes": [
+        "release-orchestration"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/sberbank/articles/1077512/",
+      "title": "Elena Babenko — release-check orchestration case study (RU)",
       "notes": [
         "release-orchestration"
       ]

@@ -6,7 +6,7 @@ topic: qa-process
 tags: [release, ci-cd, mobile, metrics]
 format: source-review
 learning_depth: SHOULD KNOW
-reviewed: 2026-09-07
+reviewed: 2026-10-03
 ---
 
 # Automating Release Coordination
@@ -33,7 +33,27 @@ The simplified code selects only `Regress`, while the prose also describes `Regr
 
 Automate one bottleneck first. Compare elapsed time, human effort and escaped defects over several releases before widening the change.
 
+## Versioned release-check suites
+
+An additional case replaces manual launches with scenario configuration: scenario → builds → parameters. Suites are divided into logical groups; a master job launches selected groups and collects result links. Time savings are the author's estimate, not an independent measurement.
+
+### Configuration checks — proposed for Lab
+
+| Risk | Check |
+| --- | --- |
+| Wrong version | Each run tied to an immutable candidate ID |
+| Cloning error | Explicit old-to-new ID mapping; parameters belong to new builds |
+| Duplicate scenario | Unique name and version or a separate stable key |
+| Partial write | Configuration published atomically after validation |
+| Worker overload | Bounded concurrency and visible queue |
+| Missing execution | Summary includes every expected job, including unstarted ones |
+| Hidden failure | Original failure and rerun reasons retained |
+
+A database is one configuration store; a versioned file can suit a small project. The article's SQL is not a ready migration: examples use different column names, and matching by name and index requires uniqueness guarantees. Adoption needs the actual schema, a transaction and integrity checks. Code was not executed.
+
 ## Sources
 
 - [Bogdan Burkov — Ozon Tech release process case study](https://habr.com/ru/companies/ozontech/articles/1059114/)
 - [Risk-based test planning](test-planning.md)
+
+- [Elena Babenko — release-check orchestration case study (RU)](https://habr.com/ru/companies/sberbank/articles/1077512/)
