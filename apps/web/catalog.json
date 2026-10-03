@@ -651,6 +651,22 @@
       "date": "2026-09-06"
     },
     {
+      "id": "claude-code-mukminov-book",
+      "path": "ai/agents/claude-code-mukminov-book.md",
+      "title": {
+        "en": "Claude Code: Ranas Mukminov’s Developer Guide",
+        "ru": "Claude Code: руководство Ранаса Мукминова"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://code.claude.com/docs/en/overview"
+      ],
+      "tags": "[claude-code, learning-resource, agentic-development, book]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "debuggable-agentic-bug-fixing",
       "path": "ai/agents/debuggable-agentic-bug-fixing.md",
       "title": {
@@ -1992,6 +2008,13 @@
       "title": "Student-portal usability study",
       "notes": [
         "usability-beyond-complaints"
+      ]
+    },
+    {
+      "url": "https://code.claude.com/docs/en/overview",
+      "title": "Claude Code — official documentation (EN)",
+      "notes": [
+        "claude-code-mukminov-book"
       ]
     },
     {

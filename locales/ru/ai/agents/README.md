@@ -1,5 +1,6 @@
 # AI-агенты
 
+- [Claude Code: руководство Ранаса Мукминова](claude-code-mukminov-book.md)
 - [Learn Harness Engineering: надёжная работа AI-агентов](learn-harness-engineering.md)
 - [MCP и цикл вызова инструментов в хосте](mcp-host-tool-loop.md)
 - [Jev и Laya: быстрые decision models для AI-агентов](jev-vs-laya-decision-models.md)

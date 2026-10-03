@@ -1,5 +1,6 @@
 # AI agents
 
+- [Claude Code: Ranas Mukminov’s Developer Guide](claude-code-mukminov-book.md)
 - [Learn Harness Engineering: Reliable AI Agent Workflows](learn-harness-engineering.md)
 - [MCP and the Host Tool Loop](mcp-host-tool-loop.md)
 - [Jev vs Laya: Fast Decision Models for AI Agents](jev-vs-laya-decision-models.md)
