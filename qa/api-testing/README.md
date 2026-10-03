@@ -1,5 +1,6 @@
 # API testing
 
+- [Token Transport: Headers, Cookies and URLs](token-transport-options.md)
 - [API Testing: Responses, Access and State](api-response-access-state-checks.md)
 - [API Foundations and HTTP Pitfalls](api-foundations-and-http-pitfalls.md)
 - [Consumer-Driven Contracts with Pact](consumer-driven-contracts.md)

@@ -130,6 +130,24 @@
       "date": "2026-09-26"
     },
     {
+      "id": "token-transport-options",
+      "path": "qa/api-testing/token-transport-options.md",
+      "title": {
+        "en": "Token Transport: Headers, Cookies and URLs",
+        "ru": "Передача токенов: заголовок, cookie и URL"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://www.rfc-editor.org/rfc/rfc6750.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+        "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html"
+      ],
+      "tags": "[tokens, authentication, cookies, csrf, api-security]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "agile-devops-tdd-quality-strategies",
       "path": "qa/automation/agile-devops-tdd-quality-strategies.md",
       "title": {
@@ -1651,6 +1669,29 @@
       ]
     },
     {
+      "url": "https://www.rfc-editor.org/rfc/rfc6750.html",
+      "title": "RFC 6750: Bearer Token Usage (EN)",
+      "notes": [
+        "token-transport-options"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
+      "title": "OWASP: Session Management (EN)",
+      "notes": [
+        "token-transport-options",
+        "authentication-authorization-review",
+        "api-testing-toolkit"
+      ]
+    },
+    {
+      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html",
+      "title": "OWASP: CSRF Prevention (EN)",
+      "notes": [
+        "token-transport-options"
+      ]
+    },
+    {
       "url": "https://agilemanifesto.org/principles",
       "title": "Principles behind the Agile Manifesto",
       "notes": [
@@ -2120,14 +2161,6 @@
       "title": "JWT Cheat Sheet",
       "notes": [
         "authentication-authorization-review"
-      ]
-    },
-    {
-      "url": "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html",
-      "title": "Session Management",
-      "notes": [
-        "authentication-authorization-review",
-        "api-testing-toolkit"
       ]
     },
     {
