@@ -689,6 +689,24 @@
       "date": "2026-09-06"
     },
     {
+      "id": "cross-browser-test-matrix",
+      "path": "qa/web-testing/cross-browser-test-matrix.md",
+      "title": {
+        "en": "Cross-Browser Testing: Environments and Checks",
+        "ru": "Кроссбраузерность: матрица сред и проверок"
+      },
+      "domain": "qa",
+      "group": "experience",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/selectel/articles/1081954/",
+        "https://playwright.dev/docs/browsers",
+        "https://web.dev/baseline"
+      ],
+      "tags": "[cross-browser, compatibility, webview, playwright, visual-testing]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "usability-beyond-complaints",
       "path": "qa/web-testing/usability-beyond-complaints.md",
       "title": {
@@ -2220,6 +2238,27 @@
       "title": "Black-box bug-bounty account",
       "notes": [
         "security-observation-vs-vulnerability"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/selectel/articles/1081954/",
+      "title": "vaapo: Почему баги кроссбраузерности до сих пор никуда не исчезли — Selectel, Habr (RU)",
+      "notes": [
+        "cross-browser-test-matrix"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/browsers",
+      "title": "Playwright: Browsers (EN)",
+      "notes": [
+        "cross-browser-test-matrix"
+      ]
+    },
+    {
+      "url": "https://web.dev/baseline",
+      "title": "Baseline (EN)",
+      "notes": [
+        "cross-browser-test-matrix"
       ]
     },
     {

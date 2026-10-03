@@ -5,3 +5,5 @@
 - [Тестирование Web UI](../../playbooks/checklists/web-ui-testing.md)
 
 [Каталог знаний](../../INDEX.md)
+
+- [Кроссбраузерная матрица](cross-browser-test-matrix.md)

@@ -5,3 +5,5 @@
 - [Web UI Testing](../../playbooks/checklists/web-ui-testing.md)
 
 [Knowledge index](../../INDEX.md)
+
+- [Cross-browser test matrix](cross-browser-test-matrix.md)

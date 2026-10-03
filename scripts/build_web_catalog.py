@@ -16,7 +16,7 @@ def section(path):
     if any(x in path for x in ['api-testing','security']): return 'interfaces'
     if any(x in path for x in ['automation','test-data']): return 'automation'
     if path.startswith('ai/'): return 'ai'
-    if any(x in path for x in ['mobile','web-ui','performance']): return 'experience'
+    if any(x in path for x in ['mobile','web-ui','web-testing','performance']): return 'experience'
     return 'foundations'
 notes=[]; sources={}
 for area in ['qa','ai','tools','playbooks']:
