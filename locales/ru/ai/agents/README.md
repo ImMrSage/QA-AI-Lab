@@ -1,5 +1,6 @@
 # AI-агенты
 
+- [Диагностика отказов AI-агентов](agent-failure-diagnosis.md)
 - [Claude Code: руководство Ранаса Мукминова](claude-code-mukminov-book.md)
 - [Learn Harness Engineering: надёжная работа AI-агентов](learn-harness-engineering.md)
 - [MCP и цикл вызова инструментов в хосте](mcp-host-tool-loop.md)

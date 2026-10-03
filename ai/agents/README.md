@@ -1,5 +1,6 @@
 # AI agents
 
+- [Diagnosing AI Agent Failures](agent-failure-diagnosis.md)
 - [Claude Code: Ranas Mukminov’s Developer Guide](claude-code-mukminov-book.md)
 - [Learn Harness Engineering: Reliable AI Agent Workflows](learn-harness-engineering.md)
 - [MCP and the Host Tool Loop](mcp-host-tool-loop.md)

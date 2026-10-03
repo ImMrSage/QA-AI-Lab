@@ -651,6 +651,23 @@
       "date": "2026-09-06"
     },
     {
+      "id": "agent-failure-diagnosis",
+      "path": "ai/agents/agent-failure-diagnosis.md",
+      "title": {
+        "en": "Diagnosing AI Agent Failures",
+        "ru": "Диагностика отказов AI-агентов"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1079638/",
+        "https://arxiv.org/html/2607.28802v1"
+      ],
+      "tags": "[agents, harness-engineering, evaluations, debugging, rag]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "claude-code-mukminov-book",
       "path": "ai/agents/claude-code-mukminov-book.md",
       "title": {
@@ -2057,6 +2074,20 @@
       "title": "Student-portal usability study",
       "notes": [
         "usability-beyond-complaints"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1079638/",
+      "title": "Zakhar Kopanitsky: «Кто на самом деле сломал вашего ИИ-агента: модель или обвязка?» (RU)",
+      "notes": [
+        "agent-failure-diagnosis"
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2607.28802v1",
+      "title": "Harsh Raj et al.: Model or Harness? (EN)",
+      "notes": [
+        "agent-failure-diagnosis"
       ]
     },
     {
