@@ -6,6 +6,14 @@ Follow the knowledge processing and source-quality rules in [README.md](README.m
 
 QA, AI, and Tools are independent pillars. AI includes foundations, neural networks, personal growth, game and app development, everyday automation, learning, and future business projects. Tools includes utilities for QA, AI, and general development. AI for testing is an intersection; never require a QA use case to accept or analyze AI material. Choose examples and relevance sections according to the source's actual domain. Preserve cross-links without forcing every note into QA.
 
+## Luna decision routing
+
+The user authorizes narrow delegation to `decision-router` for this project. Keep the primary model selected by the user; do not switch it automatically. The project agent file pins Luna with low reasoning and read-only access.
+
+Delegate meaningful batches of repetitive classification or duplicate-candidate decisions with only relevant evidence, not the full chat history. Do simple deterministic checks locally; do not spawn for trivial single-item decisions. Use one router at a time and no nested agents. Explicitly use `gpt-6-luna` and `low` with minimal context if this session cannot select the custom role. Never silently substitute another model; proceed with the parent and report unavailability.
+
+Luna returns advisory JSON. Validate item IDs, allowed labels and evidence. The primary agent reads full sources, decides depth under the ingestion rule, handles uncertainty and performs edits and publishing. Delegation is not permission for external writes. Do not describe self-reported confidence as calibrated probability. Measure actual time and correction effort before claiming savings.
+
 ## Agent retrieval through QMD
 
 When the `qaAiLab` MCP server is available, use it to discover related notes and duplicates before adding content. On this Windows host, start with a typed `lex` search and `rerank: false`; use `vec` only after a successful runtime check because the current direct vector query can stall despite valid embeddings. Treat search results as navigation hints: read the canonical Markdown file before changing it or citing its claims. The QMD index is derived and rebuildable; Markdown plus Git remains the source of truth. If MCP is unavailable in the current session, use `rg` and repository reads and do not claim that semantic search ran.
