@@ -1,5 +1,6 @@
 # Developer tools
 
+- [Patterns.dev: Web development patterns](patterns-dev-web-patterns.md)
 - [UpUp: Offline website content](upup-offline-content.md)
 - [FakeData: Custom test data](fakedata-test-data-generator.md)
 - [Steel Browser: Browser infrastructure for AI agents](steel-browser-agent-infrastructure.md)

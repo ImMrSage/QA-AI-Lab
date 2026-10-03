@@ -1174,6 +1174,22 @@
       "date": "2026-10-02"
     },
     {
+      "id": "patterns-dev-web-patterns",
+      "path": "tools/developer-tools/patterns-dev-web-patterns.md",
+      "title": {
+        "en": "Patterns.dev: Web development patterns",
+        "ru": "Patterns.dev: Паттерны web-разработки"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://www.patterns.dev/"
+      ],
+      "tags": "[learning-resource, javascript, frontend, design-patterns, performance]",
+      "date": "2026-10-03"
+    },
+    {
       "id": "regexr-pattern-testing",
       "path": "tools/developer-tools/regexr-pattern-testing.md",
       "title": {
@@ -2496,6 +2512,13 @@
       "title": "Learn Git Branching",
       "notes": [
         "learn-git-branching"
+      ]
+    },
+    {
+      "url": "https://www.patterns.dev/",
+      "title": "Patterns.dev",
+      "notes": [
+        "patterns-dev-web-patterns"
       ]
     },
     {

@@ -1,5 +1,6 @@
 # Инструменты разработки
 
+- [Patterns.dev: Паттерны web-разработки](patterns-dev-web-patterns.md)
 - [UpUp: Контент сайта без сети](upup-offline-content.md)
 - [FakeData: Настраиваемые тестовые данные](fakedata-test-data-generator.md)
 - [Steel Browser: Браузерная инфраструктура для AI-агентов](steel-browser-agent-infrastructure.md)
