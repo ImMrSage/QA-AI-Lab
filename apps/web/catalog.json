@@ -57,6 +57,25 @@
       "date": "2026-09-06"
     },
     {
+      "id": "http-header-checks",
+      "path": "qa/api-testing/http-header-checks.md",
+      "title": {
+        "en": "HTTP Headers: Practical API Checks",
+        "ru": "HTTP-заголовки: практические проверки API"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/HTTP-statusy-i-zagolovki-shpargalka-dlya-testirovshchika-09-24",
+        "https://www.rfc-editor.org/rfc/rfc9110.html",
+        "https://www.rfc-editor.org/rfc/rfc9111.html",
+        "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"
+      ],
+      "tags": "[http, headers, caching, cors, cookies]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "http-status-codes",
       "path": "qa/api-testing/http-status-codes.md",
       "title": {
@@ -1776,6 +1795,7 @@
       "title": "RFC 9110: HTTP Semantics (EN)",
       "notes": [
         "api-response-access-state-checks",
+        "http-header-checks",
         "http-status-codes",
         "rest-api-request-basics",
         "authentication-authorization-review"
@@ -1807,6 +1827,27 @@
       "title": "Official Pact deployment compatibility documentation",
       "notes": [
         "consumer-driven-contracts"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/HTTP-statusy-i-zagolovki-shpargalka-dlya-testirovshchika-09-24",
+      "title": "QA❤️4Life, Евгений Гусинец: «HTTP-статусы и заголовки: шпаргалка для тестировщика»",
+      "notes": [
+        "http-header-checks"
+      ]
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc9111.html",
+      "title": "RFC 9111: HTTP Caching",
+      "notes": [
+        "http-header-checks"
+      ]
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS",
+      "title": "MDN: CORS",
+      "notes": [
+        "http-header-checks"
       ]
     },
     {
