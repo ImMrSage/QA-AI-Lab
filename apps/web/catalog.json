@@ -216,6 +216,24 @@
       "date": "2026-09-06"
     },
     {
+      "id": "flaky-test-investigation",
+      "path": "qa/automation/flaky-test-investigation.md",
+      "title": {
+        "en": "Flaky Tests: Investigation and CI Control",
+        "ru": "Flaky-тесты: диагностика и контроль в CI"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/otus/articles/1080406/",
+        "https://playwright.dev/docs/test-retries",
+        "https://playwright.dev/docs/api/class-testconfig"
+      ],
+      "tags": "[flaky, ci, isolation, retries]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "origami-framework-review",
       "path": "qa/automation/origami-framework-review.md",
       "title": {
@@ -324,6 +342,23 @@
       "date": "2026-09-06"
     },
     {
+      "id": "python-mock-contracts",
+      "path": "qa/automation/python-mock-contracts.md",
+      "title": {
+        "en": "Python Mocks: Contracts, Outcomes and Lifecycle",
+        "ru": "Моки Python: контракт, результат и жизненный цикл"
+      },
+      "domain": "qa",
+      "group": "automation",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/otus/articles/1079908/",
+        "https://docs.python.org/3/library/unittest.mock.html"
+      ],
+      "tags": "[python, mocks, contracts, test-doubles]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "python-qa-foundations-lessons-1-2",
       "path": "qa/automation/python-qa-foundations-lessons-1-2.md",
       "title": {
@@ -426,6 +461,22 @@
       "date": "2026-10-05"
     },
     {
+      "id": "systematic-debugging",
+      "path": "qa/manual-testing/systematic-debugging.md",
+      "title": {
+        "en": "Systematic Debugging: From Failure to Verified Cause",
+        "ru": "Системная отладка: от сбоя к проверяемой причине"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/garda/articles/1083046/"
+      ],
+      "tags": "[debugging, hypothesis, evidence, root-cause]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "mobile-testing-guide-review",
       "path": "qa/mobile-testing/mobile-testing-guide-review.md",
       "title": {
@@ -456,10 +507,11 @@
       "group": "experience",
       "kind": "article",
       "urls": [
-        "https://habr.com/ru/articles/1061680/"
+        "https://habr.com/ru/articles/1061680/",
+        "https://habr.com/ru/companies/sportmaster_lab/articles/1082436/"
       ],
       "tags": "[performance, scalability, gatling, test-data]",
-      "date": "2026-09-06"
+      "date": "2026-10-05"
     },
     {
       "id": "performance-testing-degradation-thinking",
@@ -773,6 +825,39 @@
       ],
       "tags": "[agents, harness-engineering, evaluations, debugging, rag]",
       "date": "2026-10-03"
+    },
+    {
+      "id": "agent-instruction-evaluation",
+      "path": "ai/agents/agent-instruction-evaluation.md",
+      "title": {
+        "en": "AI Agent Instructions: Evaluate Outcomes, Risk and Cost",
+        "ru": "Правила AI-агента: проверять результат, риск и стоимость"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/otus/articles/1083366/",
+        "https://www.phenx.ai/research/karpathy-discipline-rules"
+      ],
+      "tags": "[agents, evaluation, instructions, productivity]",
+      "date": "2026-10-05"
+    },
+    {
+      "id": "ai-workflow-pilot-controls",
+      "path": "ai/agents/ai-workflow-pilot-controls.md",
+      "title": {
+        "en": "AI Workflow Pilots: Context, Verification and Human Handoff",
+        "ru": "AI в рабочих процессах: контекст, проверка и передача человеку"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/cynteka/articles/1082412/"
+      ],
+      "tags": "[rag, agents, review, automation, evaluation]",
+      "date": "2026-10-05"
     },
     {
       "id": "claude-code-mukminov-book",
@@ -1822,6 +1907,27 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/otus/articles/1080406/",
+      "title": "OTUS: Пять способов навсегда поселить flaky-тесты в своём CI (RU)",
+      "notes": [
+        "flaky-test-investigation"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/test-retries",
+      "title": "Playwright: Retries (EN)",
+      "notes": [
+        "flaky-test-investigation"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/api/class-testconfig",
+      "title": "Playwright: TestConfig (EN)",
+      "notes": [
+        "flaky-test-investigation"
+      ]
+    },
+    {
       "url": "https://habr.com/ru/articles/1061356/",
       "title": "Origami introduction",
       "notes": [
@@ -1948,6 +2054,20 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/otus/articles/1079908/",
+      "title": "OTUS: Как писать моки, чтобы тесты падали вместе с продом: 7 частых ошибок (RU)",
+      "notes": [
+        "python-mock-contracts"
+      ]
+    },
+    {
+      "url": "https://docs.python.org/3/library/unittest.mock.html",
+      "title": "Python: unittest.mock (EN)",
+      "notes": [
+        "python-mock-contracts"
+      ]
+    },
+    {
       "url": "https://qa4life.yonote.ru/share/eb4ebed0-58de-45df-b8ce-3d19fa91dd10",
       "title": "“Lesson 1: Introduction to Python and Test Automation Basics”",
       "notes": [
@@ -2027,6 +2147,13 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/garda/articles/1083046/",
+      "title": "Кирилл Кайданов: Системная отладка или Как искать баги: при чем тут дедукция и цепочка Целлера (RU)",
+      "notes": [
+        "systematic-debugging"
+      ]
+    },
+    {
       "url": "https://qa4life.yonote.ru/share/410ee537-b9b4-4c37-87f8-6856defec0b1",
       "title": "Evgeniy Gusinets — “Шпаргалка-гайд по мобильному тестированию”",
       "notes": [
@@ -2064,6 +2191,13 @@
     {
       "url": "https://habr.com/ru/articles/1061680/",
       "title": "Case study",
+      "notes": [
+        "repeatable-load-testing"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/sportmaster_lab/articles/1082436/",
+      "title": "Sportmaster Lab: Нагрузочное тестирование как инженерный процесс (RU)",
       "notes": [
         "repeatable-load-testing"
       ]
@@ -2346,6 +2480,27 @@
       "title": "Harsh Raj et al.: Model or Harness? (EN)",
       "notes": [
         "agent-failure-diagnosis"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/otus/articles/1083366/",
+      "title": "OTUS: Попросил ИИ-агента писать код осторожнее — а он стал исправлять меньше багов (RU)",
+      "notes": [
+        "agent-instruction-evaluation"
+      ]
+    },
+    {
+      "url": "https://www.phenx.ai/research/karpathy-discipline-rules",
+      "title": "Phenx: I Gave My Coding Agent Karpathy’s Discipline Rules (EN)",
+      "notes": [
+        "agent-instruction-evaluation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/cynteka/articles/1082412/",
+      "title": "Синтека: Полгода экспериментов с ИИ: RAG, AI-ревью, автотесты, агенты и автообработка счетов (RU)",
+      "notes": [
+        "ai-workflow-pilot-controls"
       ]
     },
     {
