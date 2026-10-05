@@ -8,7 +8,7 @@ topic: ai-agents
 tags: [agents, delivery, documentation, workflows, review, productivity]
 format: guide
 learning_depth: SHOULD KNOW
-reviewed: 2026-10-03
+reviewed: 2026-10-05
 ---
 
 # Delivery Workflows with AI Agents
@@ -68,6 +68,18 @@ Pilot one repeatable task category. Measure active time and waiting separately, 
 
 Choose a stronger or cheaper model from performance on concrete tasks and the cost of mistakes. A separate model reviewer can repeat the implementer's errors; testable expectations remain necessary. A reproducible environment may use containers or another suitable solution, but access boundaries must be explicit.
 
+## Verify findings and the checks themselves
+
+OstapAndreevich reports 111 findings: 86 accepted, 25 rejected, including four false findings. The false-rejection rate is unknown; this is not an audit-accuracy measurement.
+
+| Check | Method |
+| --- | --- |
+| Agent conclusion | Open the source and reproduce the scenario |
+| Protective rule | Inject a violation; verify failure and message; remove it |
+| Confidentiality | Inspect contents, filenames and Git history |
+
+Separate false findings from uneconomical fixes. Votes are not proof. The additional review system is proposed, not implemented.
+
 ## Related materials
 
 - [Evidence-Engineered QA Agents](evidence-engineered-qa-agent.md)
@@ -77,3 +89,5 @@ Choose a stronger or cheaper model from performance on concrete tasks and the co
 ## Sources
 
 - [eaterman99: «Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку» (RU)](https://habr.com/ru/articles/1081076/) — opinion and practical recommendations, not a comparative productivity study.
+
+- [OstapAndreevich: «Отдал сайт ИИ-агентам: из 111 находок аудита 25 пошли в мусор, 4 оказались выдумкой» (RU)](https://habr.com/ru/articles/1085422/) — personal case report; figures not independently verified.

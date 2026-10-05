@@ -823,10 +823,11 @@
       "group": "ai",
       "kind": "article",
       "urls": [
-        "https://habr.com/ru/articles/1081076/"
+        "https://habr.com/ru/articles/1081076/",
+        "https://habr.com/ru/articles/1085422/"
       ],
       "tags": "[agents, delivery, documentation, workflows, review, productivity]",
-      "date": "2026-10-03"
+      "date": "2026-10-05"
     },
     {
       "id": "agent-failure-diagnosis",
@@ -2545,6 +2546,13 @@
     {
       "url": "https://habr.com/ru/articles/1081076/",
       "title": "eaterman99: «Если ваши разработчики используют Claude Code, вы еще не автоматизировали разработку» (RU)",
+      "notes": [
+        "agent-delivery-workflow"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1085422/",
+      "title": "OstapAndreevich: «Отдал сайт ИИ-агентам: из 111 находок аудита 25 пошли в мусор, 4 оказались выдумкой» (RU)",
       "notes": [
         "agent-delivery-workflow"
       ]
