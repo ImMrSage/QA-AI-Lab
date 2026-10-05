@@ -8,7 +8,7 @@ topic: ai-for-testing
 tags: [ai, qa, test-design, sql, playwright, productivity]
 format: cheat-sheet
 learning_depth: SHOULD KNOW
-reviewed: 2026-10-03
+reviewed: 2026-10-05
 ---
 
 # AI in Everyday QA Work
@@ -51,6 +51,19 @@ A screenshot with highlighted elements helps define investigation scope. It does
 
 The author's time estimates are personal observations, not a reproduced benchmark. Update a locator only after checking behavior: a failure may indicate a product defect rather than an outdated test. Connecting Playwright MCP does not itself establish repair correctness.
 
+## From requirements to verified tests
+
+Dzianis Talstsiuk's case connects requirements analysis, agreed checks and automation. An inaccessible link does not establish missing requirements.
+
+| Stage | Output |
+| --- | --- |
+| Analysis | Questions about contradictions, boundaries, design and dependencies |
+| Agreement | Developer handoff checklist; separate regression cases |
+| Automation | Tests within existing architecture; assertion review |
+| Context | Short index and task-relevant documents |
+
+Commands define repeatable requests, subagents separate context, MCP provides tools. Preserve feedback as rules, then retest. OCR, coordinates and negative assertions need attention. An agent council does not replace human review. This describes an approach, not implemented integrations.
+
 ## Related materials
 
 - [AI-generated test quality](ai-generated-tests-quality-gates.md)
@@ -60,3 +73,5 @@ The author's time estimates are personal observations, not a reproduced benchmar
 ## Sources
 
 - [Evgeny Gusinets / QA❤️4Life: «Как я использую AI в работе QA. Честно.» (RU)](https://telegra.ph/Kak-ya-ispolzuyu-AI-v-rabote-QA-CHestno-09-08)
+
+- [Aaaasonya / Dzianis Talstsiuk: «ИИ в тестировании: от анализа требований до автоматизации» (RU)](https://habr.com/ru/articles/1086562/) — translation; the Medium original was not separately reviewed.
