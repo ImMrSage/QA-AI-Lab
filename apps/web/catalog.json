@@ -1377,6 +1377,22 @@
       "date": "2026-10-02"
     },
     {
+      "id": "docker-zero-to-hero",
+      "path": "tools/developer-tools/docker-zero-to-hero.md",
+      "title": {
+        "en": "Docker Zero to Hero: A Practical Learning Repository",
+        "ru": "Docker Zero to Hero: практический курс-репозиторий"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/iam-veeramalla/Docker-Zero-to-Hero"
+      ],
+      "tags": "[docker, containers, learning, devops, test-environments]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "explainshell-command-explainer",
       "path": "tools/developer-tools/explainshell-command-explainer.md",
       "title": {
@@ -3055,6 +3071,13 @@
       "title": "DevDocs",
       "notes": [
         "devdocs-documentation"
+      ]
+    },
+    {
+      "url": "https://github.com/iam-veeramalla/Docker-Zero-to-Hero",
+      "title": "Open the course repository",
+      "notes": [
+        "docker-zero-to-hero"
       ]
     },
     {
