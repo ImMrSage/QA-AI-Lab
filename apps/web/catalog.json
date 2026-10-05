@@ -863,6 +863,23 @@
       "date": "2026-10-05"
     },
     {
+      "id": "ai-service-data-continuity",
+      "path": "ai/agents/ai-service-data-continuity.md",
+      "title": {
+        "en": "Preserving Knowledge When AI Service Access Is Lost",
+        "ru": "Сохранность знаний при потере доступа к AI-сервису"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1084570/",
+        "https://learn.chatgpt.com/docs/artifacts-viewer"
+      ],
+      "tags": "[backups, knowledge-management, continuity, ai-workflows]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "ai-workflow-pilot-controls",
       "path": "ai/agents/ai-workflow-pilot-controls.md",
       "title": {
@@ -2541,6 +2558,20 @@
       "title": "Phenx: I Gave My Coding Agent Karpathy’s Discipline Rules (EN)",
       "notes": [
         "agent-instruction-evaluation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1084570/",
+      "title": "alkizzy: «История одного аккаунта OpenAI: паровозик, который не смог»",
+      "notes": [
+        "ai-service-data-continuity"
+      ]
+    },
+    {
+      "url": "https://learn.chatgpt.com/docs/artifacts-viewer",
+      "title": "OpenAI: Work with files",
+      "notes": [
+        "ai-service-data-continuity"
       ]
     },
     {
