@@ -1218,6 +1218,23 @@
       "date": "2026-09-06"
     },
     {
+      "id": "actuallyexplain-sql-visualizer",
+      "path": "tools/developer-tools/actuallyexplain-sql-visualizer.md",
+      "title": {
+        "en": "ActuallyExplain: Visualize PostgreSQL Query Logic",
+        "ru": "ActuallyExplain: визуализация логики PostgreSQL-запросов"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://actuallyexplain.vercel.app/",
+        "https://github.com/freenandes/actuallyexplain"
+      ],
+      "tags": "[sql, postgresql, visualization, query-review]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "aiflowy-ai-application-platform",
       "path": "tools/developer-tools/aiflowy-ai-application-platform.md",
       "title": {
@@ -2845,6 +2862,20 @@
       "title": "Tradeshift and AWS case study",
       "notes": [
         "permission-aware-analytics"
+      ]
+    },
+    {
+      "url": "https://actuallyexplain.vercel.app/",
+      "title": "Open ActuallyExplain",
+      "notes": [
+        "actuallyexplain-sql-visualizer"
+      ]
+    },
+    {
+      "url": "https://github.com/freenandes/actuallyexplain",
+      "title": "GitHub",
+      "notes": [
+        "actuallyexplain-sql-visualizer"
       ]
     },
     {
