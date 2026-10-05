@@ -1362,6 +1362,23 @@
       "date": "2026-10-05"
     },
     {
+      "id": "db-quacks-sql-practice",
+      "path": "tools/developer-tools/db-quacks-sql-practice.md",
+      "title": {
+        "en": "DB Quacks: Interactive SQL Practice",
+        "ru": "DB Quacks: интерактивная практика SQL"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://dbquacks.com/",
+        "https://dbquacks.com/faq"
+      ],
+      "tags": "[sql, duckdb, learning, practice]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "devdocs-documentation",
       "path": "tools/developer-tools/devdocs-documentation.md",
       "title": {
@@ -3072,6 +3089,20 @@
       "title": "Cypress parallelization (English)",
       "notes": [
         "cypress-example-recipes"
+      ]
+    },
+    {
+      "url": "https://dbquacks.com/",
+      "title": "Open DB Quacks",
+      "notes": [
+        "db-quacks-sql-practice"
+      ]
+    },
+    {
+      "url": "https://dbquacks.com/faq",
+      "title": "FAQ (English)",
+      "notes": [
+        "db-quacks-sql-practice"
       ]
     },
     {
