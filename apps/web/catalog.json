@@ -1343,6 +1343,24 @@
       "date": "2026-10-03"
     },
     {
+      "id": "cypress-example-recipes",
+      "path": "tools/developer-tools/cypress-example-recipes.md",
+      "title": {
+        "en": "Cypress Recipes: Browser Testing Examples",
+        "ru": "Cypress Recipes: примеры браузерного тестирования"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/cypress-io/cypress-example-recipes",
+        "https://docs.cypress.io/app/get-started/why-cypress",
+        "https://docs.cypress.io/cloud/features/smart-orchestration/parallelization"
+      ],
+      "tags": "[cypress, e2e, component-testing, recipes, automation]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "devdocs-documentation",
       "path": "tools/developer-tools/devdocs-documentation.md",
       "title": {
@@ -3009,6 +3027,27 @@
       "title": "ChartDB",
       "notes": [
         "chartdb-database-diagrams"
+      ]
+    },
+    {
+      "url": "https://github.com/cypress-io/cypress-example-recipes",
+      "title": "Open the recipe collection",
+      "notes": [
+        "cypress-example-recipes"
+      ]
+    },
+    {
+      "url": "https://docs.cypress.io/app/get-started/why-cypress",
+      "title": "Why Cypress? (English)",
+      "notes": [
+        "cypress-example-recipes"
+      ]
+    },
+    {
+      "url": "https://docs.cypress.io/cloud/features/smart-orchestration/parallelization",
+      "title": "Cypress parallelization (English)",
+      "notes": [
+        "cypress-example-recipes"
       ]
     },
     {
