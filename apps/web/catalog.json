@@ -112,6 +112,25 @@
       "date": "2026-09-05"
     },
     {
+      "id": "sql-for-testers",
+      "path": "qa/api-testing/sql-for-testers.md",
+      "title": {
+        "en": "SQL for Testers: SELECT, JOIN and Subqueries",
+        "ru": "SQL для тестировщика: SELECT, JOIN и подзапросы"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://www.postgresql.org/docs/18/queries-table-expressions.html",
+        "https://www.postgresql.org/docs/current/functions-comparison.html",
+        "https://www.postgresql.org/docs/current/functions-subquery.html",
+        "https://dev.mysql.com/doc/refman/8.4/en/join.html"
+      ],
+      "tags": "[sql, databases, joins, data-validation]",
+      "date": "2026-10-05"
+    },
+    {
       "id": "system-integration-patterns",
       "path": "qa/api-testing/system-integration-patterns.md",
       "title": {
@@ -1802,6 +1821,34 @@
       "title": "JSON specification",
       "notes": [
         "rest-api-request-basics"
+      ]
+    },
+    {
+      "url": "https://www.postgresql.org/docs/18/queries-table-expressions.html",
+      "title": "PostgreSQL: Table Expressions",
+      "notes": [
+        "sql-for-testers"
+      ]
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/functions-comparison.html",
+      "title": "PostgreSQL: Comparison Functions",
+      "notes": [
+        "sql-for-testers"
+      ]
+    },
+    {
+      "url": "https://www.postgresql.org/docs/current/functions-subquery.html",
+      "title": "PostgreSQL: Subquery Expressions",
+      "notes": [
+        "sql-for-testers"
+      ]
+    },
+    {
+      "url": "https://dev.mysql.com/doc/refman/8.4/en/join.html",
+      "title": "MySQL 8.4: JOIN Clause",
+      "notes": [
+        "sql-for-testers"
       ]
     },
     {
