@@ -9,7 +9,7 @@ topic: automation
 tags: [playwright, python, selenium, automation]
 format: cheat-sheet
 learning_depth: MUST KNOW
-reviewed: 2026-09-14
+reviewed: 2026-10-05
 ---
 
 # Playwright Python: From Recording to Verification
@@ -54,6 +54,25 @@ In with sync_playwright() as p, p is a Playwright object, not the context manage
 
 Check your understanding: what outcome proves saving, what happens with two identical buttons, and can the test run concurrently with shared data? Answer all three before publishing a test.
 
+## Codegen: when recording actually saves time
+
+In Evgeny Kogtev's case, the team encountered text locators instead of expected test IDs, difficult file and multi-input controls, and unnecessary recorded actions. This is experience with one interface, not proof that the generator is useless.
+
+Codegen selects role, text and test ID locators; review the team's contract separately. It can also record visibility, text and value assertions, but the tester supplies the expected business outcome.
+
+| After recording | Readiness criterion |
+| --- | --- |
+| Remove accidental actions | Each step serves the scenario under test |
+| Review locators | Unambiguous element and understandable contract |
+| Check file upload | Locator targets the actual file input |
+| Check multi-input control | Values enter the right parts and the form accepts them |
+| Assert the outcome | Requirement violations fail even when clicks succeed |
+| Prepare data | Reruns do not depend on previous execution |
+
+Do not automatically require test IDs everywhere: roles and labels often express the user interface better. If a component cannot be located reliably, agree on a markup change with its developer.
+
+Pilot three representative scenarios: a simple form, file upload and a multi-input control. Compare total recording, editing and diagnosis time with writing manually, then repeat after an interface change. Faster recording alone does not establish savings without maintenance cost. This is a proposed experiment; it has not run in QA Lab.
+
 ## Sources
 The Russian lesson was fully read, including code, comparison, AI workflows and interview questions. Whole-page authorship and publication date are not explicitly established; Евгений and Кирилл are mentioned in the text. English official documentation was used for verification. The source's shop examples were not executed; the original teaching example above was checked for syntax only.
 
@@ -65,3 +84,6 @@ The Russian lesson was fully read, including code, comparison, AI workflows and 
 
 Connections: [Playwright test review](playwright-review-beyond-lint.md), [Atomic test composition](atomic-test-composition.md).
 
+
+- [Евгений Когтев: Playwright Codegen: где заканчивается магия и начинается ручной труд (RU)](https://habr.com/ru/companies/domclick/articles/1082326/)
+- [Playwright: Test generator (EN)](https://playwright.dev/docs/codegen)

@@ -264,10 +264,12 @@
         "https://playwright.dev/python/docs/library",
         "https://playwright.dev/python/docs/actionability",
         "https://playwright.dev/python/docs/test-runners",
-        "https://www.selenium.dev/documentation/webdriver/waits/"
+        "https://www.selenium.dev/documentation/webdriver/waits/",
+        "https://habr.com/ru/companies/domclick/articles/1082326/",
+        "https://playwright.dev/docs/codegen"
       ],
       "tags": "[playwright, python, selenium, automation]",
-      "date": "2026-09-14"
+      "date": "2026-10-05"
     },
     {
       "id": "playwright-review-beyond-lint",
@@ -1861,6 +1863,20 @@
     {
       "url": "https://www.selenium.dev/documentation/webdriver/waits/",
       "title": "Selenium waits",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/domclick/articles/1082326/",
+      "title": "Евгений Когтев: Playwright Codegen: где заканчивается магия и начинается ручной труд (RU)",
+      "notes": [
+        "playwright-python-basics"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/codegen",
+      "title": "Playwright: Test generator (EN)",
       "notes": [
         "playwright-python-basics"
       ]
