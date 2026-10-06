@@ -783,6 +783,22 @@
       "date": "2026-09-22"
     },
     {
+      "id": "file-read-cloud-boundaries",
+      "path": "qa/security/file-read-cloud-boundaries.md",
+      "title": {
+        "en": "File Reads and Cloud Access Boundaries",
+        "ru": "Чтение файлов и границы доступа в облаке"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/bastion/articles/1083728/"
+      ],
+      "tags": "[security, file-read, secrets, cloud, least-privilege]",
+      "date": "2026-10-06"
+    },
+    {
       "id": "password-reset-state-testing",
       "path": "qa/security/password-reset-state-testing.md",
       "title": {
@@ -1151,6 +1167,22 @@
       ],
       "tags": "[debugging, allure, ui-testing, agents, cost]",
       "date": "2026-09-06"
+    },
+    {
+      "id": "mobile-agent-evidence-workflow",
+      "path": "ai/ai-for-testing/mobile-agent-evidence-workflow.md",
+      "title": {
+        "en": "AI Agents in Mobile QA: Evidence-Based Checks",
+        "ru": "AI-агент в мобильном QA: проверки по свидетельствам"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/hh/articles/1083878/"
+      ],
+      "tags": "[ai, agents, mobile, analytics, test-automation]",
+      "date": "2026-10-06"
     },
     {
       "id": "openai-academy-workplace-ai",
@@ -2644,6 +2676,13 @@
       ]
     },
     {
+      "url": "https://habr.com/ru/companies/bastion/articles/1083728/",
+      "title": "bastion_pentest_team, Bastion: «Калькулятор с ключами: как чтение одного файла привело к компрометации публичного облака» (RU)",
+      "notes": [
+        "file-read-cloud-boundaries"
+      ]
+    },
+    {
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/Forgot_Password_Cheat_Sheet.html",
       "title": "OWASP guidance",
       "notes": [
@@ -2928,6 +2967,13 @@
       "title": "AI failure-investigation case study",
       "notes": [
         "evidence-led-test-triage"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/hh/articles/1083878/",
+      "title": "Aleksandr Chernyshev / adcher: «Как ИИ-агент проходит весь цикл мобильного тестирования в hh.ru» (RU)",
+      "notes": [
+        "mobile-agent-evidence-workflow"
       ]
     },
     {
