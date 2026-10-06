@@ -186,6 +186,24 @@
       "date": "2026-10-03"
     },
     {
+      "id": "webhook-delivery-checks",
+      "path": "qa/api-testing/webhook-delivery-checks.md",
+      "title": {
+        "en": "Webhooks: Events and Delivery Checks",
+        "ru": "Вебхуки: события и проверки доставки"
+      },
+      "domain": "qa",
+      "group": "interfaces",
+      "kind": "article",
+      "urls": [
+        "https://thecode.media/webhook/",
+        "https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks",
+        "https://docs.stripe.com/webhooks"
+      ],
+      "tags": "[webhooks, events, idempotency, integrations]",
+      "date": "2026-10-06"
+    },
+    {
       "id": "agile-devops-tdd-quality-strategies",
       "path": "qa/automation/agile-devops-tdd-quality-strategies.md",
       "title": {
@@ -2021,6 +2039,27 @@
       "title": "OWASP: CSRF Prevention (EN)",
       "notes": [
         "token-transport-options"
+      ]
+    },
+    {
+      "url": "https://thecode.media/webhook/",
+      "title": "Михаил Полянин: «Что такое вебхук»",
+      "notes": [
+        "webhook-delivery-checks"
+      ]
+    },
+    {
+      "url": "https://docs.github.com/en/webhooks/using-webhooks/best-practices-for-using-webhooks",
+      "title": "GitHub: Webhook best practices",
+      "notes": [
+        "webhook-delivery-checks"
+      ]
+    },
+    {
+      "url": "https://docs.stripe.com/webhooks",
+      "title": "Stripe: Webhooks",
+      "notes": [
+        "webhook-delivery-checks"
       ]
     },
     {
