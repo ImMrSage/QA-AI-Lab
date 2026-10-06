@@ -1202,6 +1202,22 @@
       "date": "2026-09-05"
     },
     {
+      "id": "risk-release-requirement-traceability",
+      "path": "ai/ai-for-testing/risk-release-requirement-traceability.md",
+      "title": {
+        "en": "Requirement Traceability for Risky Releases",
+        "ru": "Трассировка требований для рискованного релиза"
+      },
+      "domain": "ai",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/articles/1086968/"
+      ],
+      "tags": "[ai, agents, requirements, traceability, release, kafka]",
+      "date": "2026-10-06"
+    },
+    {
       "id": "agent-evaluation-lifecycle",
       "path": "ai/llm-testing/agent-evaluation-lifecycle.md",
       "title": {
@@ -2988,6 +3004,13 @@
       "title": "OpenAI Academy",
       "notes": [
         "openai-academy-workplace-ai"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/articles/1086968/",
+      "title": "Sergei Terentev: «От тестирования релиза с высоким уровнем риска к новому ИИ-инструменту для QA» (RU)",
+      "notes": [
+        "risk-release-requirement-traceability"
       ]
     },
     {
