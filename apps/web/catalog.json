@@ -917,6 +917,22 @@
       "date": "2026-10-05"
     },
     {
+      "id": "agent-system-economics-and-context",
+      "path": "ai/agents/agent-system-economics-and-context.md",
+      "title": {
+        "en": "Agentic AI Systems: Context, Reliability and Economics",
+        "ru": "Агентные AI-системы: контекст, надёжность и экономика"
+      },
+      "domain": "ai",
+      "group": "ai",
+      "kind": "article",
+      "urls": [
+        "https://habr.com/ru/companies/redmadrobot/articles/990698/"
+      ],
+      "tags": "[ai, agents, context-engineering, inference, economics, reliability]",
+      "date": "2026-10-06"
+    },
+    {
       "id": "ai-service-data-continuity",
       "path": "ai/agents/ai-service-data-continuity.md",
       "title": {
@@ -2787,6 +2803,13 @@
       "title": "Phenx: I Gave My Coding Agent Karpathy’s Discipline Rules (EN)",
       "notes": [
         "agent-instruction-evaluation"
+      ]
+    },
+    {
+      "url": "https://habr.com/ru/companies/redmadrobot/articles/990698/",
+      "title": "Valera Kovalsky, Sasha Abramov / red_mad_robot: «Прогноз AI на 2026 год: давление инфраструктуры и рост агентных систем» (RU)",
+      "notes": [
+        "agent-system-economics-and-context"
       ]
     },
     {
