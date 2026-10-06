@@ -1429,6 +1429,23 @@
       "date": "2026-10-05"
     },
     {
+      "id": "dokploy-self-hosted-deployment",
+      "path": "tools/developer-tools/dokploy-self-hosted-deployment.md",
+      "title": {
+        "en": "Dokploy: Self-Hosted Application Deployment",
+        "ru": "Dokploy: развёртывание приложений на своём сервере"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/Dokploy/dokploy",
+        "https://docs.dokploy.com/"
+      ],
+      "tags": "[dokploy, docker, deployment, self-hosted, devops]",
+      "date": "2026-10-06"
+    },
+    {
       "id": "explainshell-command-explainer",
       "path": "tools/developer-tools/explainshell-command-explainer.md",
       "title": {
@@ -3156,6 +3173,20 @@
       "title": "Open the course repository",
       "notes": [
         "docker-zero-to-hero"
+      ]
+    },
+    {
+      "url": "https://github.com/Dokploy/dokploy",
+      "title": "GitHub",
+      "notes": [
+        "dokploy-self-hosted-deployment"
+      ]
+    },
+    {
+      "url": "https://docs.dokploy.com/",
+      "title": "Documentation",
+      "notes": [
+        "dokploy-self-hosted-deployment"
       ]
     },
     {
