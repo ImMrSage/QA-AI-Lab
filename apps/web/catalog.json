@@ -691,6 +691,25 @@
       "date": "2026-09-22"
     },
     {
+      "id": "regression-scope-and-failure-triage",
+      "path": "qa/qa-process/regression-scope-and-failure-triage.md",
+      "title": {
+        "en": "Regression: Scope, Execution and Failure Triage",
+        "ru": "Регресс: объём, прогон и разбор падений"
+      },
+      "domain": "qa",
+      "group": "delivery",
+      "kind": "article",
+      "urls": [
+        "https://telegra.ph/CHek-list-regressionnogo-testirovaniya-CHast-1-chto-brat-v-regress-09-28",
+        "https://telegra.ph/CHek-list-regressionnogo-testirovaniya-CHast-2-kak-prognat-i-razobrat-padeniya-09-28",
+        "https://docs.pytest.org/en/stable/how-to/mark.html",
+        "https://playwright.dev/docs/test-cli"
+      ],
+      "tags": "[regression, risk, release, triage, pytest, playwright]",
+      "date": "2026-10-08"
+    },
+    {
       "id": "release-orchestration",
       "path": "qa/qa-process/release-orchestration.md",
       "title": {
@@ -2607,6 +2626,34 @@
       "title": "DORA delivery metrics",
       "notes": [
         "qa-onboarding-checklist-review"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/CHek-list-regressionnogo-testirovaniya-CHast-1-chto-brat-v-regress-09-28",
+      "title": "Evgeny Gusinets / QA❤️4Life: «Чек-лист регрессионного тестирования. Часть 1: что брать в регресс» (RU)",
+      "notes": [
+        "regression-scope-and-failure-triage"
+      ]
+    },
+    {
+      "url": "https://telegra.ph/CHek-list-regressionnogo-testirovaniya-CHast-2-kak-prognat-i-razobrat-padeniya-09-28",
+      "title": "Same author: «Часть 2: как прогнать и разобрать падения» (RU)",
+      "notes": [
+        "regression-scope-and-failure-triage"
+      ]
+    },
+    {
+      "url": "https://docs.pytest.org/en/stable/how-to/mark.html",
+      "title": "pytest markers (EN)",
+      "notes": [
+        "regression-scope-and-failure-triage"
+      ]
+    },
+    {
+      "url": "https://playwright.dev/docs/test-cli",
+      "title": "Playwright CLI (EN)",
+      "notes": [
+        "regression-scope-and-failure-triage"
       ]
     },
     {
