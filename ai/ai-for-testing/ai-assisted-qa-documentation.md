@@ -1,12 +1,14 @@
 ---
 id: ai-assisted-qa-documentation
 language: en
+source_language: ru
+authored_language: ru
 title: AI-Assisted QA Documentation
 topic: ai-for-testing
 format: guide
 tags: [ai, qa, documentation, rag, knowledge-management]
 learning_depth: SHOULD KNOW
-reviewed: 2026-09-22
+reviewed: 2026-10-08
 ---
 
 # AI-Assisted QA Documentation
@@ -65,7 +67,43 @@ Keep four states visible: **confirmed** (checked against evidence), **reported**
 
 Measure review effort, unsupported claims found, stale pages, time to answer recurring questions and onboarding outcomes. A personal report of “days reduced to hours” is a useful case signal, not a transferable guarantee.
 
+## Seven ways to sustain documentation
+
+| AI task | Output | Human verification |
+| --- | --- | --- |
+| Simplify text | Clear explanation for the selected audience | Meaning, conditions and important technical terms preserved |
+| Create a template | README, instruction or checklist structure | Sections fit the project; no invented commands or contacts |
+| Explain details | Configuration, command or CI/CD explanation | Version and environment specified; explanation matches the actual file |
+| Organize routine work | Meeting notes, changelog, release notes | Decisions, version and included changes confirmed |
+| Review quality | Gaps, contradictions, unclear wording | Finding supported by a source; hypothesis has not become fact |
+| Support learning | Reference sheet, onboarding questions, API examples | A newcomer can follow instructions; examples verified |
+| Build the habit | Example → feedback → improvement → recognition → regular practice | Document owner and update trigger identified |
+
+Simplify for the audience: technical runbooks need precise commands and terminology. A template is a starting point, not a description of existing infrastructure. Updating stale sections requires fresh evidence: a model cannot know project changes without access to them.
+
+### Bounded request examples
+
+- “Rewrite this section for a new QA engineer. Preserve restrictions and field names. Add no facts. List unclear points separately.”
+- “Use the supplied confirmed changes to draft the version 1.2.0 changelog. Exclude plans and unfinished tasks.”
+- “Explain the attached pipeline: inputs, actions, outputs and failure points. Reference a job or configuration line for each finding; mark missing information.”
+
+### Before publishing
+
+- Reader and purpose defined; terminology explained at the appropriate level.
+- Structure coherent; examples, links and resources accessible.
+- Commands and configuration checked in the stated environment; unverified examples not presented as working.
+- Possible errors and recovery described.
+- Owner, review date and next update trigger recorded.
+- Secrets and personal data removed; final text reviewed by a human.
+
+Include documentation updates in change readiness when described behavior changes. Show a useful example in a brief team review, gather feedback and repair the instructions. Recognize useful improvements rather than page counts.
+
+## Original reference sheet
+
+![Seven ways to use AI for a documentation culture — Russian original](../../docs/sources/originals/ai-documentation-culture.png)
+
 ## Sources
 
 - [Cloud.ru on Habr: How a QA engineer uses AI for documentation](https://habr.com/ru/companies/cloud_ru/articles/1062556/)
 
+- User-supplied reference sheet «Как использовать нейросеть, чтобы поддерживать культуру документирования» (RU); author and public URL not supplied. Original image preserved unchanged.
