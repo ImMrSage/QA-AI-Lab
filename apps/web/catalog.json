@@ -1643,6 +1643,26 @@
       "date": "2026-10-03"
     },
     {
+      "id": "rea-reverse-engineering",
+      "path": "tools/developer-tools/rea-reverse-engineering.md",
+      "title": {
+        "en": "REA: Agent-Assisted Reverse Engineering",
+        "ru": "REA: реверс-инжиниринг с AI-агентом"
+      },
+      "domain": "qa",
+      "group": "foundations",
+      "kind": "tool",
+      "urls": [
+        "https://github.com/morluto/rea",
+        "https://github.com/morluto/rea/blob/main/SECURITY.md",
+        "https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md",
+        "https://github.com/morluto/rea/blob/main/package.json",
+        "https://github.com/morluto/rea/blob/main/install.sh"
+      ],
+      "tags": "[rea, reverse-engineering, mcp, binary-analysis, security, 3d]",
+      "date": "2026-10-16"
+    },
+    {
       "id": "regexr-pattern-testing",
       "path": "tools/developer-tools/regexr-pattern-testing.md",
       "title": {
@@ -3389,6 +3409,41 @@
       "title": "Patterns.dev",
       "notes": [
         "patterns-dev-web-patterns"
+      ]
+    },
+    {
+      "url": "https://github.com/morluto/rea",
+      "title": "REA repository and README (EN)",
+      "notes": [
+        "rea-reverse-engineering"
+      ]
+    },
+    {
+      "url": "https://github.com/morluto/rea/blob/main/SECURITY.md",
+      "title": "Security policy (EN)",
+      "notes": [
+        "rea-reverse-engineering"
+      ]
+    },
+    {
+      "url": "https://github.com/morluto/rea/blob/main/docs/windows-ghidra-p0.md",
+      "title": "Windows Ghidra guide (EN)",
+      "notes": [
+        "rea-reverse-engineering"
+      ]
+    },
+    {
+      "url": "https://github.com/morluto/rea/blob/main/package.json",
+      "title": "Package manifest (EN)",
+      "notes": [
+        "rea-reverse-engineering"
+      ]
+    },
+    {
+      "url": "https://github.com/morluto/rea/blob/main/install.sh",
+      "title": "Shell installer (EN)",
+      "notes": [
+        "rea-reverse-engineering"
       ]
     },
     {

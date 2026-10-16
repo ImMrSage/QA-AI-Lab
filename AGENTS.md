@@ -35,6 +35,14 @@ Start published notes with useful content. Do not add PDF page maps, editorial h
 
 If only a link or a summary was saved, name it accordingly. Do not imply that all source material was included. Apply this assessment to each future ingestion and to existing notes when they are revisited; a rule change alone does not mean the library has been reprocessed.
 
+## Link intake default
+
+Treat links the user sends in this project as requests to assess and save them, including when accompanied by questions. Answer the questions and save the appropriate tool entry, note, update or clearly labeled bookmark; skip canonical duplicates. Do not leave an analyzed link unsaved unless the user explicitly requests discussion only.
+
+## Library publication authorization
+
+The user authorizes committing and pushing completed library additions and updates, their translations, generated catalog and related project instructions to origin/main after required checks pass. Do not ask again for routine publication within this scope. Stage only task-related changes; this does not authorize unrelated work, force pushes, destructive operations or changes to other projects.
+
 ## Every article ingestion session
 
 When the user sends one or more articles or learning resources:
